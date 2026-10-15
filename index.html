@@ -205,6 +205,24 @@ async function submitAll(){
     const ok=await copyFeedbackMd();
     showToast(ok?'已复制，请发回聊天':'复制失败，请点「复制反馈 Markdown」', !ok);
     if(ok) showFallbackCopied(reason);
-    else alert('提交失败：'+reason+'\\n自动复制也失败，请手动点「复制反馈 Markdown」发回聊天。');
+    else alert('提交失败：'+reason+'\n自动复制也失败，请手动点「复制反馈 Markdown」发回聊天。');
   }finally{ btn.disabled=false; }
 }
+function updateProgress(){
+  const data=loadAll(); const n=SECTIONS.filter(s=>data[s.id]&&data[s.id].status).length;
+  document.getElementById('progress').textContent='反馈 '+n+'/'+SECTIONS.length;
+}
+function exportMd(){
+  const data=loadAll(); const map={ok:'通过',edit:'需修改',discuss:'待议'};
+  let md='# Esslinger 定锚批 · 预览反馈\\n\\n导出时间：'+new Date().toLocaleString('zh-CN',{hour12:false})+'\\n\\n';
+  SECTIONS.forEach(s=>{const fb=data[s.id]||{}; md+='## '+s.title+'\\n- 状态：'+(map[fb.status]||'未填')+'\\n- 意见：'+(fb.note?fb.note.replace(/\\n/g,' '):'（无）')+'\\n\\n'});
+  return md;
+}
+document.getElementById('btnExport').onclick=()=>{const blob=new Blob([exportMd()],{type:'text/markdown;charset=utf-8'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='Esslinger_定锚批_预览反馈.md'; a.click()};
+document.getElementById('btnCopy').onclick=async()=>{await navigator.clipboard.writeText(exportMd()); alert('反馈 Markdown 已复制，发给整盘操盘即可。')};
+document.getElementById('btnSubmit').onclick=()=>submitAll();
+const io=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('nav.toc a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}})},{rootMargin:'-30% 0px -60% 0px'});
+render();
+</script>
+</body>
+</html>
