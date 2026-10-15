@@ -40,14 +40,23 @@ textarea{width:100%;min-height:72px;resize:vertical;border:1px solid var(--line)
 .toast.show{opacity:1}
 .toast.err{color:var(--accent2)}
 button:disabled{opacity:.55;cursor:wait}
+.banner{background:#fff7ed;border-bottom:1px solid #fed7aa;color:#9a3412;padding:10px 20px;font-size:13px;line-height:1.5}
+.banner strong{color:#c2410c}
+.fallback-overlay{position:fixed;inset:0;background:rgba(28,25,23,.45);z-index:50;display:flex;align-items:center;justify-content:center;padding:20px}
+.fallback-card{background:#fffdf8;border:1px solid #e7e0d5;border-radius:18px;padding:28px 24px;max-width:420px;width:100%;box-shadow:0 20px 50px rgba(0,0,0,.18);text-align:center}
+.fallback-card h3{margin:0 0 10px;font-size:20px;color:#15803d}
+.fallback-card p{margin:0 0 16px;font-size:14px;color:#44403c;line-height:1.6}
+.fallback-card .actions{justify-content:center;margin-top:8px}
+
 @media (max-width:900px){.layout{grid-template-columns:1fr}nav.toc{position:relative;top:0;height:auto;border-right:0;border-bottom:1px solid var(--line);max-height:200px}}
 </style>
 </head>
 <body>
+<div class="banner" id="tunnelBanner">在线提交通道暂时不可用时，「提交全部反馈」会<strong>自动复制 Markdown</strong>，请粘贴发回聊天即可。阅读、本机保存、导出仍正常。</div>
 <header class="top">
   <div>
     <h1>Esslinger 计划书 · 定锚批预览与反馈</h1>
-    <div class="sub">每段下方可反馈 · 本机自动保存 · 点「提交全部反馈」在线提交给整盘操盘</div>
+    <div class="sub">每段下方可反馈 · 本机自动保存 · 提交优先走 API，失败则自动复制 Markdown 发回聊天</div>
   </div>
   <div class="actions">
     <span class="progress" id="progress">反馈 0/0</span>
@@ -119,43 +128,83 @@ function showToast(msg, isErr){
   clearTimeout(showToast._t); showToast._t=setTimeout(()=>el.classList.remove('show'),3500);
 }
 const API_BASE = (location.hostname.endsWith('github.io') || location.protocol==='file:')
-  ? 'https://iytkt-240e-390-9ea-8120-6d6c-9aff-d81c-8a2d.run.pinggy-free.link' : '';
+  ? '' : '';  // tunnel down: empty → skip dead Pinggy; local same-origin still works
+async function copyFeedbackMd(){
+  const md=exportMd();
+  try{
+    await navigator.clipboard.writeText(md);
+    return true;
+  }catch(err){
+    // fallback textarea copy
+    const ta=document.createElement('textarea');
+    ta.value=md; ta.style.position='fixed'; ta.style.left='-9999px';
+    document.body.appendChild(ta); ta.select();
+    let ok=false;
+    try{ ok=document.execCommand('copy'); }catch(_){}
+    document.body.removeChild(ta);
+    return ok;
+  }
+}
+function showFallbackCopied(reason){
+  const old=document.getElementById('fallbackOverlay');
+  if(old) old.remove();
+  const ov=document.createElement('div');
+  ov.className='fallback-overlay'; ov.id='fallbackOverlay';
+  ov.innerHTML='<div class="fallback-card"><h3>复制成功，发回聊天</h3>'+
+    '<p>在线提交通道暂不可用'+(reason?'（'+reason+'）':'')+'。<br/>反馈 Markdown 已复制到剪贴板，请粘贴发回聊天给整盘操盘。</p>'+
+    '<div class="actions">'+
+    '<button class="primary" id="fbClose">知道了</button>'+
+    '<button class="ghost" id="fbMailto">用邮件发送</button>'+
+    '<button class="ghost" id="fbIssue">开 GitHub Issue</button>'+
+    '</div></div>';
+  document.body.appendChild(ov);
+  document.getElementById('fbClose').onclick=()=>ov.remove();
+  ov.addEventListener('click',e=>{ if(e.target===ov) ov.remove(); });
+  const md=exportMd();
+  document.getElementById('fbMailto').onclick=()=>{
+    const sub=encodeURIComponent('Esslinger 定锚批预览反馈');
+    const body=encodeURIComponent(md.slice(0,1800));
+    location.href='mailto:?subject='+sub+'&body='+body;
+  };
+  document.getElementById('fbIssue').onclick=()=>{
+    const title=encodeURIComponent('定锚批预览反馈 '+new Date().toISOString().slice(0,10));
+    const body=encodeURIComponent(md.slice(0,5500));
+    window.open('https://github.com/jackypang1998/esslinger-plan-preview/issues/new?title='+title+'&body='+body,'_blank');
+  };
+}
 async function submitAll(){
   // flush every section from DOM into localStorage first
   SECTIONS.forEach(s=>saveSection(s.id,false));
   const sections=loadAll();
   const btn=document.getElementById('btnSubmit');
   btn.disabled=true;
+  const tryApi = async ()=>{
+    if(!API_BASE && (location.hostname.endsWith('github.io') || location.protocol==='file:')){
+      throw new Error('隧道未配置');
+    }
+    const ctrl=new AbortController();
+    const timer=setTimeout(()=>ctrl.abort(),8000);
+    try{
+      const res=await fetch((API_BASE||'')+'/api/feedback',{
+        method:'POST',
+        headers:{'Content-Type':'application/json','X-Pinggy-No-Screen':'1'},
+        body:JSON.stringify({sections, meta:{source:'preview-page', host:location.host, userAgent:navigator.userAgent, at:new Date().toISOString()}}),
+        signal:ctrl.signal
+      });
+      const j=await res.json().catch(()=>({}));
+      if(!res.ok || !j.ok){ throw new Error(j.error||('HTTP '+res.status)); }
+      return true;
+    }finally{ clearTimeout(timer); }
+  };
   try{
-    const res=await fetch(API_BASE+'/api/feedback',{
-      method:'POST',
-      headers:{'Content-Type':'application/json','X-Pinggy-No-Screen':'1'},
-      body:JSON.stringify({sections, meta:{source:'preview-page', host:location.host, userAgent:navigator.userAgent, at:new Date().toISOString()}})
-    });
-    const j=await res.json().catch(()=>({}));
-    if(!res.ok || !j.ok){ throw new Error(j.error||('HTTP '+res.status)); }
+    await tryApi();
     showToast('已提交，整盘操盘可收到');
     alert('已提交，整盘操盘可收到');
   }catch(e){
-    showToast('提交失败：'+e.message,true);
-    alert('提交失败：'+e.message+'\n请改用「导出/复制反馈」发回。');
+    const reason=(e && e.name==='AbortError')?'超时':(e && e.message)||'网络错误';
+    const ok=await copyFeedbackMd();
+    showToast(ok?'已复制，请发回聊天':'复制失败，请点「复制反馈 Markdown」', !ok);
+    if(ok) showFallbackCopied(reason);
+    else alert('提交失败：'+reason+'\\n自动复制也失败，请手动点「复制反馈 Markdown」发回聊天。');
   }finally{ btn.disabled=false; }
 }
-function updateProgress(){
-  const data=loadAll(); const n=SECTIONS.filter(s=>data[s.id]&&data[s.id].status).length;
-  document.getElementById('progress').textContent='反馈 '+n+'/'+SECTIONS.length;
-}
-function exportMd(){
-  const data=loadAll(); const map={ok:'通过',edit:'需修改',discuss:'待议'};
-  let md='# Esslinger 定锚批 · 预览反馈\\n\\n导出时间：'+new Date().toLocaleString('zh-CN',{hour12:false})+'\\n\\n';
-  SECTIONS.forEach(s=>{const fb=data[s.id]||{}; md+='## '+s.title+'\\n- 状态：'+(map[fb.status]||'未填')+'\\n- 意见：'+(fb.note?fb.note.replace(/\\n/g,' '):'（无）')+'\\n\\n'});
-  return md;
-}
-document.getElementById('btnExport').onclick=()=>{const blob=new Blob([exportMd()],{type:'text/markdown;charset=utf-8'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='Esslinger_定锚批_预览反馈.md'; a.click()};
-document.getElementById('btnCopy').onclick=async()=>{await navigator.clipboard.writeText(exportMd()); alert('反馈 Markdown 已复制，发给整盘操盘即可。')};
-document.getElementById('btnSubmit').onclick=()=>submitAll();
-const io=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('nav.toc a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}})},{rootMargin:'-30% 0px -60% 0px'});
-render();
-</script>
-</body>
-</html>
