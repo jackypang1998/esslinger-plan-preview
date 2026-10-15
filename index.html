@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Esslinger 计划书 · 定锚批预览与反馈</title>
+<style>
+:root{--bg:#f4f1ea;--card:#fffdf8;--ink:#1c1917;--muted:#78716c;--line:#e7e0d5;--accent:#0f766e;--accent2:#c2410c;--ok:#15803d;--warn:#b45309;--wait:#7c3aed;--chip:#ecfdf5}
+*{box-sizing:border-box}body{margin:0;font-family:"PingFang SC","Noto Sans SC",system-ui,sans-serif;background:linear-gradient(180deg,#efe8dc 0%,var(--bg) 240px);color:var(--ink);line-height:1.65}
+header.top{position:sticky;top:0;z-index:20;backdrop-filter:blur(10px);background:rgba(244,241,234,.92);border-bottom:1px solid var(--line);padding:12px 20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+header.top h1{font-size:16px;margin:0;font-weight:650}.sub{color:var(--muted);font-size:12px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{appearance:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:8px 14px;font-size:13px;cursor:pointer;color:var(--ink)}
+button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+button.ghost:hover{border-color:var(--accent);color:var(--accent)}
+.layout{display:grid;grid-template-columns:250px 1fr;gap:0;max-width:1180px;margin:0 auto}
+nav.toc{position:sticky;top:64px;align-self:start;height:calc(100vh - 64px);overflow:auto;padding:20px 12px 40px 20px;border-right:1px solid var(--line)}
+nav.toc a{display:block;padding:8px 10px;border-radius:10px;text-decoration:none;color:var(--ink);font-size:13px;margin-bottom:4px}
+nav.toc a:hover,nav.toc a.active{background:#fff}
+nav.toc .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;background:#d6d3d1}
+nav.toc .dot.ok{background:var(--ok)}nav.toc .dot.edit{background:var(--warn)}nav.toc .dot.discuss{background:var(--wait)}
+main{padding:24px 24px 80px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 22px 16px;margin-bottom:18px;box-shadow:0 1px 0 rgba(28,25,23,.03)}
+.card h2{margin:0 0 12px;font-size:18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.chip{font-size:11px;font-weight:600;padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--accent)}
+.chip.改{background:#fff7ed;color:var(--accent2)}.chip.增{background:#ecfdf5;color:var(--ok)}.chip.待决{background:#f5f3ff;color:var(--wait)}.chip.说明,.chip.摘要{background:#f5f5f4;color:var(--muted)}
+.body{font-size:14.5px}.body p{margin:0 0 12px}.body ul,.body ol{margin:0 0 12px;padding-left:1.3em}.body li{margin:4px 0}
+.body blockquote{margin:0 0 12px;padding:10px 14px;border-left:3px solid var(--accent);background:#f0fdfa;color:#134e4a;border-radius:0 10px 10px 0}
+.body table{width:100%;border-collapse:collapse;font-size:13px;margin:0 0 14px}.body th,.body td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}.body th{background:#faf7f2}
+.feedback{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);background:#fafaf9;margin-left:-22px;margin-right:-22px;margin-bottom:-16px;padding:14px 22px 16px;border-radius:0 0 18px 18px}
+.feedback .ft{font-size:12px;font-weight:650;color:var(--muted)}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 10px}
+.row label{display:flex;align-items:center;gap:6px;font-size:13px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:#fff;cursor:pointer}
+.row input{accent-color:var(--accent)}
+textarea{width:100%;min-height:72px;resize:vertical;border:1px solid var(--line);border-radius:12px;padding:10px 12px;font:inherit;font-size:13.5px;background:#fff}
+.fb-actions{display:flex;gap:8px;align-items:center;margin-top:8px;flex-wrap:wrap}
+.saved{font-size:12px;color:var(--ok);opacity:0;transition:opacity .2s}.saved.show{opacity:1}
+.progress{font-size:12px;color:var(--muted)}
+.toast{font-size:12px;color:var(--ok);font-weight:650;opacity:0;transition:opacity .25s;max-width:220px}
+.toast.show{opacity:1}
+.toast.err{color:var(--accent2)}
+button:disabled{opacity:.55;cursor:wait}
+@media (max-width:900px){.layout{grid-template-columns:1fr}nav.toc{position:relative;top:0;height:auto;border-right:0;border-bottom:1px solid var(--line);max-height:200px}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div>
+    <h1>Esslinger 计划书 · 定锚批预览与反馈</h1>
+    <div class="sub">每段下方可反馈 · 本机自动保存 · 点「提交全部反馈」在线提交给整盘操盘</div>
+  </div>
+  <div class="actions">
+    <span class="progress" id="progress">反馈 0/0</span>
+    <button class="primary" id="btnSubmit">提交全部反馈</button>
+    <button class="ghost" id="btnExport">导出反馈文件</button>
+    <button class="ghost" id="btnCopy">复制反馈 Markdown</button>
+    <span class="toast" id="toast"></span>
+  </div>
+</header>
+<div class="layout">
+  <nav class="toc" id="toc"></nav>
+  <main id="main"></main>
+</div>
+<script>
+const SECTIONS = [{"id": "meta", "tag": "说明", "title": "说明与改法约定", "body_html": "<p>来源：整盘操盘 × Claude；按「改完标注发经营层确认」交付。</p>\n<p>标记：<strong>【改】</strong> 替换原节 · <strong>【增】</strong> 新插入 · <strong>【待决】</strong> 需经营层拍板。</p>\n<p>四大画像按身份校准：程序员 / 设计师 / 金融分析师 / 内容创作者。</p>\n<p><strong>【增】改法约定：</strong> 本次修订中【改】替换原节；【增】新插入；【待决】确认前相关指标以现行计划书数值为准执行。</p>"}, {"id": "structure", "tag": "摘要", "title": "A) 章节落位", "body_html": "<ol><li><strong>1.2 背景</strong>：三模式显性化，勾选「长期＝真正的品牌」，补投资逻辑收口。</li><li><strong>原 2.3「品牌与品牌化」拆开</strong>：路径对比上移 2.2；真正定位留给 2.3；健康命题单列 2.4（规划层）。</li><li><strong>SEO/GEO/Agent</strong> 落入三力「用户力终局」或 4.5，不塞进定位章。</li><li><strong>五、盈利</strong>：B 段门槛不动；C/D 冲突只列【待决】表，不擅自统一。</li></ol>"}, {"id": "s12", "tag": "改", "title": "1.2 项目背景（全文替换）", "body_html": "<p><strong>【改】替换原「1.2 项目背景」全文：</strong></p>\n<p>延续集团生命力的本质，是在市场中建立长期竞争力。市场中存在三种经营模式：</p>\n<ul><li><strong>效率模式</strong>：以铺货与经营效率取胜，竞争力来自运营颗粒度，随品类红利波动；</li><li><strong>品牌化模式</strong>：以趋势选品＋品牌外壳取胜（亚马逊、TikTok 等平台玩法多属此类），竞争力依赖趋势与周期；</li><li><strong>品牌模式</strong>：以用户为先、不先挑类目，通过长期主义与护城河，把竞争力沉淀为持续的支柱。</li></ul>\n<p>前两者能在较短时间维持竞争力，但依赖趋势和周期，无法把竞争力变成长期的。<strong>本项目选择第三种——真正的品牌模式（已勾选：稳定且长期的周期性投入）。</strong></p>\n<p>必须在利润高位时投入，才有余力完成这个转化。集团在利润高位时曾开 Furniwell，投资失败后对后续品牌资产投资丧失信心。失败原因是发力重心和判断标准出了问题，不是品牌模式本身不行。</p>\n<p>Esslinger 的发力重心是用户为先。目标人群是 Digital Workers（每天连续电脑工作 6 小时以上）。品牌围绕预防与辅助纠正办公病痛（驼背、圆肩、前倾头、腰椎压力）。过程留下的本土化资源可复用。</p>\n<p>选择稳定且周期性投入，是因为集团投资信心已受损，必须通过阶段性结果让集团看见持续收益。</p>"}, {"id": "s12inv", "tag": "增", "title": "1.2 投资逻辑收口", "body_html": "<p><strong>【增】投资逻辑收口（1.2 末）：</strong></p>\n<p>本项目的投资判断依据是<strong>品牌市场大盘是否上升，而非标品大盘是否下行</strong>。升降桌作为标品被打开并完成市场教育后，标品大盘将进入下行；但当用户默认「升降桌为办公必需品」后，有消费力、追求真正解决需求的客户群体才开始形成——品牌市场的大盘此时才刚刚上升。集团应据此评估投入，而非以标品价格战的下行误判整个赛道。</p>"}, {"id": "s22", "tag": "改", "title": "2.2 路径选择", "body_html": "<p><strong>【改】2.2 路径选择：</strong></p>\n<p>稳定且长期的周期性投入，过关才置换下一阶段资源。之所以不走效率或品牌化：二者竞争力绑定趋势与周期，无法转化为集团需要的长期支柱。走品牌模式的代价是周期更长、需在利润高位先行投入，收益是竞争力可被沉淀和复用。<strong>判断该路径是否成立，看品牌盘是否上升，不以标品盘下行为否定依据（见 1.2）。</strong></p>"}, {"id": "s23", "tag": "改", "title": "2.3 品牌定位（改名+替换）", "body_html": "<p><strong>【改】2.3 改名为「品牌定位」（替换原「品牌与品牌化」）：</strong></p>\n<blockquote>原「品牌与品牌化」实为路径对比，已上移至 2.2；本节只写真正的品牌定位。</blockquote>\n<p>本项目定位为<strong>真正的品牌：用户为先，不先挑类目，先确定要服务的人与要解决的问题</strong>。这与「品牌化」（先挑趋势类目、再套品牌壳）有本质区别，不可混为一谈。</p>\n<ul><li><strong>目标用户</strong>：每天连续电脑工作 6 小时以上的 Digital Workers；从「他们的健康办公问题」出发反推产品，而非从类目货盘出发。</li><li><strong>四大身份画像</strong>：① 程序员；② 设计师；③ 金融分析师；④ 内容创作者（含工作室/电台等）。共性：持续面对屏幕高强度办公。解决方案收口于预防与辅助纠正驼背、圆肩、前倾头、腰椎压力等。</li><li><strong>品类边界</strong>：以<strong>升降办公桌为中心、半径 2 米内</strong>、帮助用户更健康并提升办公效率的家具与配件。超出此半径不进入货盘。</li></ul>"}, {"id": "s24", "tag": "增", "title": "2.4 健康命题与解决路径", "body_html": "<p><strong>【增】2.4 健康命题与解决路径（规划层，非已上线承诺）：</strong></p>\n<p>人有惰性。用户主动站立/坐姿调整通常只能维持约 1 个月，而健康习惯养成至少约 3 个月。<strong>因此「依赖用户主动调控来实现健康」本身是一个伪命题。</strong> 真正的解决路径，是由 AI 生态中的 agent 对用户进行<strong>被动调控</strong>，让用户在被动中养成习惯，健康属性才能真正落地。</p>\n<p>本条为<strong>阶段性规划方向（指向阶段四 AI/agent 能力）</strong>，不作为 B 段已上线功能或对外承诺；当前阶段仅做认知对齐与技术/内容储备。</p>"}, {"id": "s3", "tag": "增", "title": "三、阶段并联 · 验收尺子", "body_html": "<p><strong>【增】章首后：</strong></p>\n<p>排序与验收以「<strong>B 存活期窗口末日（2026-12-31）能否被双达标决策环验收</strong>」为统一尺子：品牌与经营两侧均达标且连续一季成立，才置换下一阶段资源；只达标一边不自动进入。</p>"}, {"id": "s40", "tag": "增", "title": "4.0 三力终局总画像", "body_html": "<p><strong>【增】4.0 三力终局总画像（插在 4.1 前）：</strong></p>\n<ul><li><strong>产品力终局</strong>：从「升降桌＋基础配件」走向「基于 AI 的个体化健康解决方案」，承载被动调控能力（见 2.4）。</li><li><strong>服务力终局</strong>：从履约服务转为专业度服务——以健康问题的专业应答与方案匹配为核心，月销达门槛后再叠加重服务。</li><li><strong>本地化终局</strong>：沉淀可复用的本土化资源（内容、履约、用户关系、方法文档）作为护城河。</li></ul>\n<p>终局用户关系形态为 <strong>Agent to Agent</strong>：用户 agent 与品牌 agent 对接，索取方案与产品清单。</p>"}, {"id": "s44", "tag": "改", "title": "4.4 阶段四 · 产品力轻改", "body_html": "<p><strong>【改】4.4 对外·产品力轻改：</strong></p>\n<p>用户清楚感知到 Esslinger 基于 AI 对健康方案的<strong>被动调控能力</strong>，能进一步解决客制化病痛问题，并有对应方案可选（对齐 2.4 与 4.0）。</p>\n<blockquote>4.1–4.3 其余条目可暂保留原文。</blockquote>"}, {"id": "s45", "tag": "增", "title": "4.5 SEO / GEO / Agent", "body_html": "<p><strong>【增】4.5 搜索内容地基与 Agent 方向：</strong></p>\n<ul><li><strong>PR 品牌曝光＝内容地基</strong>：没有内容，SEO 与 GEO 都无法成立。</li><li><strong>SEO（基础层）</strong>：面向人主动搜索，是当前阶段基础建设。</li><li><strong>GEO（进阶层）</strong>：AI 替人搜索、总结并给出判断依据，人再决策。</li><li><strong>终局 Agent to Agent</strong>：用户 agent ↔ 品牌 agent，要方案与产品清单。</li></ul>\n<p><strong>B 段落位</strong>：以 <strong>PR/SEO 内容建设为主</strong>，为 GEO 与后续 agent 打地基；<strong>不承诺 TikTok 等平台转化结果</strong>，相关投入按内容资产而非销售承诺核算。GEO 与 Agent to Agent 为 C–D 段规划方向。</p>"}, {"id": "s5b", "tag": "增", "title": "五 · B 段门槛不变", "body_html": "<p><strong>【增】5.2 节首 · B 段不变：</strong></p>\n<p>B 存活期门槛本次不作改动：广告 ≤49% 盖货本 → ≤34% 且月净 GMV ≥€80,100 盖人力；套装 ≥70%；周转配件 &gt;0.45、主桌 &gt;0.4；窗口至 2026-12-31。</p>"}, {"id": "s5c", "tag": "待决", "title": "五 ·【待决】C/D 指标对照", "body_html": "<p><strong>【待决】C 段指标：</strong></p>\n<table>\n<tr><th>指标</th><th>选项①计划书</th><th>选项②经营框架</th><th>折中（待填）</th></tr>\n<tr><td>运营利润率</td><td>≥10%</td><td>≥5%</td><td>☐</td></tr>\n<tr><td>月 GMV</td><td>≥20 万欧</td><td>≥25 万欧</td><td>☐</td></tr>\n<tr><td>广告占比</td><td>≤34%</td><td>≤34%（最优 28%）</td><td>☐</td></tr>\n<tr><td>自然流 GMV 贡献</td><td>未列</td><td>≥15%</td><td>☐</td></tr>\n<tr><td>货本占比</td><td>未列</td><td>&lt;28%</td><td>☐</td></tr>\n</table>\n<p><strong>【待决】D 段指标：</strong></p>\n<table>\n<tr><th>指标</th><th>选项①计划书</th><th>选项②经营框架</th><th>折中（待填）</th></tr>\n<tr><td>运营利润率</td><td>≥18%</td><td>≥12%</td><td>☐</td></tr>\n<tr><td>月常态 GMV</td><td>≥25 万欧</td><td>≥20 万欧</td><td>☐</td></tr>\n</table>\n<p>确认前 C/D 暂以选项①执行。</p>"}, {"id": "s5cal", "tag": "增", "title": "五 · 销售/报表口径 + €8万待验", "body_html": "<p><strong>【增】销售口径：</strong> 净 GMV 为准；须明确线上自建站与线下是否合并计入及折算原则。B 段以自建站为主；若有线下销售须单列，并注明是否纳入套装占比与广告占比分母。</p>\n<p><strong>【增】盈利报表：</strong> 在既有运营利润口径外，报表须额外计入隐性仓储与折损；不改变门槛数值，作利润真实性校验，月会同时呈现。</p>\n<p><strong>【待决】</strong>「广告 ≤34% 时月净 GMV ≥€80,100 覆盖人力」为测算值，待经营层复核验证；验证前作目标线执行。</p>"}];
+const KEY = 'esslinger_plan_anchor_feedback_v2';
+function loadAll(){try{return JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){return{}}}
+function saveAll(d){localStorage.setItem(KEY,JSON.stringify(d))}
+function render(){
+  const data=loadAll(); const toc=document.getElementById('toc'); const main=document.getElementById('main');
+  toc.innerHTML=''; main.innerHTML='';
+  SECTIONS.forEach(s=>{
+    const fb=data[s.id]||{};
+    const a=document.createElement('a'); a.href='#'+s.id; a.dataset.id=s.id;
+    a.innerHTML='<span class="dot '+(fb.status||'')+'"></span>'+s.title; toc.appendChild(a);
+    const card=document.createElement('section'); card.className='card'; card.id=s.id;
+    card.innerHTML='<h2><span class="chip '+s.tag+'">'+s.tag+'</span>'+s.title+'</h2><div class="body">'+s.body_html+'</div>'+
+      '<div class="feedback"><div class="ft">本段反馈</div><div class="row">'+
+      '<label><input type="radio" name="st-'+s.id+'" value="ok"'+(fb.status==='ok'?' checked':'')+'/> 通过</label>'+
+      '<label><input type="radio" name="st-'+s.id+'" value="edit"'+(fb.status==='edit'?' checked':'')+'/> 需修改</label>'+
+      '<label><input type="radio" name="st-'+s.id+'" value="discuss"'+(fb.status==='discuss'?' checked':'')+'/> 待议</label></div>'+
+      '<textarea placeholder="改法、措辞、要删/要加…（可选）" data-id="'+s.id+'">'+(fb.note||'').replace(/</g,'&lt;')+'</textarea>'+
+      '<div class="fb-actions"><button type="button" class="primary save-btn" data-id="'+s.id+'">保存本段</button>'+
+      '<span class="saved" id="saved-'+s.id+'">已保存</span></div></div>';
+    main.appendChild(card);
+  });
+  updateProgress(); bind();
+  document.querySelectorAll('main .card').forEach(el=>io.observe(el));
+}
+function saveSection(id, flash){
+  const status=(document.querySelector('input[name="st-'+id+'"]:checked')||{}).value||'';
+  const note=(document.querySelector('textarea[data-id="'+id+'"]')||{}).value||'';
+  const data=loadAll(); data[id]={status,note:note.trim(),updatedAt:new Date().toISOString()}; saveAll(data);
+  if(flash){const el=document.getElementById('saved-'+id); if(el){el.classList.add('show'); setTimeout(()=>el.classList.remove('show'),1200)}}
+  updateProgress();
+  const link=document.querySelector('nav.toc a[data-id="'+id+'"] .dot'); if(link) link.className='dot '+status;
+}
+function bind(){
+  document.querySelectorAll('.save-btn').forEach(btn=>{
+    btn.onclick=()=>saveSection(btn.dataset.id,true);
+  });
+  document.querySelectorAll('input[type=radio][name^="st-"]').forEach(r=>{
+    r.addEventListener('change',()=>{
+      const id=r.name.replace(/^st-/,'');
+      saveSection(id,true);
+    });
+  });
+  document.querySelectorAll('textarea[data-id]').forEach(ta=>{
+    let t=null;
+    ta.addEventListener('input',()=>{
+      clearTimeout(t);
+      t=setTimeout(()=>saveSection(ta.dataset.id,false),400);
+    });
+  });
+}
+function showToast(msg, isErr){
+  const el=document.getElementById('toast');
+  el.textContent=msg; el.className='toast show'+(isErr?' err':'');
+  clearTimeout(showToast._t); showToast._t=setTimeout(()=>el.classList.remove('show'),3500);
+}
+async function submitAll(){
+  // flush every section from DOM into localStorage first
+  SECTIONS.forEach(s=>saveSection(s.id,false));
+  const sections=loadAll();
+  const btn=document.getElementById('btnSubmit');
+  btn.disabled=true;
+  try{
+    const res=await fetch('/api/feedback',{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({sections, meta:{source:'preview-page', userAgent:navigator.userAgent, at:new Date().toISOString()}})
+    });
+    const j=await res.json().catch(()=>({}));
+    if(!res.ok || !j.ok){ throw new Error(j.error||('HTTP '+res.status)); }
+    showToast('已提交，整盘操盘可收到');
+    alert('已提交，整盘操盘可收到');
+  }catch(e){
+    showToast('提交失败：'+e.message,true);
+    alert('提交失败：'+e.message+'\n请改用「导出/复制反馈」发回。');
+  }finally{ btn.disabled=false; }
+}
+function updateProgress(){
+  const data=loadAll(); const n=SECTIONS.filter(s=>data[s.id]&&data[s.id].status).length;
+  document.getElementById('progress').textContent='反馈 '+n+'/'+SECTIONS.length;
+}
+function exportMd(){
+  const data=loadAll(); const map={ok:'通过',edit:'需修改',discuss:'待议'};
+  let md='# Esslinger 定锚批 · 预览反馈\\n\\n导出时间：'+new Date().toLocaleString('zh-CN',{hour12:false})+'\\n\\n';
+  SECTIONS.forEach(s=>{const fb=data[s.id]||{}; md+='## '+s.title+'\\n- 状态：'+(map[fb.status]||'未填')+'\\n- 意见：'+(fb.note?fb.note.replace(/\\n/g,' '):'（无）')+'\\n\\n'});
+  return md;
+}
+document.getElementById('btnExport').onclick=()=>{const blob=new Blob([exportMd()],{type:'text/markdown;charset=utf-8'}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='Esslinger_定锚批_预览反馈.md'; a.click()};
+document.getElementById('btnCopy').onclick=async()=>{await navigator.clipboard.writeText(exportMd()); alert('反馈 Markdown 已复制，发给整盘操盘即可。')};
+document.getElementById('btnSubmit').onclick=()=>submitAll();
+const io=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('nav.toc a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}})},{rootMargin:'-30% 0px -60% 0px'});
+render();
+</script>
+</body>
+</html>
