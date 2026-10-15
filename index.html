@@ -118,6 +118,8 @@ function showToast(msg, isErr){
   el.textContent=msg; el.className='toast show'+(isErr?' err':'');
   clearTimeout(showToast._t); showToast._t=setTimeout(()=>el.classList.remove('show'),3500);
 }
+const API_BASE = (location.hostname.endsWith('github.io') || location.protocol==='file:')
+  ? 'https://ktgzc-183-129-103-8.run.pinggy-free.link' : '';
 async function submitAll(){
   // flush every section from DOM into localStorage first
   SECTIONS.forEach(s=>saveSection(s.id,false));
@@ -125,10 +127,10 @@ async function submitAll(){
   const btn=document.getElementById('btnSubmit');
   btn.disabled=true;
   try{
-    const res=await fetch('/api/feedback',{
+    const res=await fetch(API_BASE+'/api/feedback',{
       method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({sections, meta:{source:'preview-page', userAgent:navigator.userAgent, at:new Date().toISOString()}})
+      headers:{'Content-Type':'application/json','X-Pinggy-No-Screen':'1'},
+      body:JSON.stringify({sections, meta:{source:'preview-page', host:location.host, userAgent:navigator.userAgent, at:new Date().toISOString()}})
     });
     const j=await res.json().catch(()=>({}));
     if(!res.ok || !j.ok){ throw new Error(j.error||('HTTP '+res.status)); }
