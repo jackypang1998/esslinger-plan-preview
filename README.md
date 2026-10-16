@@ -5,8 +5,12 @@
 ## 公网地址（当前）
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
-  「提交全部反馈」：若 API 隧道不可用，会**自动复制 Markdown**并提示「复制成功，发回聊天」；也可导出文件 / 开 Issue / mailto。
-- **反馈 API 隧道**: 当前不可用（Pinggy Connection closed / cloudflared 7844 / localtunnel 不通）。本地 `python3 server.py` 仍在 `:8765`。
+  「提交全部反馈」打到下方 API 隧道。
+- **反馈 API 隧道（主）**: https://c5d669a968cd56a7-36-24-101-64.serveousercontent.com  
+  （serveo.net SSH `-R`，经 corkscrew `127.0.0.1:8791`）
+- **反馈 API 隧道（备）**: https://5a4a0e099060c6.lhr.life  
+  （localhost.run）
+- 本地：`python3 server.py` → `0.0.0.0:8765`
 
 ## 启动
 
@@ -15,23 +19,27 @@
 cd /workspace/preview-host
 python3 server.py   # 0.0.0.0:8765
 
-# 2) 公网隧道（Pinggy，经沙箱 HTTP 代理 443）— 若失败见备选
+# 2) 公网隧道（serveo，推荐）
 export DISPLAY=:99 SSH_ASKPASS=/workspace/preview-host/empty_askpass.sh SSH_ASKPASS_REQUIRE=force
 setsid ssh -n \
   -o StrictHostKeyChecking=accept-new \
-  -o UserKnownHostsFile=/tmp/kh_pg3 \
+  -o UserKnownHostsFile=/tmp/kh_serveo \
   -o ServerAliveInterval=30 \
   -o ProxyCommand="corkscrew 127.0.0.1 8791 %h %p" \
-  -p 443 -R0:127.0.0.1:8765 a.pinggy.io \
+  -R 80:127.0.0.1:8765 serveo.net \
   > /workspace/preview-host/tunnel.log 2>&1 &
+
+# 备选：localhost.run
+setsid ssh -n \
+  -o StrictHostKeyChecking=accept-new \
+  -o UserKnownHostsFile=/tmp/kh_lhr \
+  -o ServerAliveInterval=30 \
+  -o ProxyCommand="corkscrew 127.0.0.1 8791 %h %p" \
+  -R 80:127.0.0.1:8765 nokey@localhost.run \
+  > /workspace/preview-host/tunnel-lhr.log 2>&1 &
 ```
 
-备选（本沙箱常失败）：
-
-```bash
-./cloudflared tunnel --url http://127.0.0.1:8765 --protocol http2   # 常因 7844
-npx --yes localtunnel --port 8765                                     # 常 502/不通
-```
+其他备选（本沙箱常失败）：Pinggy（Connection closed）、cloudflared（edge 7844/530）、localtunnel（502）。
 
 ## API
 
