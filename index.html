@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html data-build="20261019-172821" lang="zh-CN">
+<html data-build="20261019-165140" lang="zh-CN">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Esslinger 计划书 · 原文框架与改点对照</title>
-<meta name="esslinger-build" content="2026-10-19T17:28+08:00">
+<meta name="esslinger-build" content="2026-10-19T14:34+08:00">
 <meta http-equiv="Cache-Control" content="no-cache">
 <style>
 :root{--bg:#f4f1ea;--card:#fffdf8;--ink:#1c1917;--muted:#78716c;--line:#e7e0d5;--accent:#0f766e;--accent2:#c2410c;--ok:#15803d;--warn:#b45309;--wait:#7c3aed;--chip:#ecfdf5;--later:#64748b}
@@ -168,7 +168,7 @@ const SECTIONS = [
     "tag": "增",
     "title": "4.0 三力定义（新建）",
     "chapter": "四、三力画像及阶段落位",
-    "body_html": "<div class=\"box\"><div class=\"box-h\">原文要点</div><p>原文无独立「三力定义」节；三力在各阶段对外／对内条目中混用，缺统一释义。</p></div>\n<div class=\"box change\"><div class=\"box-h\">要改什么</div><p>【增】各力一句定义；边界另起一行短写，作为 4.2–4.5 落位统一标准。</p></div>\n<div class=\"box new\"><div class=\"box-h\">新稿</div>\n<p>本章后续各阶段的三力落位，均按下述定义与边界执行，不另起口径。</p>\n<ul>\n<li><strong>用户力</strong>：用户力是用户对品牌的理解、认可、选择与推荐所体现出的关系强度。<p style=\"opacity:.75;margin:.25em 0 0;font-size:.92em\">（边界：只谈心智与关系，不谈产品参数或履约时效。）</p></li>\n<li><strong>产品力</strong>：产品力是以升降桌为中心、半径 2 米内的健康办公货盘持续对准并解决目标用户健康办公问题的能力。<p style=\"opacity:.75;margin:.25em 0 0;font-size:.92em\">（边界：只谈商品与方案能力，不含客服话术与物流履约。）</p></li>\n<li><strong>服务力</strong>：服务力是品牌在履约与专业度上，对用户健康办公需求及时响应、准确匹配的交付能力。<p style=\"opacity:.75;margin:.25em 0 0;font-size:.92em\">（边界：只谈服务触点与专业交付，不扩成投放获客或产品研发。）</p></li>\n</ul>\n</div>"
+    "body_html": "<div class=\"box\"><div class=\"box-h\">原文要点</div><p>原文无独立「三力定义」节；三力在各阶段对外／对内条目中混用，缺统一释义。</p></div>\n<div class=\"box change\"><div class=\"box-h\">要改什么</div><p>【增】在 4.1 终局总画像之前给出用户力／产品力／服务力定义与边界，作为 4.2–4.5 落位统一标准。</p></div>\n<div class=\"box new\"><div class=\"box-h\">新稿</div>\n<p>本章后续各阶段的三力落位，均按下述定义与边界执行，不另起口径。</p>\n<ul>\n<li><strong>用户力</strong>：指用户侧对品牌的理解、认可、选择与推荐所形成的关系强度（含一方数据与自然流量质量）。边界在心智与关系，不替代产品参数，也不等同履约时效。</li>\n<li><strong>产品力</strong>：指以升降桌为中心、半径 2 米内的健康办公解决方案货盘，能否对准并持续解决目标用户的健康办公问题（含被动调控能力演进）。边界在商品与方案能力，不含客服话术与物流履约本身。</li>\n<li><strong>服务力</strong>：指履约可达、响应及时，以及在健康问题上的专业应答与方案匹配能力（含达门槛后的重服务）。边界在服务触点与专业度交付，不扩成投放获客或产品研发本身。</li>\n</ul>\n</div>"
   },
   {
     "id": "s40",
@@ -504,7 +504,7 @@ function showToast(msg, isErr){
   clearTimeout(showToast._t); showToast._t=setTimeout(()=>el.classList.remove('show'),3500);
 }
 const API_BASE = (location.hostname.endsWith('github.io') || location.protocol==='file:')
-  ? 'https://40ad04f347ccfede-115-206-3-80.serveousercontent.com' : '';
+  ? 'https://92a8bd284d8ca0bf-115-206-3-80.serveousercontent.com' : '';
 async function copyFeedbackMd(){
   const md=exportMd();
   try{ await navigator.clipboard.writeText(md); return true; }
