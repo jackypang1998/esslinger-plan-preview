@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-build="20261019-161156" lang="zh-CN">
+<html data-build="20261019-161433" lang="zh-CN">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -497,7 +497,7 @@ function showToast(msg, isErr){
   clearTimeout(showToast._t); showToast._t=setTimeout(()=>el.classList.remove('show'),3500);
 }
 const API_BASE = (location.hostname.endsWith('github.io') || location.protocol==='file:')
-  ? 'https://2f579b8c97f4ccb7-115-206-3-80.serveousercontent.com' : '';
+  ? 'https://c8934862a8afaf03-115-206-3-80.serveousercontent.com' : '';
 async function copyFeedbackMd(){
   const md=exportMd();
   try{ await navigator.clipboard.writeText(md); return true; }
