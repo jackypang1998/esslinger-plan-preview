@@ -1,7 +1,7 @@
 {
-  "primary": "https://2b36ca1e7bc0a402-183-129-102-195.serveousercontent.com",
-  "backup": "https://2b6a0e42c60e8f.lhr.life",
+  "primary": "https://e66d8c718775b700-183-129-102-195.serveousercontent.com",
+  "backup": "https://56f0dad693adeb.lhr.life",
   "provider": "serveo+lhr",
   "note": "serveo preferred + localhost.run backup; both via corkscrew :22 OK this run",
-  "updatedAt": "2026-10-22T17:04+08:00"
+  "updatedAt": "2026-10-22T17:11+08:00"
 }
