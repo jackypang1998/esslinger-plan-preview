@@ -1,7 +1,7 @@
 {
-  "primary": "https://b093713f6aa4bb0e-183-129-102-195.serveousercontent.com",
-  "backup": "https://1fa06fea663fcb.lhr.life",
-  "provider": "serveo+lhr",
-  "note": "serveo preferred + localhost.run backup; both via corkscrew :22 OK this run",
-  "updatedAt": "2026-10-22T18:02+08:00"
+  "primary": "https://xmznv-2a04-4e41-88-f11c--a082-f11c.run.pinggy-free.link",
+  "backup": "https://ycomq-2a04-4e41-88-f11c--a082-f11c.free.pinggy.net",
+  "provider": "pinggy",
+  "note": "serveo+lhr :22 CONNECT via 8791 timed out; Pinggy TLS proxy used",
+  "updatedAt": "2026-10-22T19:07+08:00"
 }
