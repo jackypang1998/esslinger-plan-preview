@@ -6,15 +6,53 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
   「提交全部反馈」打到下方 API 隧道。
-- **反馈 API 隧道（主）**: https://a523c2a76f1e9118-36-24-101-205.serveousercontent.com  
+- **反馈 API 隧道（主）**: https://da6200554c205c6e-183-129-102-195.serveousercontent.com  
   （serveo.net via corkscrew `127.0.0.1:8791`）
-- **反馈 API 隧道（备）**: https://978ecd74b3b8ab.lhr.life  
+- **反馈 API 隧道（备）**: https://b03eee001f74b1.lhr.life  
   （localhost.run via corkscrew）
 - 本地：`python3 server.py` → `0.0.0.0:8765`
 
 ## 启动
 
-见仓库外 `/workspace/preview-host/README.md`（本机保活宿主）。
+```bash
+# 1) API + 静态
+cd /workspace/preview-host
+python3 server.py   # 0.0.0.0:8765
+
+
+# 2b) 公网隧道（Pinggy，当前可用：SSH-over-TLS via corkscrew）
+export DISPLAY=:99 SSH_ASKPASS=/workspace/preview-host/empty_askpass.sh SSH_ASKPASS_REQUIRE=force
+setsid ssh -n \
+  -o StrictHostKeyChecking=accept-new \
+  -o UserKnownHostsFile=/tmp/kh_pinggy \
+  -o ServerAliveInterval=15 \
+  -o ProxyCommand="python3 -u /workspace/preview-host/pinggy_proxy.py" \
+  -R 0:127.0.0.1:8765 \
+  -o ExitOnForwardFailure=yes \
+  a.pinggy.io \
+  > /workspace/preview-host/tunnel-pinggy.log 2>&1 &
+
+# 2) 公网隧道（serveo，本窗口 :22 常不通）
+export DISPLAY=:99 SSH_ASKPASS=/workspace/preview-host/empty_askpass.sh SSH_ASKPASS_REQUIRE=force
+setsid ssh -n \
+  -o StrictHostKeyChecking=accept-new \
+  -o UserKnownHostsFile=/tmp/kh_serveo \
+  -o ServerAliveInterval=30 \
+  -o ProxyCommand="corkscrew 127.0.0.1 8791 %h %p" \
+  -R 80:127.0.0.1:8765 serveo.net \
+  > /workspace/preview-host/tunnel.log 2>&1 &
+
+# 备选：localhost.run
+setsid ssh -n \
+  -o StrictHostKeyChecking=accept-new \
+  -o UserKnownHostsFile=/tmp/kh_lhr \
+  -o ServerAliveInterval=30 \
+  -o ProxyCommand="corkscrew 127.0.0.1 8791 %h %p" \
+  -R 80:127.0.0.1:8765 nokey@localhost.run \
+  > /workspace/preview-host/tunnel-lhr.log 2>&1 &
+```
+
+其他备选（本沙箱常失败）：Pinggy（Connection closed）、cloudflared（edge 7844/530）、localtunnel（502）。
 
 ## API
 
@@ -26,7 +64,7 @@
 
 ## 整盘操盘如何读反馈
 
-- 最新：宿主 `data/latest.json`
-- 历史：宿主 `data/submissions/*.json`
+- 最新：`/workspace/preview-host/data/latest.json`
+- 历史：`/workspace/preview-host/data/submissions/*.json`
 - 或 `GET http://127.0.0.1:8765/api/feedback`
 - 隧道挂时：用户从 Pages 复制 Markdown / Issue / 聊天粘贴
