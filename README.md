@@ -6,40 +6,15 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
   「提交全部反馈」打到下方 API 隧道。
-- **反馈 API 隧道（主）**: https://2339bdda763de231-36-24-101-205.serveousercontent.com  
-  （serveo.net SSH `-R`，经 corkscrew `127.0.0.1:8791`）
-- **反馈 API 隧道（备）**: https://188f5c61e0ed6a.lhr.life  
-  （localhost.run）
+- **反馈 API 隧道（主）**: https://mhvzf-183-156-157-230.free.pinggy.net  
+  （Pinggy SSH-over-TLS via corkscrew `127.0.0.1:8791`；serveo/lhr 本窗口 :22 不通）
+- **反馈 API 隧道（备）**: https://rifbq-183-156-157-230.run.pinggy-free.link  
+  （Pinggy 备用域名）
 - 本地：`python3 server.py` → `0.0.0.0:8765`
 
 ## 启动
 
-```bash
-# 1) API + 静态
-cd /workspace/preview-host
-python3 server.py   # 0.0.0.0:8765
-
-# 2) 公网隧道（serveo，推荐）
-export DISPLAY=:99 SSH_ASKPASS=/workspace/preview-host/empty_askpass.sh SSH_ASKPASS_REQUIRE=force
-setsid ssh -n \
-  -o StrictHostKeyChecking=accept-new \
-  -o UserKnownHostsFile=/tmp/kh_serveo \
-  -o ServerAliveInterval=30 \
-  -o ProxyCommand="corkscrew 127.0.0.1 8791 %h %p" \
-  -R 80:127.0.0.1:8765 serveo.net \
-  > /workspace/preview-host/tunnel.log 2>&1 &
-
-# 备选：localhost.run
-setsid ssh -n \
-  -o StrictHostKeyChecking=accept-new \
-  -o UserKnownHostsFile=/tmp/kh_lhr \
-  -o ServerAliveInterval=30 \
-  -o ProxyCommand="corkscrew 127.0.0.1 8791 %h %p" \
-  -R 80:127.0.0.1:8765 nokey@localhost.run \
-  > /workspace/preview-host/tunnel-lhr.log 2>&1 &
-```
-
-其他备选（本沙箱常失败）：Pinggy（Connection closed）、cloudflared（edge 7844/530）、localtunnel（502）。
+见仓库外 `/workspace/preview-host/README.md`（本机保活宿主）。
 
 ## API
 
@@ -51,7 +26,7 @@ setsid ssh -n \
 
 ## 整盘操盘如何读反馈
 
-- 最新：`/workspace/preview-host/data/latest.json`
-- 历史：`/workspace/preview-host/data/submissions/*.json`
+- 最新：宿主 `data/latest.json`
+- 历史：宿主 `data/submissions/*.json`
 - 或 `GET http://127.0.0.1:8765/api/feedback`
 - 隧道挂时：用户从 Pages 复制 Markdown / Issue / 聊天粘贴
