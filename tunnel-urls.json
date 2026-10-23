@@ -1,9 +1,9 @@
 {
-  "primary": "https://zurvt-2a04-4e41-88-ccd9--a505-ccd9.free.pinggy.net",
-  "backup": "https://nzbhs-2a04-4e41-88-ccd9--a505-ccd9.run.pinggy-free.link",
-  "pinggy": "https://zurvt-2a04-4e41-88-ccd9--a505-ccd9.free.pinggy.net",
-  "pinggyAlt": "https://nzbhs-2a04-4e41-88-ccd9--a505-ccd9.run.pinggy-free.link",
-  "provider": "pinggy",
-  "note": "serveo/lhr :22 banner timeout via corkscrew 8791; pinggy via pinggy_proxy OK",
-  "updatedAt": "2026-10-23T10:06+08:00"
+  "primary": "https://1e92a37e0d8ae076-101-71-52-38.serveousercontent.com",
+  "backup": "https://c3cecf31820597.lhr.life",
+  "serveo": "https://1e92a37e0d8ae076-101-71-52-38.serveousercontent.com",
+  "lhr": "https://c3cecf31820597.lhr.life",
+  "provider": "serveo",
+  "note": "serveo primary + lhr backup via corkscrew 8791; pinggy TTL expired ~15:00",
+  "updatedAt": "2026-10-23T15:01+08:00"
 }
