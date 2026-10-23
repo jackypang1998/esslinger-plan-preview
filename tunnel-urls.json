@@ -1,9 +1,9 @@
 {
-  "primary": "https://f4f7193bfa5b4549-101-71-52-38.serveousercontent.com",
-  "backup": "https://b2abf9864a23a0.lhr.life",
-  "serveo": "https://f4f7193bfa5b4549-101-71-52-38.serveousercontent.com",
-  "lhr": "https://b2abf9864a23a0.lhr.life",
+  "primary": "https://e687a91374412e48-101-71-52-6.serveousercontent.com",
+  "backup": "https://30ac98ea4b3a45.lhr.life",
+  "serveo": "https://e687a91374412e48-101-71-52-6.serveousercontent.com",
+  "lhr": "https://30ac98ea4b3a45.lhr.life",
   "provider": "serveo",
-  "note": "serveo primary + lhr backup via corkscrew 8791; reopened after both 502",
-  "updatedAt": "2026-10-23T15:15+08:00"
+  "note": "serveo primary + lhr backup via corkscrew 8791; reopened after both 502/dead",
+  "updatedAt": "2026-10-23T16:00+08:00"
 }
