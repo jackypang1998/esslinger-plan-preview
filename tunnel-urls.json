@@ -1,9 +1,9 @@
 {
-  "primary": "https://mlzfc-2a04-4e41-88-2997--4257-2997.free.pinggy.net",
-  "backup": "https://euoap-2a04-4e41-88-2997--4257-2997.run.pinggy-free.link",
-  "pinggy": "https://mlzfc-2a04-4e41-88-2997--4257-2997.free.pinggy.net",
-  "pinggyAlt": "https://euoap-2a04-4e41-88-2997--4257-2997.run.pinggy-free.link",
+  "primary": "https://zurvt-2a04-4e41-88-ccd9--a505-ccd9.free.pinggy.net",
+  "backup": "https://nzbhs-2a04-4e41-88-ccd9--a505-ccd9.run.pinggy-free.link",
+  "pinggy": "https://zurvt-2a04-4e41-88-ccd9--a505-ccd9.free.pinggy.net",
+  "pinggyAlt": "https://nzbhs-2a04-4e41-88-ccd9--a505-ccd9.run.pinggy-free.link",
   "provider": "pinggy",
   "note": "serveo/lhr :22 banner timeout via corkscrew 8791; pinggy via pinggy_proxy OK",
-  "updatedAt": "2026-10-23T09:13+08:00"
+  "updatedAt": "2026-10-23T10:06+08:00"
 }
