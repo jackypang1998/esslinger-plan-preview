@@ -1,9 +1,11 @@
 {
-  "primary": "https://e687a91374412e48-101-71-52-6.serveousercontent.com",
-  "backup": "https://30ac98ea4b3a45.lhr.life",
-  "serveo": "https://e687a91374412e48-101-71-52-6.serveousercontent.com",
-  "lhr": "https://30ac98ea4b3a45.lhr.life",
-  "provider": "serveo",
-  "note": "serveo primary + lhr backup via corkscrew 8791; reopened after both 502/dead",
-  "updatedAt": "2026-10-23T16:00+08:00"
+  "primary": "https://abetc-2a04-4e41-88-a28--7d31-a28.free.pinggy.net",
+  "backup": "https://mywsl-2a04-4e41-88-a28--7d31-a28.run.pinggy-free.link",
+  "serveo": null,
+  "lhr": null,
+  "pinggy": "https://abetc-2a04-4e41-88-a28--7d31-a28.free.pinggy.net",
+  "pinggyAlt": "https://mywsl-2a04-4e41-88-a28--7d31-a28.run.pinggy-free.link",
+  "provider": "pinggy",
+  "note": "serveo+lhr corkscrew:22 CONNECT timeout; Pinggy TLS 443 OK; free tunnel expires ~60min",
+  "updatedAt": "2026-10-23T19:11+08:00"
 }
