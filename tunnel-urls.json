@@ -1,9 +1,9 @@
 {
-  "primary": "https://1e92a37e0d8ae076-101-71-52-38.serveousercontent.com",
-  "backup": "https://c3cecf31820597.lhr.life",
-  "serveo": "https://1e92a37e0d8ae076-101-71-52-38.serveousercontent.com",
-  "lhr": "https://c3cecf31820597.lhr.life",
+  "primary": "https://f4f7193bfa5b4549-101-71-52-38.serveousercontent.com",
+  "backup": "https://b2abf9864a23a0.lhr.life",
+  "serveo": "https://f4f7193bfa5b4549-101-71-52-38.serveousercontent.com",
+  "lhr": "https://b2abf9864a23a0.lhr.life",
   "provider": "serveo",
-  "note": "serveo primary + lhr backup via corkscrew 8791; pinggy TTL expired ~15:00",
-  "updatedAt": "2026-10-23T15:01+08:00"
+  "note": "serveo primary + lhr backup via corkscrew 8791; reopened after both 502",
+  "updatedAt": "2026-10-23T15:15+08:00"
 }
