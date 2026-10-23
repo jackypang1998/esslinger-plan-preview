@@ -1,11 +1,10 @@
 {
-  "primary": "https://abetc-2a04-4e41-88-a28--7d31-a28.free.pinggy.net",
-  "backup": "https://mywsl-2a04-4e41-88-a28--7d31-a28.run.pinggy-free.link",
+  "primary": "https://mzhoz-2a04-4e41-88-8f77--6573-8f77.free.pinggy.net",
+  "backup": "https://stayn-2a04-4e41-88-8f77--6573-8f77.run.pinggy-free.link",
   "serveo": null,
   "lhr": null,
-  "pinggy": "https://abetc-2a04-4e41-88-a28--7d31-a28.free.pinggy.net",
-  "pinggyAlt": "https://mywsl-2a04-4e41-88-a28--7d31-a28.run.pinggy-free.link",
+  "pinggy": "https://mzhoz-2a04-4e41-88-8f77--6573-8f77.free.pinggy.net",
   "provider": "pinggy",
-  "note": "serveo+lhr corkscrew:22 CONNECT timeout; Pinggy TLS 443 OK; free tunnel expires ~60min",
-  "updatedAt": "2026-10-23T19:11+08:00"
+  "note": "serveo/lhr:22 CONNECT timeout via corkscrew 8791; Pinggy TLS:443 OK",
+  "updatedAt": "2026-10-23T19:13+08:00"
 }
