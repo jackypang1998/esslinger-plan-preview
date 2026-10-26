@@ -1,11 +1,11 @@
 {
-  "primary": "https://ffvxy-2a04-4e41-88-8e0f--5ece-8e0f.free.pinggy.net",
-  "backup": null,
-  "serveo": null,
-  "lhr": null,
-  "pinggy": "https://ffvxy-2a04-4e41-88-8e0f--5ece-8e0f.free.pinggy.net",
-  "pinggyAlt": "https://xehpg-2a04-4e41-88-8e0f--5ece-8e0f.run.pinggy-free.link",
-  "provider": "pinggy",
-  "note": "serveo+lhr CONNECT via corkscrew/8791 timed out; primary=pinggy (GET/POST 200)",
-  "updatedAt": "2026-10-26T14:58+08:00"
+  "primary": "https://3ef06dd367ede459-36-24-103-136.serveousercontent.com",
+  "backup": "https://4d15816604c204.lhr.life",
+  "serveo": "https://3ef06dd367ede459-36-24-103-136.serveousercontent.com",
+  "lhr": "https://4d15816604c204.lhr.life",
+  "pinggy": null,
+  "pinggyAlt": null,
+  "provider": "serveo",
+  "note": "serveo+lhr via corkscrew/8791 OK GET/POST 200; pinggy Connection closed; primary=serveo",
+  "updatedAt": "2026-10-26T15:13+08:00"
 }
