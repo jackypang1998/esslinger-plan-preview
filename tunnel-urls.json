@@ -1,11 +1,11 @@
 {
-  "primary": "https://ewlfq-140-248-52-62.free.pinggy.net",
-  "backup": "https://ufqeu-140-248-52-62.run.pinggy-free.link",
-  "serveo": null,
-  "lhr": null,
-  "pinggy": "https://ewlfq-140-248-52-62.free.pinggy.net",
-  "pinggyAlt": "https://ufqeu-140-248-52-62.run.pinggy-free.link",
-  "provider": "pinggy",
-  "note": "serveo+lhr :22 CONNECT via corkscrew/8791 empty/timeout; Pinggy TLS/443 GET/POST 200",
-  "updatedAt": "2026-10-26T17:01+08:00"
+  "primary": "https://4df2825aebb53c.lhr.life",
+  "backup": "https://de80287bf31587f4-36-24-103-136.serveousercontent.com",
+  "serveo": "https://de80287bf31587f4-36-24-103-136.serveousercontent.com",
+  "lhr": "https://4df2825aebb53c.lhr.life",
+  "pinggy": null,
+  "pinggyAlt": null,
+  "provider": "localhost.run",
+  "note": "serveo up but GET flaky 502; API_BASE=lhr (stable GET/POST 200); corkscrew/8791; reinstalled openssh-client+corkscrew this run",
+  "updatedAt": "2026-10-26T18:00+08:00"
 }
