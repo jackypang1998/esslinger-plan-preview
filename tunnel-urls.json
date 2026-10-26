@@ -1,10 +1,10 @@
 {
-  "primary": "https://bda60d9201a0ed22-115-205-39-175.serveousercontent.com",
+  "primary": "https://irryp-115-205-39-175.free.pinggy.net",
   "backup": null,
-  "serveo": "https://bda60d9201a0ed22-115-205-39-175.serveousercontent.com",
+  "serveo": null,
   "lhr": null,
-  "pinggy": null,
-  "provider": "serveo",
-  "note": "serveo via corkscrew/8791 OK; Pinggy free TTL expired earlier",
-  "updatedAt": "2026-10-26T10:12+08:00"
+  "pinggy": "https://irryp-115-205-39-175.free.pinggy.net",
+  "provider": "pinggy",
+  "note": "Pinggy via pinggy_proxy OK; serveo/lhr:22 CONNECT timeout this run",
+  "updatedAt": "2026-10-26T11:01+08:00"
 }
