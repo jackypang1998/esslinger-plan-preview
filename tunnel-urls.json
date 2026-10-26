@@ -6,6 +6,6 @@
   "pinggy": null,
   "pinggyAlt": null,
   "provider": "serveo",
-  "note": "serveo+lhr via corkscrew/8791 OK GET/POST 200; pinggy Connection closed; primary=serveo",
-  "updatedAt": "2026-10-26T15:13+08:00"
+  "note": "serveo primary (POST 200; GET intermittent 502); lhr backup GET/POST 200; pinggy closed",
+  "updatedAt": "2026-10-26T15:15+08:00"
 }
