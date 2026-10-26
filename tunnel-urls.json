@@ -1,10 +1,10 @@
 {
-  "primary": "https://mzhoz-2a04-4e41-88-8f77--6573-8f77.free.pinggy.net",
-  "backup": "https://stayn-2a04-4e41-88-8f77--6573-8f77.run.pinggy-free.link",
+  "primary": "https://ikvld-2a04-4e41-88-be97--5285-be97.free.pinggy.net",
+  "backup": "https://ndemn-2a04-4e41-88-be97--5285-be97.run.pinggy-free.link",
   "serveo": null,
   "lhr": null,
-  "pinggy": "https://mzhoz-2a04-4e41-88-8f77--6573-8f77.free.pinggy.net",
+  "pinggy": "https://ikvld-2a04-4e41-88-be97--5285-be97.free.pinggy.net",
   "provider": "pinggy",
-  "note": "serveo/lhr:22 CONNECT timeout via corkscrew 8791; Pinggy TLS:443 OK",
-  "updatedAt": "2026-10-23T19:13+08:00"
+  "note": "serveo/lhr:22 CONNECT timeout; Pinggy TLS:443 via pinggy_proxy",
+  "updatedAt": "2026-10-26T09:58+08:00"
 }
