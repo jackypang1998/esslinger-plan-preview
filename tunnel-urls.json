@@ -1,11 +1,11 @@
 {
-  "primary": "https://4df2825aebb53c.lhr.life",
-  "backup": "https://de80287bf31587f4-36-24-103-136.serveousercontent.com",
-  "serveo": "https://de80287bf31587f4-36-24-103-136.serveousercontent.com",
-  "lhr": "https://4df2825aebb53c.lhr.life",
+  "primary": "https://13850f6df044fb.lhr.life",
+  "backup": "https://aa41bfd8c41e3ca1-36-24-103-136.serveousercontent.com",
+  "serveo": "https://aa41bfd8c41e3ca1-36-24-103-136.serveousercontent.com",
+  "lhr": "https://13850f6df044fb.lhr.life",
   "pinggy": null,
   "pinggyAlt": null,
   "provider": "localhost.run",
-  "note": "serveo up but GET flaky 502; API_BASE=lhr (stable GET/POST 200); corkscrew/8791; reinstalled openssh-client+corkscrew this run",
-  "updatedAt": "2026-10-26T18:00+08:00"
+  "note": "serveo up but GET flaky 502 (3/5); API_BASE=lhr (5/5 GET/POST 200); corkscrew/8791; reopened after broken pipe",
+  "updatedAt": "2026-10-26T18:11+08:00"
 }
