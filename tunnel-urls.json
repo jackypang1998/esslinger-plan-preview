@@ -1,11 +1,11 @@
 {
-  "primary": "https://3ef06dd367ede459-36-24-103-136.serveousercontent.com",
-  "backup": "https://4d15816604c204.lhr.life",
-  "serveo": "https://3ef06dd367ede459-36-24-103-136.serveousercontent.com",
-  "lhr": "https://4d15816604c204.lhr.life",
-  "pinggy": null,
-  "pinggyAlt": null,
-  "provider": "serveo",
-  "note": "serveo primary (POST 200; GET intermittent 502); lhr backup GET/POST 200; pinggy closed",
-  "updatedAt": "2026-10-26T15:15+08:00"
+  "primary": "https://ewlfq-140-248-52-62.free.pinggy.net",
+  "backup": "https://ufqeu-140-248-52-62.run.pinggy-free.link",
+  "serveo": null,
+  "lhr": null,
+  "pinggy": "https://ewlfq-140-248-52-62.free.pinggy.net",
+  "pinggyAlt": "https://ufqeu-140-248-52-62.run.pinggy-free.link",
+  "provider": "pinggy",
+  "note": "serveo+lhr :22 CONNECT via corkscrew/8791 empty/timeout; Pinggy TLS/443 GET/POST 200",
+  "updatedAt": "2026-10-26T17:01+08:00"
 }
