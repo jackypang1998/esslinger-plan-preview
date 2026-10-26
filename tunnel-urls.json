@@ -1,10 +1,10 @@
 {
-  "primary": "https://ikvld-2a04-4e41-88-be97--5285-be97.free.pinggy.net",
-  "backup": "https://ndemn-2a04-4e41-88-be97--5285-be97.run.pinggy-free.link",
-  "serveo": null,
+  "primary": "https://bda60d9201a0ed22-115-205-39-175.serveousercontent.com",
+  "backup": null,
+  "serveo": "https://bda60d9201a0ed22-115-205-39-175.serveousercontent.com",
   "lhr": null,
-  "pinggy": "https://ikvld-2a04-4e41-88-be97--5285-be97.free.pinggy.net",
-  "provider": "pinggy",
-  "note": "serveo/lhr:22 CONNECT timeout; Pinggy TLS:443 via pinggy_proxy",
-  "updatedAt": "2026-10-26T09:58+08:00"
+  "pinggy": null,
+  "provider": "serveo",
+  "note": "serveo via corkscrew/8791 OK; Pinggy free TTL expired earlier",
+  "updatedAt": "2026-10-26T10:12+08:00"
 }
