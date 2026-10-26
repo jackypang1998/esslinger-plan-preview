@@ -1,10 +1,10 @@
 {
-  "primary": "https://jovyl-2a04-4e41-88-4fd3--8e9d-4fd3.free.pinggy.net",
+  "primary": "https://ofmed-2a04-4e41-88-b267--4212-b267.free.pinggy.net",
   "backup": null,
   "serveo": null,
   "lhr": null,
-  "pinggy": "https://jovyl-2a04-4e41-88-4fd3--8e9d-4fd3.free.pinggy.net",
+  "pinggy": "https://ofmed-2a04-4e41-88-b267--4212-b267.free.pinggy.net",
   "provider": "pinggy",
   "note": "serveo+lhr CONNECT timeout; Pinggy GET/POST 200 — primary=pinggy",
-  "updatedAt": "2026-10-26T12:57+08:00"
+  "updatedAt": "2026-10-26T13:09+08:00"
 }
