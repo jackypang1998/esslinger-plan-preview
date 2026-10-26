@@ -1,10 +1,10 @@
 {
-  "primary": "https://ofmed-2a04-4e41-88-b267--4212-b267.free.pinggy.net",
+  "primary": "https://kzlfs-2a04-4e41-88-2442--729-2442.free.pinggy.net",
   "backup": null,
   "serveo": null,
   "lhr": null,
-  "pinggy": "https://ofmed-2a04-4e41-88-b267--4212-b267.free.pinggy.net",
+  "pinggy": "https://kzlfs-2a04-4e41-88-2442--729-2442.free.pinggy.net",
   "provider": "pinggy",
   "note": "serveo+lhr CONNECT timeout; Pinggy GET/POST 200 — primary=pinggy",
-  "updatedAt": "2026-10-26T13:09+08:00"
+  "updatedAt": "2026-10-26T13:56+08:00"
 }
