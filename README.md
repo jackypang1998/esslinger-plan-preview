@@ -10,7 +10,7 @@
   （localhost.run；本次外网 POST 5/5、GET 曾 5/5。serveo 可用但 GET 更抖；Pinggy TLS 握手超时，故 API_BASE 用 lhr）
 - **反馈 API 隧道（备）**: https://7bae10c79215a7f3-36-24-103-136.serveousercontent.com  
   （serveo；POST 可用）
-- 本地： → 
+- 本地：`python3 server.py` → `0.0.0.0:8765`
 
 ## 启动
 
