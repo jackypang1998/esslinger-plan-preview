@@ -1,11 +1,11 @@
 {
-  "primary": "https://bkzpd-2a04-4e41-80-fe2a--e80c-fe2a.free.pinggy.net",
-  "backup": "https://dvfxe-2a04-4e41-80-fe2a--e80c-fe2a.run.pinggy-free.link",
+  "primary": "https://irocu-2a04-4e41-80-90e2--cb7c-90e2.free.pinggy.net",
+  "backup": "https://twhlf-2a04-4e41-80-90e2--cb7c-90e2.run.pinggy-free.link",
   "serveo": null,
   "lhr": null,
-  "pinggy": "https://bkzpd-2a04-4e41-80-fe2a--e80c-fe2a.free.pinggy.net",
-  "pinggyAlt": "https://dvfxe-2a04-4e41-80-fe2a--e80c-fe2a.run.pinggy-free.link",
+  "pinggy": "https://irocu-2a04-4e41-80-90e2--cb7c-90e2.free.pinggy.net",
+  "pinggyAlt": "https://twhlf-2a04-4e41-80-90e2--cb7c-90e2.run.pinggy-free.link",
   "provider": "pinggy",
-  "note": "serveo/lhr :22 banner timeout after reopen; pinggy TLS 3/3 GET/POST; API_BASE=pinggy",
-  "updatedAt": "2026-10-26T20:18+08:00"
+  "note": "serveo/lhr corkscrew :22 banner timeout; pinggy TLS 1/1 GET+POST primary+backup; API_BASE=pinggy",
+  "updatedAt": "2026-10-27T09:16+08:00"
 }
