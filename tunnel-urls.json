@@ -1,11 +1,7 @@
 {
-  "primary": "https://1c318d0e1f1fda7f-101-71-52-6.serveousercontent.com",
-  "backup": "https://3e8bdea3ae94f6.lhr.life",
-  "serveo": "https://1c318d0e1f1fda7f-101-71-52-6.serveousercontent.com",
-  "lhr": "https://3e8bdea3ae94f6.lhr.life",
-  "pinggy": null,
-  "pinggyAlt": null,
-  "provider": "serveo",
-  "note": "15:05 keepalive: both tunnels dead (502, ssh closed); reopened serveo+lhr via corkscrew; new URLs.",
-  "updatedAt": "2026-10-27T15:06+08:00"
+  "primary": "https://a0a3961bdd667be2-101-71-52-38.serveousercontent.com",
+  "backup": "https://3c5c8da9303e0a.lhr.life",
+  "providerPrimary": "serveo",
+  "providerBackup": "localhost.run",
+  "updatedAt": "2026-10-27T15:54+08:00"
 }
