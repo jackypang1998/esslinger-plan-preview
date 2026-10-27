@@ -1,11 +1,11 @@
 {
-  "primary": "https://a65e3ef53e229cbb-101-71-52-6.serveousercontent.com",
-  "backup": "https://f1132081a61573.lhr.life",
-  "serveo": "https://a65e3ef53e229cbb-101-71-52-6.serveousercontent.com",
-  "lhr": "https://f1132081a61573.lhr.life",
+  "primary": "https://e0b530eac802b20b-101-71-52-6.serveousercontent.com",
+  "backup": "https://41741e482402d3.lhr.life",
+  "serveo": "https://e0b530eac802b20b-101-71-52-6.serveousercontent.com",
+  "lhr": "https://41741e482402d3.lhr.life",
   "pinggy": null,
   "pinggyAlt": null,
   "provider": "serveo",
-  "note": "API_BASE=serveo (priority). lhr backup. pinggy tertiary if available. serveo GET/POST verified this run.",
-  "updatedAt": "2026-10-27T13:04+08:00"
+  "note": "API_BASE=serveo (priority). lhr backup. serveo+lhr GET/POST verified this run.",
+  "updatedAt": "2026-10-27T14:04+08:00"
 }
