@@ -1,11 +1,11 @@
 {
-  "primary": "https://irocu-2a04-4e41-80-90e2--cb7c-90e2.free.pinggy.net",
-  "backup": "https://twhlf-2a04-4e41-80-90e2--cb7c-90e2.run.pinggy-free.link",
-  "serveo": null,
-  "lhr": null,
-  "pinggy": "https://irocu-2a04-4e41-80-90e2--cb7c-90e2.free.pinggy.net",
-  "pinggyAlt": "https://twhlf-2a04-4e41-80-90e2--cb7c-90e2.run.pinggy-free.link",
-  "provider": "pinggy",
-  "note": "serveo/lhr corkscrew :22 banner timeout; pinggy TLS 1/1 GET+POST primary+backup; API_BASE=pinggy",
-  "updatedAt": "2026-10-27T09:16+08:00"
+  "primary": "https://a65e3ef53e229cbb-101-71-52-6.serveousercontent.com",
+  "backup": "https://f1132081a61573.lhr.life",
+  "serveo": "https://a65e3ef53e229cbb-101-71-52-6.serveousercontent.com",
+  "lhr": "https://f1132081a61573.lhr.life",
+  "pinggy": null,
+  "pinggyAlt": null,
+  "provider": "serveo",
+  "note": "API_BASE=serveo (priority). lhr backup. pinggy tertiary if available. serveo GET/POST verified this run.",
+  "updatedAt": "2026-10-27T13:04+08:00"
 }
