@@ -9,7 +9,7 @@
 - **反馈 API 隧道（主）**: https://cuuor-122-231-235-217.run.pinggy-free.link  
   （Pinggy SSH-over-TLS；serveo 本次无 URL/卡住后杀掉；lhr 备 https://4d7919e2a9067c.lhr.life；外网 GET/POST 通）
 - **反馈 API 隧道（备）**: https://dxjji-122-231-235-217.free.pinggy.net
-- 本地： → 
+- 本地：`python3 server.py` → `0.0.0.0:8765`
 
 
 
