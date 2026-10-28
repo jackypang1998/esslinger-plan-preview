@@ -6,9 +6,9 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
   「提交全部反馈」打到下方 API 隧道。
-- **反馈 API 隧道（主）**: https://acdbb-2a04-4e41-80-bc11--74c2-bc11.run.pinggy-free.link  
-  （Pinggy SSH-over-TLS；serveo/lhr 本轮 corkscrew 不通；外网 GET/POST 通）
-- **反馈 API 隧道（备）**: https://ffsdr-2a04-4e41-80-bc11--74c2-bc11.free.pinggy.net
+- **反馈 API 隧道（主）**: https://dpfjc-2a04-4e41-80-71e9--5647-71e9.run.pinggy-free.link  
+  （Pinggy SSH-over-TLS；serveo/lhr corkscrew CONNECT 通但 SSH 立即被关；外网 GET/POST 通）
+- **反馈 API 隧道（备）**: https://dszqk-2a04-4e41-80-71e9--5647-71e9.free.pinggy.net
 - 本地：`python3 server.py` → `0.0.0.0:8765`
 
 
