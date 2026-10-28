@@ -1,8 +1,8 @@
 {
-  "primary": "https://dpfjc-2a04-4e41-80-71e9--5647-71e9.run.pinggy-free.link",
-  "backup": "https://dszqk-2a04-4e41-80-71e9--5647-71e9.free.pinggy.net",
+  "primary": "https://xwaxe-2a04-4e41-80-26e--aba8-26e.run.pinggy-free.link",
+  "backup": "https://rjkmn-2a04-4e41-80-26e--aba8-26e.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
-  "updatedAt": "2026-10-28T09:59+08:00",
-  "note": "serveo/localhost.run corkscrew CONNECT 200 then SSH closed; reopened pinggy"
+  "updatedAt": "2026-10-28T11:04+08:00",
+  "note": "Pinggy free 60m expired; serveo/lhr corkscrew CONNECT then SSH closed; reopened pinggy"
 }
