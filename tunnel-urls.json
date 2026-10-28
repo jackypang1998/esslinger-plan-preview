@@ -1,9 +1,9 @@
 {
-  "primary": "https://spuic-140-248-50-44.run.pinggy-free.link",
-  "backup": "https://ciwrh-140-248-50-44.free.pinggy.net",
+  "primary": "https://vexig-2a04-4e41-80-c87b--e9f5-c87b.run.pinggy-free.link",
+  "backup": "https://nrdbr-2a04-4e41-80-c87b--e9f5-c87b.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "lhr": null,
-  "updatedAt": "2026-10-28T16:04+08:00",
+  "updatedAt": "2026-10-28T16:58+08:00",
   "note": "serveo+lhr corkscrew Connection closed; Pinggy reopened GET/POST 200; free expires ~60m"
 }
