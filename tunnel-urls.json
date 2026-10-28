@@ -1,9 +1,10 @@
 {
-  "primary": "https://17f196b34fe7d7ca-115-205-39-175.serveousercontent.com",
-  "backup": "https://a88f26ca3ccc43.lhr.life",
-  "providerPrimary": "serveo",
-  "providerBackup": "localhost.run",
-  "lhr": "https://a88f26ca3ccc43.lhr.life",
-  "updatedAt": "2026-10-28T17:55+08:00",
-  "note": "pinggy dead; serveo+lhr corkscrew reopened GET/POST 200"
+  "primary": "https://zoxyg-140-248-50-54.free.pinggy.net",
+  "backup": "https://jiuws-140-248-50-54.run.pinggy-free.link",
+  "providerPrimary": "pinggy",
+  "providerBackup": "pinggy",
+  "lhr": null,
+  "serveo": null,
+  "updatedAt": "2026-10-28T20:04+08:00",
+  "note": "keepalive: serveo Pingora400; lhr got URL then 502; pinggy TLS primary GET/POST 200"
 }
