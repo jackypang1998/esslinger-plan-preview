@@ -1,8 +1,9 @@
 {
-  "primary": "https://cspgo-2a04-4e41-80-e432--d437-e432.run.pinggy-free.link",
-  "backup": "https://crhgi-2a04-4e41-80-e432--d437-e432.free.pinggy.net",
+  "primary": "https://spuic-140-248-50-44.run.pinggy-free.link",
+  "backup": "https://ciwrh-140-248-50-44.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
-  "updatedAt": "2026-10-28T14:07+08:00",
-  "note": "Pinggy free 60m expired/process dead; serveo briefly OK then died; serveo reopen hung no URL; lhr closed; Pinggy reopened"
+  "lhr": null,
+  "updatedAt": "2026-10-28T16:04+08:00",
+  "note": "serveo+lhr corkscrew Connection closed; Pinggy reopened GET/POST 200; free expires ~60m"
 }
