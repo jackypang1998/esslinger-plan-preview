@@ -1,9 +1,9 @@
 {
-  "primary": "https://gcxgq-2a04-4e41-80-95db--6a4e-95db.run.pinggy-free.link",
-  "backup": "https://arsyo-2a04-4e41-80-95db--6a4e-95db.free.pinggy.net",
-  "providerPrimary": "pinggy",
-  "providerBackup": "pinggy",
-  "lhr": null,
-  "updatedAt": "2026-10-28T17:00+08:00",
-  "note": "serveo+lhr corkscrew Connection closed; Pinggy reopened GET/POST 200; free expires ~60m"
+  "primary": "https://17f196b34fe7d7ca-115-205-39-175.serveousercontent.com",
+  "backup": "https://a88f26ca3ccc43.lhr.life",
+  "providerPrimary": "serveo",
+  "providerBackup": "localhost.run",
+  "lhr": "https://a88f26ca3ccc43.lhr.life",
+  "updatedAt": "2026-10-28T17:55+08:00",
+  "note": "pinggy dead; serveo+lhr corkscrew reopened GET/POST 200"
 }
