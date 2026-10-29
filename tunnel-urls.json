@@ -1,11 +1,11 @@
 {
-  "primary": "https://526592ec2e411f.lhr.life",
-  "backup": "https://88df0538c26b070e-122-231-235-217.serveousercontent.com",
-  "providerPrimary": "localhost.run",
+  "primary": "https://54cf1010d788a674-122-231-235-217.serveousercontent.com",
+  "backup": "https://a2fcaae0bd3718.lhr.life",
+  "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "lhr": "https://526592ec2e411f.lhr.life",
-  "serveo": "https://88df0538c26b070e-122-231-235-217.serveousercontent.com",
-  "pinggy": "https://khmyd-122-231-235-217.run.pinggy-free.link",
-  "updatedAt": "2026-10-29T16:10+08:00",
+  "lhr": "https://a2fcaae0bd3718.lhr.life",
+  "serveo": "https://54cf1010d788a674-122-231-235-217.serveousercontent.com",
+  "pinggy": "https://pxnni-122-231-235-217.run.pinggy-free.link",
+  "updatedAt": "2026-10-29T17:04+08:00",
   "note": "keepalive: prefer serveo when POST 200"
 }
