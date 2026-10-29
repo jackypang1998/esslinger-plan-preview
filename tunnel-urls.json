@@ -1,10 +1,10 @@
 {
-  "primary": "https://zoxyg-140-248-50-54.free.pinggy.net",
-  "backup": "https://jiuws-140-248-50-54.run.pinggy-free.link",
+  "primary": "https://qtzme-140-248-50-117.free.pinggy.net",
+  "backup": "https://zcllt-140-248-50-117.run.pinggy-free.link",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "lhr": null,
   "serveo": null,
-  "updatedAt": "2026-10-28T20:04+08:00",
-  "note": "keepalive: serveo Pingora400; lhr got URL then 502; pinggy TLS primary GET/POST 200"
+  "updatedAt": "2026-10-29T09:56+08:00",
+  "note": "keepalive: serveo/lhr closed UNKNOWN; pinggy TLS primary GET/POST 200"
 }
