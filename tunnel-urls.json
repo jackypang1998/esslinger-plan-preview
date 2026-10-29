@@ -1,10 +1,10 @@
 {
-  "primary": "https://sotxc-140-248-50-105.free.pinggy.net",
-  "backup": "https://xpzph-140-248-50-105.run.pinggy-free.link",
-  "providerPrimary": "pinggy",
+  "primary": "https://1b130b6457139b.lhr.life",
+  "backup": "https://hnfsk-115-205-39-175.run.pinggy-free.link",
+  "providerPrimary": "localhost.run",
   "providerBackup": "pinggy",
-  "lhr": null,
-  "serveo": null,
-  "updatedAt": "2026-10-29T14:07+08:00",
-  "note": "keepalive: serveo/lhr UNKNOWN; pinggy TLS GET/POST 200"
+  "lhr": "https://1b130b6457139b.lhr.life",
+  "serveo": "https://d0c82fe9fa620130-115-205-39-175.serveousercontent.com",
+  "updatedAt": "2026-10-29T14:59+08:00",
+  "note": "keepalive: serveo 502; LHR GET/POST 200; pinggy free timeout, run.link 200"
 }
