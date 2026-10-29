@@ -1,10 +1,10 @@
 {
-  "primary": "https://tvalo-140-248-50-47.free.pinggy.net",
-  "backup": "https://fozvc-140-248-50-47.run.pinggy-free.link",
+  "primary": "https://mkmqv-140-248-50-56.free.pinggy.net",
+  "backup": "https://axnbv-140-248-50-56.run.pinggy-free.link",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "lhr": null,
   "serveo": null,
-  "updatedAt": "2026-10-29T11:59+08:00",
-  "note": "keepalive: serveo/lhr closed UNKNOWN; pinggy TLS primary GET/POST 200"
+  "updatedAt": "2026-10-29T12:03+08:00",
+  "note": "keepalive: serveo/lhr closed UNKNOWN; cf 530; pinggy TLS GET/POST 200"
 }
