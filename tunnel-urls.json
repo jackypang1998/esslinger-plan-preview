@@ -1,10 +1,10 @@
 {
-  "primary": "https://rzgig-2a04-4e41-80-3cc5--871d-3cc5.free.pinggy.net",
-  "backup": "https://jmsou-2a04-4e41-80-3cc5--871d-3cc5.run.pinggy-free.link",
+  "primary": "https://lwbsc-2a04-4e41-80-4e--f9f0-4e.free.pinggy.net",
+  "backup": "https://zrfah-2a04-4e41-80-4e--f9f0-4e.run.pinggy-free.link",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "lhr": null,
   "serveo": null,
-  "updatedAt": "2026-10-29T12:05+08:00",
-  "note": "keepalive: serveo/lhr UNKNOWN; cf 530; pinggy TLS POST 200; full GET skipped (100KB kills free tunnel)"
+  "updatedAt": "2026-10-29T12:11+08:00",
+  "note": "keepalive: old pinggy TLS EOF; serveo/lhr UNKNOWN; pinggy TLS GET/POST 200"
 }
