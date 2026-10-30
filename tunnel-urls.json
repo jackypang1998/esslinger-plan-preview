@@ -1,12 +1,12 @@
 {
-  "primary": "https://ztqjq-122-234-76-249.run.pinggy-free.link",
-  "backup": "https://cuprp-122-234-76-249.free.pinggy.net",
+  "primary": "https://trlbt-2a09-bac5-21b1-1791--259-42.run.pinggy-free.link",
+  "backup": "https://dpvca-2a09-bac5-21b1-1791--259-42.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "lhr": null,
   "serveo": null,
-  "pinggy": "https://ztqjq-122-234-76-249.run.pinggy-free.link",
-  "pinggy_alt": "https://cuprp-122-234-76-249.free.pinggy.net",
-  "updatedAt": "2026-10-30T11:04+08:00",
-  "note": "keepalive: serveo/LHR corkscrew closed; pinggy free expired; pinggy reopened GET/POST 200"
+  "pinggy": "https://trlbt-2a09-bac5-21b1-1791--259-42.run.pinggy-free.link",
+  "pinggy_alt": "https://dpvca-2a09-bac5-21b1-1791--259-42.free.pinggy.net",
+  "updatedAt": "2026-10-30T12:00+08:00",
+  "note": "keepalive: serveo/LHR corkscrew failed; pinggy free expired; pinggy reopened GET/POST 200"
 }
