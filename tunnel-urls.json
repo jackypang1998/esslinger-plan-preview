@@ -1,12 +1,12 @@
 {
-  "primary": "https://jujah-2a04-4e41-80-e341--52d8-e341.run.pinggy-free.link",
-  "backup": "https://qvrzv-2a04-4e41-80-e341--52d8-e341.free.pinggy.net",
+  "primary": "https://eujom-2a09-bac1-19a0-fe10--400-67.run.pinggy-free.link",
+  "backup": "https://intim-2a09-bac1-19a0-fe10--400-67.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "lhr": null,
   "serveo": null,
-  "pinggy": "https://jujah-2a04-4e41-80-e341--52d8-e341.run.pinggy-free.link",
-  "pinggy_alt": "https://qvrzv-2a04-4e41-80-e341--52d8-e341.free.pinggy.net",
-  "updatedAt": "2026-10-30T09:10+08:00",
-  "note": "keepalive: serveo/LHR corkscrew closed; pinggy reopened GET/POST 200"
+  "pinggy": "https://eujom-2a09-bac1-19a0-fe10--400-67.run.pinggy-free.link",
+  "pinggy_alt": "https://intim-2a09-bac1-19a0-fe10--400-67.free.pinggy.net",
+  "updatedAt": "2026-10-30T10:05+08:00",
+  "note": "keepalive: serveo/LHR corkscrew closed; pinggy free expired; pinggy reopened GET/POST 200"
 }
