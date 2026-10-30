@@ -1,12 +1,12 @@
 {
-  "primary": "https://1617e3277bbcdab2-115-198-1-173.serveousercontent.com",
-  "backup": "https://9f97b718747a85.lhr.life",
+  "primary": "https://8d56c55eaa3e8cc6-115-198-1-173.serveousercontent.com",
+  "backup": "https://ed074f66913a53.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "lhr",
-  "lhr": "https://9f97b718747a85.lhr.life",
-  "serveo": "https://1617e3277bbcdab2-115-198-1-173.serveousercontent.com",
+  "lhr": "https://ed074f66913a53.lhr.life",
+  "serveo": "https://8d56c55eaa3e8cc6-115-198-1-173.serveousercontent.com",
   "pinggy": null,
   "pinggy_alt": null,
-  "updatedAt": "2026-10-30T13:57+08:00",
-  "note": "keepalive: pinggy dead TLS EOF; serveo+lhr corkscrew ok; GET/POST 200"
+  "updatedAt": "2026-10-30T14:10+08:00",
+  "note": "keepalive: serveo+lhr corkscrew reopened after broken pipe; GET/POST 200"
 }
