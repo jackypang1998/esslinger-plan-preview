@@ -1,12 +1,12 @@
 {
-  "primary": "https://8d56c55eaa3e8cc6-115-198-1-173.serveousercontent.com",
-  "backup": "https://ed074f66913a53.lhr.life",
-  "providerPrimary": "serveo",
-  "providerBackup": "lhr",
-  "lhr": "https://ed074f66913a53.lhr.life",
-  "serveo": "https://8d56c55eaa3e8cc6-115-198-1-173.serveousercontent.com",
-  "pinggy": null,
-  "pinggy_alt": null,
-  "updatedAt": "2026-10-30T14:10+08:00",
-  "note": "keepalive: serveo+lhr corkscrew reopened after broken pipe; GET/POST 200"
+  "primary": "https://hrnxu-2a09-bac5-21b0-dcd--160-129.run.pinggy-free.link",
+  "backup": "https://flgnv-2a09-bac5-21b0-dcd--160-129.free.pinggy.net",
+  "providerPrimary": "pinggy",
+  "providerBackup": "pinggy_alt",
+  "lhr": null,
+  "serveo": null,
+  "pinggy": "https://hrnxu-2a09-bac5-21b0-dcd--160-129.run.pinggy-free.link",
+  "pinggy_alt": "https://flgnv-2a09-bac5-21b0-dcd--160-129.free.pinggy.net",
+  "updatedAt": "2026-10-30T17:00+08:00",
+  "note": "keepalive: serveo+lhr fail (SSH22 closed); pinggy TLS reopened GET/POST 200 after free-tier expiry"
 }
