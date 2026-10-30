@@ -1,12 +1,12 @@
 {
-  "primary": "https://uuqgm-2a09-bac5-21b7-32b4--50d-1f.run.pinggy-free.link",
-  "backup": "https://lsvcl-2a09-bac5-21b7-32b4--50d-1f.free.pinggy.net",
+  "primary": "https://pyklu-2a09-bac1-19a0-120--402-43.run.pinggy-free.link",
+  "backup": "https://ugoui-2a09-bac1-19a0-120--402-43.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy_alt",
   "lhr": null,
   "serveo": null,
-  "pinggy": "https://uuqgm-2a09-bac5-21b7-32b4--50d-1f.run.pinggy-free.link",
-  "pinggy_alt": "https://lsvcl-2a09-bac5-21b7-32b4--50d-1f.free.pinggy.net",
-  "updatedAt": "2026-10-30T19:02+08:00",
+  "pinggy": "https://pyklu-2a09-bac1-19a0-120--402-43.run.pinggy-free.link",
+  "pinggy_alt": "https://ugoui-2a09-bac1-19a0-120--402-43.free.pinggy.net",
+  "updatedAt": "2026-10-30T19:56+08:00",
   "note": "keepalive: serveo+lhr fail (SSH22 closed); pinggy TLS reopened GET/POST 200 after free-tier expiry"
 }
