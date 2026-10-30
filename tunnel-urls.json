@@ -1,12 +1,12 @@
 {
-  "primary": "https://szvcv-2a09-bac5-21b6-2832--401-28.run.pinggy-free.link",
-  "backup": "https://ampnq-2a09-bac5-21b6-2832--401-28.free.pinggy.net",
-  "providerPrimary": "pinggy",
-  "providerBackup": "pinggy",
-  "lhr": null,
-  "serveo": "https://afb9dd491205d8aa-122-231-235-217.serveousercontent.com",
-  "pinggy": "https://szvcv-2a09-bac5-21b6-2832--401-28.run.pinggy-free.link",
-  "pinggy_alt": "https://ampnq-2a09-bac5-21b6-2832--401-28.free.pinggy.net",
-  "updatedAt": "2026-10-30T13:04+08:00",
-  "note": "keepalive: old pinggy TLS EOF then died; serveo/LHR corkscrew 400; pinggy reopened twice; GET/POST 200"
+  "primary": "https://1617e3277bbcdab2-115-198-1-173.serveousercontent.com",
+  "backup": "https://9f97b718747a85.lhr.life",
+  "providerPrimary": "serveo",
+  "providerBackup": "lhr",
+  "lhr": "https://9f97b718747a85.lhr.life",
+  "serveo": "https://1617e3277bbcdab2-115-198-1-173.serveousercontent.com",
+  "pinggy": null,
+  "pinggy_alt": null,
+  "updatedAt": "2026-10-30T13:57+08:00",
+  "note": "keepalive: pinggy dead TLS EOF; serveo+lhr corkscrew ok; GET/POST 200"
 }
