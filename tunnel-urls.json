@@ -1,12 +1,12 @@
 {
-  "primary": "https://sbodq-104-28-213-203.run.pinggy-free.link",
-  "backup": "https://ntste-104-28-213-203.free.pinggy.net",
+  "primary": "https://uuqgm-2a09-bac5-21b7-32b4--50d-1f.run.pinggy-free.link",
+  "backup": "https://lsvcl-2a09-bac5-21b7-32b4--50d-1f.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy_alt",
   "lhr": null,
   "serveo": null,
-  "pinggy": "https://sbodq-104-28-213-203.run.pinggy-free.link",
-  "pinggy_alt": "https://ntste-104-28-213-203.free.pinggy.net",
-  "updatedAt": "2026-10-30T18:02+08:00",
+  "pinggy": "https://uuqgm-2a09-bac5-21b7-32b4--50d-1f.run.pinggy-free.link",
+  "pinggy_alt": "https://lsvcl-2a09-bac5-21b7-32b4--50d-1f.free.pinggy.net",
+  "updatedAt": "2026-10-30T19:02+08:00",
   "note": "keepalive: serveo+lhr fail (SSH22 closed); pinggy TLS reopened GET/POST 200 after free-tier expiry"
 }
