@@ -1,12 +1,12 @@
 {
-  "primary": "https://jvsjl-2a09-bac5-21b7-2446--39d-3.run.pinggy-free.link",
-  "backup": "https://ougqi-2a09-bac5-21b7-2446--39d-3.free.pinggy.net",
+  "primary": "https://bmohr-2a09-bac1-19a0-120--402-2c.run.pinggy-free.link",
+  "backup": "https://jaryx-2a09-bac1-19a0-120--402-2c.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "lhr": null,
   "serveo": "https://afb9dd491205d8aa-122-231-235-217.serveousercontent.com",
-  "pinggy": "https://jvsjl-2a09-bac5-21b7-2446--39d-3.run.pinggy-free.link",
-  "pinggy_alt": "https://ougqi-2a09-bac5-21b7-2446--39d-3.free.pinggy.net",
-  "updatedAt": "2026-10-30T12:16+08:00",
-  "note": "keepalive: pinggy free expired; serveo URL up but 502 then dead; LHR closed; pinggy reopened GET/POST 200"
+  "pinggy": "https://bmohr-2a09-bac1-19a0-120--402-2c.run.pinggy-free.link",
+  "pinggy_alt": "https://jaryx-2a09-bac1-19a0-120--402-2c.free.pinggy.net",
+  "updatedAt": "2026-10-30T13:01+08:00",
+  "note": "keepalive: external TLS fail on old pinggy; serveo/LHR corkscrew 400; pinggy reopened GET/POST 200"
 }
