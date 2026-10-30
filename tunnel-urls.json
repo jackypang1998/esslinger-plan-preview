@@ -1,12 +1,12 @@
 {
-  "primary": "https://zmlkm-2a04-4e41-80-8fee--c163-8fee.run.pinggy-free.link",
-  "backup": "https://asldr-2a04-4e41-80-8fee--c163-8fee.free.pinggy.net",
+  "primary": "https://jujah-2a04-4e41-80-e341--52d8-e341.run.pinggy-free.link",
+  "backup": "https://qvrzv-2a04-4e41-80-e341--52d8-e341.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "lhr": null,
   "serveo": null,
-  "pinggy": "https://zmlkm-2a04-4e41-80-8fee--c163-8fee.run.pinggy-free.link",
-  "pinggy_alt": "https://asldr-2a04-4e41-80-8fee--c163-8fee.free.pinggy.net",
-  "updatedAt": "2026-10-29T20:05+08:00",
-  "note": "keepalive: pinggy reopened (free 60m); serveo/LHR corkscrew Pingora 400"
+  "pinggy": "https://jujah-2a04-4e41-80-e341--52d8-e341.run.pinggy-free.link",
+  "pinggy_alt": "https://qvrzv-2a04-4e41-80-e341--52d8-e341.free.pinggy.net",
+  "updatedAt": "2026-10-30T09:10+08:00",
+  "note": "keepalive: serveo/LHR corkscrew closed; pinggy reopened GET/POST 200"
 }
