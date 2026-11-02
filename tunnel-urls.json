@@ -1,12 +1,12 @@
 {
-  "primary": "https://e18550c8da94230f-101-71-52-38.serveousercontent.com",
-  "backup": "https://afb84b09418ca4.lhr.life",
+  "primary": "https://bf349f779ef102ed-101-71-52-38.serveousercontent.com",
+  "backup": "https://aefc91e5c1da14.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "lhr": "https://afb84b09418ca4.lhr.life",
-  "serveo": "https://e18550c8da94230f-101-71-52-38.serveousercontent.com",
-  "pinggy": "https://ncvpr-58-101-243-216.run.pinggy-free.link",
-  "pinggy_alt": "https://difdf-58-101-243-216.free.pinggy.net",
-  "updatedAt": "2026-11-02T11:00+08:00",
-  "note": "keepalive: tunnels restarted; serveo primary; lhr refreshed after 502"
+  "lhr": "https://aefc91e5c1da14.lhr.life",
+  "serveo": "https://bf349f779ef102ed-101-71-52-38.serveousercontent.com",
+  "pinggy": "https://jekcp-101-71-37-38.run.pinggy-free.link",
+  "pinggy_alt": "https://jascu-101-71-37-38.free.pinggy.net",
+  "updatedAt": "2026-11-02T11:12+08:00",
+  "note": "keepalive: tunnels dead; restarted serveo/lhr/pinggy; fresh URLs"
 }
