@@ -1,12 +1,12 @@
 {
   "primary": "https://dba11da85a6ce92d-183-156-155-193.serveousercontent.com",
-  "backup": "https://fcf1989132a7e1.lhr.life",
+  "backup": "https://1073657e726a8e.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "lhr": "https://fcf1989132a7e1.lhr.life",
+  "lhr": "https://1073657e726a8e.lhr.life",
   "serveo": "https://dba11da85a6ce92d-183-156-155-193.serveousercontent.com",
   "pinggy": "https://pvuho-122-234-76-249.run.pinggy-free.link",
   "pinggy_alt": "https://xvcfb-122-234-76-249.free.pinggy.net",
-  "updatedAt": "2026-11-02T09:57+08:00",
-  "note": "keepalive: tunnels died after 09:15; serveo+lhr+pinggy reopened GET/POST 200; Pages switch to serveo primary"
+  "updatedAt": "2026-11-02T10:00+08:00",
+  "note": "keepalive: serveo primary GET/POST 200; lhr restarted to new URL; pinggy backup 200; Pages e7ae184 then README backup refresh"
 }
