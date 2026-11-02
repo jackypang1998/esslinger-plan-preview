@@ -1,12 +1,12 @@
 {
-  "primary": "https://pyklu-2a09-bac1-19a0-120--402-43.run.pinggy-free.link",
-  "backup": "https://ugoui-2a09-bac1-19a0-120--402-43.free.pinggy.net",
-  "providerPrimary": "pinggy",
-  "providerBackup": "pinggy_alt",
-  "lhr": null,
+  "primary": "https://e213466a341599.lhr.life",
+  "backup": "https://vrswt-2a09-bac1-1980--400-40.run.pinggy-free.link",
+  "providerPrimary": "localhost.run",
+  "providerBackup": "pinggy",
+  "lhr": "https://e213466a341599.lhr.life",
   "serveo": null,
-  "pinggy": "https://pyklu-2a09-bac1-19a0-120--402-43.run.pinggy-free.link",
-  "pinggy_alt": "https://ugoui-2a09-bac1-19a0-120--402-43.free.pinggy.net",
-  "updatedAt": "2026-10-30T19:56+08:00",
-  "note": "keepalive: serveo+lhr fail (SSH22 closed); pinggy TLS reopened GET/POST 200 after free-tier expiry"
+  "pinggy": "https://vrswt-2a09-bac1-1980--400-40.run.pinggy-free.link",
+  "pinggy_alt": "https://hiedh-2a09-bac1-1980--400-40.free.pinggy.net",
+  "updatedAt": "2026-11-02T09:14+08:00",
+  "note": "keepalive: serveo hung no URL; lhr+pinggy GET/POST 200; Pages will push LHR primary"
 }
