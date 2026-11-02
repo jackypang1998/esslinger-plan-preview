@@ -1,12 +1,12 @@
 {
-  "primary": "https://668da966c555637b-101-71-52-6.serveousercontent.com",
-  "backup": "https://e5b4e87332e9e2.lhr.life",
+  "primary": "https://e18550c8da94230f-101-71-52-38.serveousercontent.com",
+  "backup": "https://ae81b014ea45bd.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "lhr": "https://e5b4e87332e9e2.lhr.life",
-  "serveo": "https://668da966c555637b-101-71-52-6.serveousercontent.com",
-  "pinggy": "https://evnbt-101-71-37-38.run.pinggy-free.link",
-  "pinggy_alt": "https://jgkld-101-71-37-38.free.pinggy.net",
-  "updatedAt": "2026-11-02T10:03+08:00",
-  "note": "keepalive: full restart; serveo+lhr+pinggy GET/POST 200"
+  "lhr": "https://ae81b014ea45bd.lhr.life",
+  "serveo": "https://e18550c8da94230f-101-71-52-38.serveousercontent.com",
+  "pinggy": "https://ncvpr-58-101-243-216.run.pinggy-free.link",
+  "pinggy_alt": "https://difdf-58-101-243-216.free.pinggy.net",
+  "updatedAt": "2026-11-02T10:58+08:00",
+  "note": "keepalive: tunnels died; restarted serveo+lhr+pinggy; GET/POST 200"
 }
