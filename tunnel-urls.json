@@ -1,12 +1,13 @@
 {
-  "primary": "https://2e804abed67bbbb8-101-71-52-38.serveousercontent.com",
-  "backup": "https://4801ed362a18ab.lhr.life",
-  "providerPrimary": "serveo",
-  "providerBackup": "localhost.run",
-  "lhr": "https://4801ed362a18ab.lhr.life",
-  "serveo": "https://2e804abed67bbbb8-101-71-52-38.serveousercontent.com",
+  "primary": "https://657f9f4080f8e2.lhr.life",
+  "backup": null,
+  "providerPrimary": "localhost.run",
+  "providerBackup": "serveo",
+  "lhr": "https://657f9f4080f8e2.lhr.life",
+  "serveo": null,
+  "serveo_status": "process_alive_no_url_or_unstable",
   "pinggy": "https://pnxch-101-71-37-38.run.pinggy-free.link",
   "pinggy_alt": "https://icwop-101-71-37-38.free.pinggy.net",
-  "updatedAt": "2026-11-02T14:00+08:00",
-  "note": "keepalive: tunnels dead at check; restarted serveo/lhr/pinggy; fresh URLs"
+  "updatedAt": "2026-11-02T14:10+08:00",
+  "note": "keepalive: serveo flapped 502 then hung without URL; LHR GET/POST 200 used as API_BASE"
 }
