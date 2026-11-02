@@ -1,14 +1,13 @@
 {
-  "primary": "https://38be388daca7eda0-101-71-52-6.serveousercontent.com",
-  "backup": "https://8985e6799e7d47.lhr.life",
+  "primary": "https://8e38730e325923e1-115-206-250-254.serveousercontent.com",
+  "backup": "https://010ab385336dcf.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "lhr": "https://8985e6799e7d47.lhr.life",
-  "serveo": "https://38be388daca7eda0-101-71-52-6.serveousercontent.com",
+  "lhr": "https://010ab385336dcf.lhr.life",
+  "serveo": "https://8e38730e325923e1-115-206-250-254.serveousercontent.com",
   "serveo_status": "get_post_200",
   "pinggy": "https://kjkrz-101-71-37-102.run.pinggy-free.link",
   "pinggy_alt": "https://iwxqv-101-71-37-102.free.pinggy.net",
-  "pinggy_status": "get_000_skip",
-  "updatedAt": "2026-11-02T16:00+08:00",
-  "note": "keepalive 15:57: tunnels dead after 15:16 ok; restarted serveo+lhr+pinggy; serveo/lhr 200"
+  "updatedAt": "2026-11-02T16:03+08:00",
+  "note": "keepalive 16:03: tunnels flapped after 15:16; reopened twice; serveo primary GET/POST 200"
 }
