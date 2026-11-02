@@ -10,7 +10,7 @@
 - **反馈 API 隧道（备 / localhost.run）**: https://e5b4e87332e9e2.lhr.life  
 - **Pinggy 备**: https://evnbt-101-71-37-38.run.pinggy-free.link  
 - **Pinggy 备2**: https://jgkld-101-71-37-38.free.pinggy.net  
-- 本地： → 
+- 本地：`python3 server.py` → `0.0.0.0:8765`
 
 
 ## 启动
