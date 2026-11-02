@@ -1,15 +1,15 @@
 {
-  "primary": "https://247668101c1ae667-115-206-250-254.serveousercontent.com",
-  "backup": "https://fcc25e931dc36b.lhr.life",
+  "primary": "https://1aa5b4ab9239db3a-101-71-52-6.serveousercontent.com",
+  "backup": "https://0ecb6ba8036ae0.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "serveo": "https://247668101c1ae667-115-206-250-254.serveousercontent.com",
+  "serveo": "https://1aa5b4ab9239db3a-101-71-52-6.serveousercontent.com",
   "serveo_status": "get_post_200",
-  "lhr": "https://fcc25e931dc36b.lhr.life",
+  "lhr": "https://0ecb6ba8036ae0.lhr.life",
   "lhr_status": "get_post_200",
-  "pinggy": null,
-  "pinggy_alt": "https://zqffg-115-206-250-254.free.pinggy.net",
-  "pinggy_status": "timeout_unavailable",
-  "updated_at": "2026-11-02T18:06+08:00",
-  "note": "keepalive 18:06: tunnels dead; restarted serveo/lhr/pinggy; serveo+lhr GET/POST 200; API_BASE pushed 8c7d889"
+  "pinggy": "https://xemuo-101-71-52-6.run.pinggy-free.link",
+  "pinggy_alt": "https://pcbyw-101-71-52-6.free.pinggy.net",
+  "pinggy_status": "get_200",
+  "updated_at": "2026-11-02T18:08+08:00",
+  "note": "keepalive 18:08: tunnels flapped; restarted; serveo+lhr GET/POST 200; push API_BASE"
 }
