@@ -8,8 +8,8 @@
   "lhr": "https://fcc25e931dc36b.lhr.life",
   "lhr_status": "get_post_200",
   "pinggy": null,
-  "pinggy_alt": null,
+  "pinggy_alt": "https://zqffg-115-206-250-254.free.pinggy.net",
   "pinggy_status": "timeout_unavailable",
-  "updated_at": "2026-11-02T18:04+08:00",
-  "note": "keepalive 18:04: tunnels dead; restarted serveo+lhr; GET/POST 200; pinggy timeout"
+  "updated_at": "2026-11-02T18:06+08:00",
+  "note": "keepalive 18:06: tunnels dead; restarted serveo/lhr/pinggy; serveo+lhr GET/POST 200; API_BASE pushed 8c7d889"
 }
