@@ -1,15 +1,15 @@
 {
-  "checked_at": "2026-11-03T13:10+08:00",
+  "checked_at": "2026-11-03T14:03+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "pinggy",
-  "api_base": "https://kihjp-2a09-bac1-19c0--259-4d.run.pinggy-free.link",
-  "api_base_backup": "https://qrhju-2a09-bac1-19c0--259-4d.free.pinggy.net",
+  "api_base": "https://jqmqq-104-28-193-105.run.pinggy-free.link",
+  "api_base_backup": "https://dhiku-104-28-193-105.free.pinggy.net",
   "api_base_lhr": null,
   "api_base_serveo": null,
-  "api_base_pinggy": "https://kihjp-2a09-bac1-19c0--259-4d.run.pinggy-free.link",
-  "api_base_pinggy_alt": "https://qrhju-2a09-bac1-19c0--259-4d.free.pinggy.net",
+  "api_base_pinggy": "https://jqmqq-104-28-193-105.run.pinggy-free.link",
+  "api_base_pinggy_alt": "https://dhiku-104-28-193-105.free.pinggy.net",
   "feedback_get_ok": true,
   "feedback_post_ok": true,
   "actions_taken": [
@@ -18,13 +18,12 @@
     "serveo_connect_failed_x1",
     "lhr_connect_failed_x1",
     "pinggy_restarted_get_post_200",
-    "updated_api_base_index_readme",
-    "will_push"
+    "updated_api_base_index_readme"
   ],
   "down_since": null,
   "tunnel_down_since": null,
-  "outage_approx_from": "2026-11-03T12:56+08:00",
-  "outage_hours_approx": 0.23,
+  "outage_approx_from": "2026-11-03T13:10+08:00",
+  "outage_hours_approx": 0.88,
   "user_notified_for_this_outage": false,
   "notified_user_at": null,
   "need_user_notify": false,
@@ -35,7 +34,7 @@
     "server": 6242,
     "serveo": null,
     "lhr": null,
-    "pinggy": 384938,
+    "pinggy": 387642,
     "alive": {
       "server": true,
       "serveo": false,
@@ -43,7 +42,7 @@
       "pinggy": true
     }
   },
-  "last_ok": "2026-11-03T13:10+08:00",
+  "last_ok": "2026-11-03T14:03+08:00",
   "push_commit": null,
-  "note": "keepalive: old pinggy TLS eof despite ssh; serveo/lhr retry fail; pinggy restarted GET/POST 200; API_BASE switched; outage ~14min <3h so no user notify"
+  "note": "keepalive: old pinggy TLS eof despite ssh; serveo/lhr retry fail; pinggy restarted GET/POST 200; API_BASE switched; outage ~53min <3h so no user notify"
 }
