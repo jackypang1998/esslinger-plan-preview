@@ -1,15 +1,15 @@
 {
-  "primary": "https://26334fb7dc80fd28-101-71-52-6.serveousercontent.com",
-  "backup": "https://fxhyn-101-71-37-102.run.pinggy-free.link",
+  "primary": "https://d0a8b40957e693b0-101-71-52-6.serveousercontent.com",
+  "backup": "https://b65b6f244136ff.lhr.life",
   "providerPrimary": "serveo",
-  "providerBackup": "pinggy",
-  "serveo": "https://26334fb7dc80fd28-101-71-52-6.serveousercontent.com",
+  "providerBackup": "localhost.run",
+  "serveo": "https://d0a8b40957e693b0-101-71-52-6.serveousercontent.com",
   "serveo_status": "get_post_200",
-  "lhr": null,
-  "lhr_status": "connecting_or_failed",
-  "pinggy": null,
-  "pinggy_alt": null,
-  "pinggy_status": "ssl_handshake_timeout",
-  "updated_at": "2026-11-03T19:15+08:00",
-  "note": "keepalive 19:11: tunnels dead after last_ok 19:01; restarted; serveo OK new URL; pinggy/lhr fail this round"
+  "lhr": "https://b65b6f244136ff.lhr.life",
+  "lhr_status": "get_post_200_slow",
+  "pinggy": "https://gjzbp-101-71-52-38.run.pinggy-free.link",
+  "pinggy_alt": "https://fotji-101-71-52-38.free.pinggy.net",
+  "pinggy_status": "get_200",
+  "updated_at": "2026-11-03T20:01+08:00",
+  "note": "keepalive 19:57: tunnels dead after last_ok 19:18; serveo+lhr+pinggy restarted; API_BASE rotated; quiet (<3h)"
 }
