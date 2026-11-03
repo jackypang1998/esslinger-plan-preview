@@ -1,31 +1,30 @@
 {
-  "checked_at": "2026-11-03T18:12+08:00",
+  "checked_at": "2026-11-03T19:16+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "serveo",
-  "api_base": "https://d35abb28ecc69a92-122-233-115-253.serveousercontent.com",
-  "api_base_backup": "https://yrwdm-122-233-115-253.run.pinggy-free.link",
-  "api_base_lhr": "https://fcdca52c93d40f.lhr.life",
-  "api_base_serveo": "https://d35abb28ecc69a92-122-233-115-253.serveousercontent.com",
-  "api_base_pinggy": "https://yrwdm-122-233-115-253.run.pinggy-free.link",
-  "api_base_pinggy_alt": "https://zguyi-122-233-115-253.free.pinggy.net",
+  "api_base": "https://26334fb7dc80fd28-101-71-52-6.serveousercontent.com",
+  "api_base_backup": null,
+  "api_base_lhr": null,
+  "api_base_serveo": "https://26334fb7dc80fd28-101-71-52-6.serveousercontent.com",
+  "api_base_pinggy": null,
+  "api_base_pinggy_alt": null,
   "feedback_get_ok": true,
   "feedback_post_ok": true,
   "actions_taken": [
     "local_server_ok_200",
     "tunnels_dead_restarted",
     "serveo_get_post_200",
-    "pinggy_get_post_200",
-    "pinggy2_get_post_200",
-    "lhr_get_post_200",
+    "pinggy_ssl_handshake_timeout",
+    "lhr_connection_closed",
     "updated_api_base_and_pushed",
     "no_user_notify"
   ],
   "down_since": null,
   "tunnel_down_since": null,
-  "outage_approx_from": "2026-11-03T18:00+08:00",
-  "outage_hours_approx": 0.2,
+  "outage_approx_from": "2026-11-03T19:01+08:00",
+  "outage_hours_approx": 0.25,
   "user_notified_for_this_outage": false,
   "notified_user_at": null,
   "need_user_notify": false,
@@ -34,17 +33,17 @@
   "local_server": "http://127.0.0.1:8765",
   "pids": {
     "server": 6242,
-    "serveo": 453178,
-    "lhr": 453179,
-    "pinggy": 453180,
+    "serveo": 483966,
+    "lhr": 494090,
+    "pinggy": 493591,
     "alive": {
       "server": true,
       "serveo": true,
-      "lhr": true,
-      "pinggy": true
+      "lhr": false,
+      "pinggy": false
     }
   },
-  "last_ok": "2026-11-03T18:12+08:00",
-  "push_commit": "20f5726",
-  "note": "keepalive 18:09: tunnels expired again; restarted; new serveo API_BASE; quiet (<3h)"
+  "last_ok": "2026-11-03T19:16+08:00",
+  "push_commit": null,
+  "note": "keepalive 19:11: tunnels dead after last_ok 19:01; serveo restarted OK new URL; pinggy/lhr failed; quiet (<3h)"
 }
