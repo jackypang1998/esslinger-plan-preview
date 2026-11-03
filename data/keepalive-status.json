@@ -1,15 +1,15 @@
 {
-  "checked_at": "2026-11-03T17:59+08:00",
+  "checked_at": "2026-11-03T18:12+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "serveo",
-  "api_base": "https://e5601cfad25ad8fc-101-71-52-6.serveousercontent.com",
-  "api_base_backup": "https://mowtf-101-71-52-6.run.pinggy-free.link",
-  "api_base_lhr": "https://31878259353cc4.lhr.life",
-  "api_base_serveo": "https://e5601cfad25ad8fc-101-71-52-6.serveousercontent.com",
-  "api_base_pinggy": "https://mowtf-101-71-52-6.run.pinggy-free.link",
-  "api_base_pinggy_alt": "https://rphbq-101-71-52-6.free.pinggy.net",
+  "api_base": "https://d35abb28ecc69a92-122-233-115-253.serveousercontent.com",
+  "api_base_backup": "https://yrwdm-122-233-115-253.run.pinggy-free.link",
+  "api_base_lhr": "https://fcdca52c93d40f.lhr.life",
+  "api_base_serveo": "https://d35abb28ecc69a92-122-233-115-253.serveousercontent.com",
+  "api_base_pinggy": "https://yrwdm-122-233-115-253.run.pinggy-free.link",
+  "api_base_pinggy_alt": "https://zguyi-122-233-115-253.free.pinggy.net",
   "feedback_get_ok": true,
   "feedback_post_ok": true,
   "actions_taken": [
@@ -18,14 +18,14 @@
     "serveo_get_post_200",
     "pinggy_get_post_200",
     "pinggy2_get_post_200",
-    "lhr_get_partial_timeout_post_200",
+    "lhr_get_post_200",
     "updated_api_base_and_pushed",
     "no_user_notify"
   ],
   "down_since": null,
   "tunnel_down_since": null,
-  "outage_approx_from": "2026-11-03T17:06+08:00",
-  "outage_hours_approx": 0.9,
+  "outage_approx_from": "2026-11-03T18:00+08:00",
+  "outage_hours_approx": 0.2,
   "user_notified_for_this_outage": false,
   "notified_user_at": null,
   "need_user_notify": false,
@@ -34,9 +34,9 @@
   "local_server": "http://127.0.0.1:8765",
   "pids": {
     "server": 6242,
-    "serveo": 447606,
-    "lhr": 447608,
-    "pinggy": 447610,
+    "serveo": 453178,
+    "lhr": 453179,
+    "pinggy": 453180,
     "alive": {
       "server": true,
       "serveo": true,
@@ -44,7 +44,7 @@
       "pinggy": true
     }
   },
-  "last_ok": "2026-11-03T17:59+08:00",
+  "last_ok": "2026-11-03T18:12+08:00",
   "push_commit": null,
-  "note": "keepalive 17:57: tunnels expired; restarted; new serveo API_BASE; quiet"
+  "note": "keepalive 18:09: tunnels expired again; restarted; new serveo API_BASE; quiet (<3h)"
 }
