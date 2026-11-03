@@ -1,15 +1,15 @@
 {
-  "primary": "https://fpzqx-122-233-115-253.run.pinggy-free.link",
-  "backup": "https://ibgzs-122-233-115-253.free.pinggy.net",
-  "providerPrimary": "pinggy",
+  "primary": "https://ad642a1230fa2a1e-101-71-52-6.serveousercontent.com",
+  "backup": "https://aqcux-101-71-52-6.run.pinggy-free.link",
+  "providerPrimary": "serveo",
   "providerBackup": "pinggy",
-  "serveo": "https://1675ee29226b9da4-122-233-115-253.serveousercontent.com",
-  "serveo_status": "flaky_502",
-  "lhr": "https://bd6ac3ef7cbc77.lhr.life",
-  "lhr_status": "http_502",
-  "pinggy": "https://fpzqx-122-233-115-253.run.pinggy-free.link",
-  "pinggy_alt": "https://ibgzs-122-233-115-253.free.pinggy.net",
+  "serveo": "https://ad642a1230fa2a1e-101-71-52-6.serveousercontent.com",
+  "serveo_status": "get_post_200",
+  "lhr": "https://e11bee5146665f.lhr.life",
+  "lhr_status": "flaky_502",
+  "pinggy": "https://aqcux-101-71-52-6.run.pinggy-free.link",
+  "pinggy_alt": "https://pobrp-101-71-52-6.free.pinggy.net",
   "pinggy_status": "get_post_200",
-  "updated_at": "2026-11-03T15:10+08:00",
-  "note": "keepalive 15:10: serveo/lhr flaky 502; pinggy GET/POST stable; API_BASE->pinggy"
+  "updated_at": "2026-11-03T15:59+08:00",
+  "note": "keepalive 15:58: all ssh tunnels dead; restarted; serveo+pinggy GET/POST 200; switched API_BASE to serveo"
 }
