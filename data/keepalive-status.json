@@ -18,7 +18,8 @@
     "serveo_connect_failed_x1",
     "lhr_connect_failed_x1",
     "pinggy_restarted_get_post_200",
-    "updated_api_base_index_readme"
+    "updated_api_base_index_readme",
+    "pushed_f6a82c8"
   ],
   "down_since": null,
   "tunnel_down_since": null,
@@ -43,6 +44,6 @@
     }
   },
   "last_ok": "2026-11-03T14:03+08:00",
-  "push_commit": null,
+  "push_commit": "f6a82c8",
   "note": "keepalive: old pinggy TLS eof despite ssh; serveo/lhr retry fail; pinggy restarted GET/POST 200; API_BASE switched; outage ~53min <3h so no user notify"
 }
