@@ -1,15 +1,15 @@
 {
-  "primary": "https://30c7cd7974475709-101-71-52-38.serveousercontent.com",
-  "backup": "https://cdcc17019fa509.lhr.life",
-  "providerPrimary": "serveo",
-  "providerBackup": "localhost.run",
-  "serveo": "https://30c7cd7974475709-101-71-52-38.serveousercontent.com",
-  "serveo_status": "get_post_200",
-  "lhr": "https://cdcc17019fa509.lhr.life",
-  "lhr_status": "get_post_200",
-  "pinggy": "https://wfljj-101-71-37-102.run.pinggy-free.link",
-  "pinggy_alt": "https://sbmfn-101-71-37-102.free.pinggy.net",
+  "primary": "https://wxftq-2a09-bac5-1eed-32a0--50b-4d.run.pinggy-free.link",
+  "backup": "https://mwyat-2a09-bac5-1eed-32a0--50b-4d.free.pinggy.net",
+  "providerPrimary": "pinggy",
+  "providerBackup": "pinggy",
+  "serveo": null,
+  "serveo_status": "connect_failed",
+  "lhr": null,
+  "lhr_status": "connect_failed",
+  "pinggy": "https://wxftq-2a09-bac5-1eed-32a0--50b-4d.run.pinggy-free.link",
+  "pinggy_alt": "https://mwyat-2a09-bac5-1eed-32a0--50b-4d.free.pinggy.net",
   "pinggy_status": "get_post_200",
-  "updated_at": "2026-11-03T11:14+08:00",
-  "note": "keepalive 11:13: tunnels dead after 10:58 ok; restarted; serveo/lhr/pinggy GET/POST 200"
+  "updated_at": "2026-11-03T11:59+08:00",
+  "note": "keepalive 11:55: serveo/lhr dead+retry fail; pinggy restarted GET/POST 200; API_BASE switched to pinggy"
 }
