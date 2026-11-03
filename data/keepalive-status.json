@@ -45,6 +45,6 @@
     }
   },
   "last_ok": "2026-11-03T18:12+08:00",
-  "push_commit": null,
+  "push_commit": "20f5726",
   "note": "keepalive 18:09: tunnels expired again; restarted; new serveo API_BASE; quiet (<3h)"
 }
