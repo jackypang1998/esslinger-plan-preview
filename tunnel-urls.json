@@ -1,15 +1,15 @@
 {
-  "primary": "https://d35abb28ecc69a92-122-233-115-253.serveousercontent.com",
-  "backup": "https://yrwdm-122-233-115-253.run.pinggy-free.link",
+  "primary": "https://ff530cc4700feb5b-101-71-52-6.serveousercontent.com",
+  "backup": "https://fxhyn-101-71-37-102.run.pinggy-free.link",
   "providerPrimary": "serveo",
   "providerBackup": "pinggy",
-  "serveo": "https://d35abb28ecc69a92-122-233-115-253.serveousercontent.com",
+  "serveo": "https://ff530cc4700feb5b-101-71-52-6.serveousercontent.com",
   "serveo_status": "get_post_200",
-  "lhr": "https://fcdca52c93d40f.lhr.life",
-  "lhr_status": "get_post_200_http2_warn",
-  "pinggy": "https://yrwdm-122-233-115-253.run.pinggy-free.link",
-  "pinggy_alt": "https://zguyi-122-233-115-253.free.pinggy.net",
+  "lhr": "https://0f21edb2dc38ca.lhr.life",
+  "lhr_status": "get_post_200",
+  "pinggy": "https://fxhyn-101-71-37-102.run.pinggy-free.link",
+  "pinggy_alt": "https://qmjey-101-71-37-102.free.pinggy.net",
   "pinggy_status": "get_post_200",
-  "updated_at": "2026-11-03T18:12+08:00",
-  "note": "keepalive 18:09: tunnels dead after ~10m; restarted; new serveo API_BASE"
+  "updated_at": "2026-11-03T19:00+08:00",
+  "note": "keepalive 18:58: tunnels dead; restarted; new serveo/pinggy/lhr API_BASE"
 }
