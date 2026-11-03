@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-11-03T13:10+08:00",
+  "local_server_ok": true,
+  "server_ok": true,
+  "tunnel_ok": true,
+  "tunnel_provider": "pinggy",
+  "api_base": "https://kihjp-2a09-bac1-19c0--259-4d.run.pinggy-free.link",
+  "api_base_backup": "https://qrhju-2a09-bac1-19c0--259-4d.free.pinggy.net",
+  "api_base_lhr": null,
+  "api_base_serveo": null,
+  "api_base_pinggy": "https://kihjp-2a09-bac1-19c0--259-4d.run.pinggy-free.link",
+  "api_base_pinggy_alt": "https://qrhju-2a09-bac1-19c0--259-4d.free.pinggy.net",
+  "feedback_get_ok": true,
+  "feedback_post_ok": true,
+  "actions_taken": [
+    "local_server_ok_200",
+    "old_pinggy_tls_dead_despite_ssh",
+    "serveo_connect_failed_x1",
+    "lhr_connect_failed_x1",
+    "pinggy_restarted_get_post_200",
+    "updated_api_base_index_readme",
+    "will_push"
+  ],
+  "down_since": null,
+  "tunnel_down_since": null,
+  "outage_approx_from": "2026-11-03T12:56+08:00",
+  "outage_hours_approx": 0.23,
+  "user_notified_for_this_outage": false,
+  "notified_user_at": null,
+  "need_user_notify": false,
+  "notify_message_zh": null,
+  "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
+  "local_server": "http://127.0.0.1:8765",
+  "pids": {
+    "server": 6242,
+    "serveo": null,
+    "lhr": null,
+    "pinggy": 384938,
+    "alive": {
+      "server": true,
+      "serveo": false,
+      "lhr": false,
+      "pinggy": true
+    }
+  },
+  "last_ok": "2026-11-03T13:10+08:00",
+  "push_commit": null,
+  "note": "keepalive: old pinggy TLS eof despite ssh; serveo/lhr retry fail; pinggy restarted GET/POST 200; API_BASE switched; outage ~14min <3h so no user notify"
+}

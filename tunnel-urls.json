@@ -1,15 +1,15 @@
 {
-  "primary": "https://guzci-2a09-bac1-1980--400-2d.run.pinggy-free.link",
-  "backup": "https://ravxz-2a09-bac1-1980--400-2d.free.pinggy.net",
+  "primary": "https://kihjp-2a09-bac1-19c0--259-4d.run.pinggy-free.link",
+  "backup": "https://qrhju-2a09-bac1-19c0--259-4d.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "serveo": null,
   "serveo_status": "connect_failed",
   "lhr": null,
   "lhr_status": "connect_failed",
-  "pinggy": "https://guzci-2a09-bac1-1980--400-2d.run.pinggy-free.link",
-  "pinggy_alt": "https://ravxz-2a09-bac1-1980--400-2d.free.pinggy.net",
+  "pinggy": "https://kihjp-2a09-bac1-19c0--259-4d.run.pinggy-free.link",
+  "pinggy_alt": "https://qrhju-2a09-bac1-19c0--259-4d.free.pinggy.net",
   "pinggy_status": "get_post_200",
-  "updated_at": "2026-11-03T12:56+08:00",
-  "note": "keepalive 12:55: old pinggy TLS eof despite ssh; serveo/lhr connect_failed; pinggy restarted GET/POST 200; API_BASE switched"
+  "updated_at": "2026-11-03T13:10+08:00",
+  "note": "keepalive 13:10: old pinggy TLS eof despite ssh; serveo/lhr connect_failed; pinggy restarted GET/POST 200; API_BASE switched"
 }
