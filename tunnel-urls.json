@@ -1,15 +1,15 @@
 {
-  "primary": "https://ad642a1230fa2a1e-101-71-52-6.serveousercontent.com",
-  "backup": "https://aqcux-101-71-52-6.run.pinggy-free.link",
+  "primary": "https://5e1556a02092a7a5-101-71-52-38.serveousercontent.com",
+  "backup": "https://pmvaw-101-71-52-38.run.pinggy-free.link",
   "providerPrimary": "serveo",
   "providerBackup": "pinggy",
-  "serveo": "https://ad642a1230fa2a1e-101-71-52-6.serveousercontent.com",
+  "serveo": "https://5e1556a02092a7a5-101-71-52-38.serveousercontent.com",
   "serveo_status": "get_post_200",
-  "lhr": "https://e11bee5146665f.lhr.life",
-  "lhr_status": "flaky_502",
-  "pinggy": "https://aqcux-101-71-52-6.run.pinggy-free.link",
-  "pinggy_alt": "https://pobrp-101-71-52-6.free.pinggy.net",
+  "lhr": "https://3f460e3489758c.lhr.life",
+  "lhr_status": "get_200_post_200",
+  "pinggy": "https://pmvaw-101-71-52-38.run.pinggy-free.link",
+  "pinggy_alt": "https://opqea-101-71-52-38.free.pinggy.net",
   "pinggy_status": "get_post_200",
-  "updated_at": "2026-11-03T15:59+08:00",
-  "note": "keepalive 15:58: all ssh tunnels dead; restarted; serveo+pinggy GET/POST 200; switched API_BASE to serveo"
+  "updated_at": "2026-11-03T17:02+08:00",
+  "note": "keepalive restarted all tunnels after expire; new API_BASE"
 }
