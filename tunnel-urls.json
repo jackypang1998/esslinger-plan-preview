@@ -1,15 +1,15 @@
 {
-  "primary": "https://e5f7a1d27a8e987a-101-71-52-6.serveousercontent.com",
-  "backup": "https://77a732f20391c8.lhr.life",
+  "primary": "https://d85bd3b488768ecd-101-71-52-38.serveousercontent.com",
+  "backup": "https://d08ceaf536159b.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "serveo": "https://e5f7a1d27a8e987a-101-71-52-6.serveousercontent.com",
+  "serveo": "https://d85bd3b488768ecd-101-71-52-38.serveousercontent.com",
   "serveo_status": "get_post_200",
-  "lhr": "https://77a732f20391c8.lhr.life",
-  "lhr_status": "get_partial_timeout_post_200",
-  "pinggy": "https://vmlnt-101-71-37-102.run.pinggy-free.link",
-  "pinggy_alt": "https://iobyu-101-71-37-102.free.pinggy.net",
+  "lhr": "https://d08ceaf536159b.lhr.life",
+  "lhr_status": "get_post_200",
+  "pinggy": "https://foemx-101-71-37-38.run.pinggy-free.link",
+  "pinggy_alt": "https://rxsyh-101-71-37-38.free.pinggy.net",
   "pinggy_status": "get_post_200",
-  "updated_at": "2026-11-03T09:12+08:00",
-  "note": "keepalive 09:12: tunnels dead overnight; restarted; serveo primary OK"
+  "updated_at": "2026-11-03T10:05+08:00",
+  "note": "keepalive 10:05: tunnels dead after 09:12 run; restarted; all GET/POST 200"
 }
