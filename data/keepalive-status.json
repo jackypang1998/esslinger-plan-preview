@@ -44,6 +44,6 @@
     }
   },
   "last_ok": "2026-11-03T20:01+08:00",
-  "push_commit": null,
+  "push_commit": "7540680",
   "note": "keepalive 19:57: tunnels dead after last_ok 19:18; serveo primary OK (new URL); lhr backup slow OK; quiet (<3h)"
 }
