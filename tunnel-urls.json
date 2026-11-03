@@ -1,15 +1,15 @@
 {
-  "primary": "https://wxftq-2a09-bac5-1eed-32a0--50b-4d.run.pinggy-free.link",
-  "backup": "https://mwyat-2a09-bac5-1eed-32a0--50b-4d.free.pinggy.net",
+  "primary": "https://wjfzi-2a09-bac5-1eec-188c--272-32.run.pinggy-free.link",
+  "backup": "https://aetjr-2a09-bac5-1eec-188c--272-32.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy",
   "serveo": null,
   "serveo_status": "connect_failed",
   "lhr": null,
   "lhr_status": "connect_failed",
-  "pinggy": "https://wxftq-2a09-bac5-1eed-32a0--50b-4d.run.pinggy-free.link",
-  "pinggy_alt": "https://mwyat-2a09-bac5-1eed-32a0--50b-4d.free.pinggy.net",
+  "pinggy": "https://wjfzi-2a09-bac5-1eec-188c--272-32.run.pinggy-free.link",
+  "pinggy_alt": "https://aetjr-2a09-bac5-1eec-188c--272-32.free.pinggy.net",
   "pinggy_status": "get_post_200",
-  "updated_at": "2026-11-03T11:59+08:00",
-  "note": "keepalive 11:55: serveo/lhr dead+retry fail; pinggy restarted GET/POST 200; API_BASE switched to pinggy"
+  "updated_at": "2026-11-03T12:15+08:00",
+  "note": "keepalive 12:13: old pinggy TLS dead; serveo/lhr retry fail; pinggy restarted GET/POST 200; API_BASE switched"
 }
