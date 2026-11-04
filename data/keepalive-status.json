@@ -1,41 +1,25 @@
 {
-  "checked_at": "2026-11-04T08:07+08:00",
+  "checked_at": "2026-11-04T08:08+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "pinggy",
-  "api_base": "https://xqzun-2a09-bac5-1ee9-1678--23d-bb.run.pinggy-free.link",
-  "api_base_backup": "https://mhmvn-2a09-bac5-1ee9-1678--23d-bb.free.pinggy.net",
-  "api_base_lhr": null,
-  "api_base_serveo": null,
-  "api_base_pinggy": "https://xqzun-2a09-bac5-1ee9-1678--23d-bb.run.pinggy-free.link",
-  "api_base_pinggy_alt": "https://mhmvn-2a09-bac5-1ee9-1678--23d-bb.free.pinggy.net",
+  "api_base": "https://uzzqb-101-71-37-102.run.pinggy-free.link",
+  "api_base_backup": "https://ssyfw-101-71-37-102.free.pinggy.net",
   "feedback_get_ok": true,
-  "feedback_post_ok": null,
+  "feedback_post_ok": true,
   "actions_taken": [
-    "local_server_still_up",
-    "serveo_retry_failed_http400",
-    "lhr_retry_failed",
-    "cloudflared_quic_blocked",
-    "pinggy_restarted_get_200",
-    "no_user_notify",
-    "updated_api_base_and_pushed"
+    "pinggy_restarted_again",
+    "api_base_rotated",
+    "no_user_notify"
   ],
-  "down_since": "2026-11-03T20:08+08:00",
-  "tunnel_down_since": "2026-11-03T20:08+08:00",
-  "outage_approx_from": "2026-11-03T20:08+08:00",
-  "outage_hours_approx": 12.0,
-  "user_notified_for_this_outage": false,
-  "notified_user_at": null,
   "need_user_notify": false,
-  "notify_message_zh": null,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "pids": {
     "server": 6242,
-    "pinggy": 803187
+    "pinggy": 804588
   },
-  "last_ok": "2026-11-04T08:07+08:00",
-  "push_commit": "d6471a5",
-  "note": "overnight tunnels died ~20:08; morning restore pinggy-only; free tunnel ~60m; quiet no user notify"
+  "last_ok": "2026-11-04T08:08+08:00",
+  "note": "quiet morning restore; pinggy free unstable"
 }
