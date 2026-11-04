@@ -12,7 +12,7 @@
     "serveo_dead_pingora400",
     "lhr_dead",
     "pinggy_reopened_get_post_200",
-    "pages_api_base_pending_push",
+    "pages_api_base_pushed_ba7e310",
     "no_user_notify"
   ],
   "need_user_notify": false,
@@ -20,7 +20,7 @@
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
   "last_ok": "2026-11-04T09:13+08:00",
-  "push_commit": null,
+  "push_commit": "ba7e310",
   "tunnel_down_since": null,
   "notified_for_down_since": null,
   "note": "keepalive 09:10 routine: serveo/lhr fail; free pinggy restored (~60m)"
