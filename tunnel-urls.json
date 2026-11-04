@@ -1,15 +1,15 @@
 {
-  "primary": "https://dzmax-2a09-bac5-1eeb-1032--19d-168.run.pinggy-free.link",
-  "backup": "https://ranpi-2a09-bac5-1eeb-1032--19d-168.free.pinggy.net",
+  "primary": "https://zkwjv-2a09-bac1-19e0--160-10a.run.pinggy-free.link",
+  "backup": "https://bygih-2a09-bac1-19e0--160-10a.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy_alt",
   "serveo": null,
   "serveo_status": "dead_connection_closed",
   "lhr": null,
   "lhr_status": "dead_connection_closed",
-  "pinggy": "https://dzmax-2a09-bac5-1eeb-1032--19d-168.run.pinggy-free.link",
-  "pinggy_alt": "https://ranpi-2a09-bac5-1eeb-1032--19d-168.free.pinggy.net",
+  "pinggy": "https://zkwjv-2a09-bac1-19e0--160-10a.run.pinggy-free.link",
+  "pinggy_alt": "https://bygih-2a09-bac1-19e0--160-10a.free.pinggy.net",
   "pinggy_status": "get_post_200",
-  "updated_at": "2026-11-04T12:58+08:00",
-  "note": "keepalive 12:57: free pinggy expired (~60m); reopened; serveo/lhr still fail"
+  "updated_at": "2026-11-04T12:59+08:00",
+  "note": "keepalive 12:57-12:59: free pinggy expired then first reopen died; reopened again; serveo/lhr fail"
 }
