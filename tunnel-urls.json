@@ -1,15 +1,15 @@
 {
-  "primary": "https://zbtrl-2a09-bac5-1ee9-a0--10-502.run.pinggy-free.link",
-  "backup": "https://dmpnv-2a09-bac5-1ee9-a0--10-502.free.pinggy.net",
+  "primary": "https://tdvzk-104-28-225-106.run.pinggy-free.link",
+  "backup": "https://vgwff-104-28-225-106.free.pinggy.net",
   "providerPrimary": "pinggy",
   "providerBackup": "pinggy_alt",
   "serveo": null,
-  "serveo_status": "dead_pingora400",
+  "serveo_status": "dead_connection_closed",
   "lhr": null,
-  "lhr_status": "dead",
-  "pinggy": "https://zbtrl-2a09-bac5-1ee9-a0--10-502.run.pinggy-free.link",
-  "pinggy_alt": "https://dmpnv-2a09-bac5-1ee9-a0--10-502.free.pinggy.net",
+  "lhr_status": "dead_connection_closed",
+  "pinggy": "https://tdvzk-104-28-225-106.run.pinggy-free.link",
+  "pinggy_alt": "https://vgwff-104-28-225-106.free.pinggy.net",
   "pinggy_status": "get_post_200",
-  "updated_at": "2026-11-04T10:04+08:00",
-  "note": "keepalive 10:02: serveo/lhr fail; free pinggy reopened after expiry (~60m)"
+  "updated_at": "2026-11-04T11:00+08:00",
+  "note": "keepalive 10:59: free pinggy expired/TLS dead; reopened; serveo/lhr still fail"
 }
