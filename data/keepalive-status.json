@@ -1,20 +1,20 @@
 {
-  "checked_at": "2026-11-04T12:03+08:00",
+  "checked_at": "2026-11-04T12:58+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "pinggy",
-  "api_base": "https://gotgo-104-28-193-103.run.pinggy-free.link",
-  "api_base_alt": "https://rnzqd-104-28-193-103.free.pinggy.net",
+  "api_base": "https://dzmax-2a09-bac5-1eeb-1032--19d-168.run.pinggy-free.link",
+  "api_base_alt": "https://ranpi-2a09-bac5-1eeb-1032--19d-168.free.pinggy.net",
   "feedback_get_ok": true,
   "feedback_post_ok": true,
   "actions_taken": [
     "local_server_ok",
-    "old_pinggy_tls_dead_after_60m",
-    "serveo_reopen_failed_connection_closed",
-    "lhr_reopen_failed_connection_closed",
-    "pinggy_reopened_get_post_200",
-    "updated_api_base_readme_index",
+    "serveo_failed_connection_closed",
+    "lhr_failed_connection_closed",
+    "pinggy_reopened_after_free_expiry",
+    "feedback_get_post_200",
+    "updated_API_BASE_index_readme",
     "push_pending",
     "no_user_notify"
   ],
@@ -22,9 +22,9 @@
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
-  "last_ok": "2026-11-04T12:03+08:00",
+  "last_ok": "2026-11-04T12:58+08:00",
   "push_commit": null,
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive routine 12:01 CST: free pinggy expired (~60m); reopened; serveo/lhr still dead; Pages API_BASE rotated silently"
+  "note": "keepalive routine 12:57 CST: free pinggy expired; serveo/lhr fail; reopened pinggy; GET/POST 200; no notify (<3h)"
 }
