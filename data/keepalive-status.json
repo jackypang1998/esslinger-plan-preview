@@ -18,8 +18,8 @@
     "lhr_retry_failed",
     "cloudflared_quic_blocked",
     "pinggy_restarted_get_200",
-    "updated_api_base_pending_push",
-    "no_user_notify"
+    "no_user_notify",
+    "updated_api_base_and_pushed"
   ],
   "down_since": "2026-11-03T20:08+08:00",
   "tunnel_down_since": "2026-11-03T20:08+08:00",
@@ -36,6 +36,6 @@
     "pinggy": 803187
   },
   "last_ok": "2026-11-04T08:07+08:00",
-  "push_commit": null,
+  "push_commit": "d6471a5",
   "note": "overnight tunnels died ~20:08; morning restore pinggy-only; free tunnel ~60m; quiet no user notify"
 }
