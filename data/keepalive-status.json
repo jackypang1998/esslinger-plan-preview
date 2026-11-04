@@ -1,26 +1,27 @@
 {
-  "checked_at": "2026-11-04T08:08+08:00",
+  "checked_at": "2026-11-04T09:13+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "pinggy",
-  "api_base": "https://uzzqb-101-71-37-102.run.pinggy-free.link",
-  "api_base_backup": "https://ssyfw-101-71-37-102.free.pinggy.net",
+  "api_base": "https://xkltk-104-28-225-106.run.pinggy-free.link",
   "feedback_get_ok": true,
   "feedback_post_ok": true,
   "actions_taken": [
-    "pinggy_restarted_again",
-    "api_base_rotated",
+    "local_server_ok",
+    "serveo_dead_pingora400",
+    "lhr_dead",
+    "pinggy_reopened_get_post_200",
+    "pages_api_base_pending_push",
     "no_user_notify"
   ],
   "need_user_notify": false,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
-  "pids": {
-    "server": 6242,
-    "pinggy": 804588
-  },
-  "last_ok": "2026-11-04T08:08+08:00",
-  "note": "quiet morning restore; pinggy free unstable",
-  "push_commit": "dda1229"
+  "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
+  "last_ok": "2026-11-04T09:13+08:00",
+  "push_commit": null,
+  "tunnel_down_since": null,
+  "notified_for_down_since": null,
+  "note": "keepalive 09:10 routine: serveo/lhr fail; free pinggy restored (~60m)"
 }
