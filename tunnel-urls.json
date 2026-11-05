@@ -1,14 +1,14 @@
 {
-  "primary": "https://21d184baf1a2dfa5-101-71-52-38.serveousercontent.com",
-  "backup": "https://aef589178c3ee5.lhr.life",
+  "primary": "https://92ebf9eb8e32d810-101-71-52-6.serveousercontent.com",
+  "backup": "https://eb80d3132d5cc0.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "serveo": "https://21d184baf1a2dfa5-101-71-52-38.serveousercontent.com",
+  "serveo": "https://92ebf9eb8e32d810-101-71-52-6.serveousercontent.com",
   "serveo_status": "get_post_200",
-  "lhr": "https://aef589178c3ee5.lhr.life",
-  "lhr_status": "get_post_200",
+  "lhr": "https://eb80d3132d5cc0.lhr.life",
+  "lhr_status": "get_post_200_slow",
   "pinggy": null,
   "pinggy_status": "skipped",
-  "updated_at": "2026-11-05T10:59+08:00",
-  "note": "keepalive 10:58 CST: tunnels dead (pids gone, 502); serveo+lhr reopened get/post 200; API_BASE rotated"
+  "updated_at": "2026-11-05T12:00+08:00",
+  "note": "keepalive 11:59 CST: tunnels dead (pids gone, 502); serveo+lhr reopened; API_BASE rotated"
 }
