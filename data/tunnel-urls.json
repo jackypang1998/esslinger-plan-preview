@@ -1,13 +1,13 @@
 {
-  "primary": "https://d6770a4cc68a2d.lhr.life",
-  "backup": null,
-  "providerPrimary": "localhost.run",
-  "providerBackup": "serveo",
-  "serveo": null,
-  "serveo_status": "no_url",
+  "primary": "https://021d2d1c476ff4f1-101-71-52-38.serveousercontent.com",
+  "backup": "https://d6770a4cc68a2d.lhr.life",
+  "providerPrimary": "serveo",
+  "providerBackup": "localhost.run",
+  "serveo": "https://021d2d1c476ff4f1-101-71-52-38.serveousercontent.com",
+  "serveo_status": "get_post_200",
   "lhr": "https://d6770a4cc68a2d.lhr.life",
-  "lhr_status": "get_post_200",
+  "lhr_status": "process_dead_after_ok",
   "pinggy": null,
-  "updated_at": "2026-11-05T15:19+08:00",
-  "note": "keepalive 15:18 CST: serveo slow/no url; lhr get+post 200; API_BASE->localhost.run"
+  "updated_at": "2026-11-05T15:20+08:00",
+  "note": "keepalive 15:20 CST: rotated API_BASE to fresh serveo after lhr died"
 }
