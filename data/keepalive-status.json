@@ -19,16 +19,16 @@
     "serveo_get_post_200",
     "lhr_get_partial_timeout_post_200",
     "updated_api_base_index_readme",
-    "push_pending",
-    "no_user_notify"
+    "no_user_notify",
+    "pushed_b471c55"
   ],
   "need_user_notify": false,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
   "last_ok": "2026-11-05T19:58+08:00",
-  "push_commit": null,
+  "push_commit": "b471c55",
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive 2026-11-05T19:58+08:00: reopened serveo+lhr after expire; API_BASE rotated; quiet"
+  "note": "keepalive 2026-11-05T19:58+08:00: reopened serveo+lhr; API_BASE rotated; pushed b471c55; quiet"
 }
