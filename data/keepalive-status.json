@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-05T18:28+08:00",
+  "checked_at": "2026-11-05T18:30+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
@@ -14,18 +14,18 @@
     "local_server_still_200",
     "reopened_serveo_lhr_via_corkscrew_proxy",
     "serveo_get_post_200",
-    "lhr_get_post_200_then_flaky",
+    "lhr_get_post_200",
     "api_base_rotated",
-    "no_user_notify",
-    "pushed_pages_9ff154f"
+    "pushed_pages_4c65ceb",
+    "no_user_notify"
   ],
   "need_user_notify": false,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
-  "last_ok": "2026-11-05T18:28+08:00",
-  "push_commit": "9ff154f",
+  "last_ok": "2026-11-05T18:30+08:00",
+  "push_commit": "4c65ceb",
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive 2026-11-05T18:28+08:00: local 200; tunnels dead on entry; reopened serveo(+lhr); quiet (<3h); pushed 9ff154f"
+  "note": "keepalive 2026-11-05T18:30+08:00: local 200; tunnels dead on entry; reopened serveo+lhr; quiet (<3h); pushed 4c65ceb"
 }
