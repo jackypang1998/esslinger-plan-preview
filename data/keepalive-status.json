@@ -17,7 +17,7 @@
     "serveo_get_post_200",
     "lhr_get_post_200",
     "api_base_rotated",
-    "pages_push_pending",
+    "pages_push_144d959",
     "no_user_notify"
   ],
   "need_user_notify": false,
@@ -25,7 +25,7 @@
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
   "last_ok": "2026-11-05T09:09+08:00",
-  "push_commit": null,
+  "push_commit": "144d959",
   "tunnel_down_since": null,
   "notified_for_down_since": null,
   "note": "keepalive 09:06-09:09 CST: local ok; tunnels expired overnight after last_ok 2026-11-04T20:11 (~13h); serveo+lhr reopened get/post 200; API_BASE rotated; no user notify (recovered before notify gate)"
