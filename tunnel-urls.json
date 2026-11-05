@@ -1,13 +1,13 @@
 {
   "primary": "https://021d2d1c476ff4f1-101-71-52-38.serveousercontent.com",
-  "backup": "https://d6770a4cc68a2d.lhr.life",
+  "backup": "https://4635cae14d209d.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
   "serveo": "https://021d2d1c476ff4f1-101-71-52-38.serveousercontent.com",
-  "serveo_status": "get_post_200",
-  "lhr": "https://d6770a4cc68a2d.lhr.life",
-  "lhr_status": "process_dead_after_ok",
+  "serveo_status": "get_post_200_alive",
+  "lhr": "https://4635cae14d209d.lhr.life",
+  "lhr_status": "reopened",
   "pinggy": null,
-  "updated_at": "2026-11-05T15:20+08:00",
-  "note": "keepalive 15:20 CST: rotated API_BASE to fresh serveo after lhr died"
+  "updated_at": "2026-11-05T15:21+08:00",
+  "note": "keepalive 15:20 CST: serveo primary live; lhr reopened as backup; Pages 750e8ee"
 }
