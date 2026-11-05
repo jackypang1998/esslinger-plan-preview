@@ -1,14 +1,14 @@
 {
-  "primary": "https://d93fbdb5e81852fb-101-71-52-6.serveousercontent.com",
-  "backup": null,
+  "primary": "https://4d164496e9cb2ab8-101-71-52-38.serveousercontent.com",
+  "backup": "https://250df4370b737a.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "serveo": "https://d93fbdb5e81852fb-101-71-52-6.serveousercontent.com",
+  "serveo": "https://4d164496e9cb2ab8-101-71-52-38.serveousercontent.com",
   "serveo_status": "get_post_200",
-  "lhr": null,
-  "lhr_status": "reopen_failed",
+  "lhr": "https://250df4370b737a.lhr.life",
+  "lhr_status": "get_post_200",
   "pinggy": null,
   "pinggy_status": "skipped",
-  "updated_at": "2026-11-04T20:11+08:00",
-  "note": "keepalive 20:10 CST: serveo primary get/post 200; lhr ssh hung without URL"
+  "updated_at": "2026-11-05T09:09+08:00",
+  "note": "keepalive 09:06-09:09 CST: tunnels dead overnight (last_ok 11-04 20:11); serveo+lhr reopened get/post 200; API_BASE rotated"
 }
