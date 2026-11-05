@@ -6,9 +6,9 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
   「提交全部反馈」打到下方 API 隧道。
-- **反馈 API 隧道（主 / serveo）**: https://92ebf9eb8e32d810-101-71-52-6.serveousercontent.com    
-- **反馈 API 隧道（备 / localhost.run）**: https://eb80d3132d5cc0.lhr.life    
-- **Pinggy**: （本次保活重开超时，暂不可用；主/备已通）    
+- **反馈 API 隧道（主 / serveo）**: https://a702eeb11213ca94-101-71-52-6.serveousercontent.com    
+- **反馈 API 隧道（备 / localhost.run）**: https://e644e288557db4.lhr.life    
+- **Pinggy**: https://uxycf-101-71-37-102.free.pinggy.net  
 - 本地：`python3 server.py` → `0.0.0.0:8765`
 
 
@@ -38,7 +38,7 @@ setsid ssh -n \
   -o StrictHostKeyChecking=accept-new \
   -o UserKnownHostsFile=/tmp/kh_serveo \
   -o ServerAliveInterval=30 \
-  -o ProxyCommand="corkscrew 127.0.0.1 8791 %h %p" \
+  -o ProxyCommand="python3 -u /workspace/preview-host/corkscrew_proxy.py 127.0.0.1 8791 %h %p" \
   -R 80:127.0.0.1:8765 serveo.net \
   > /workspace/preview-host/tunnel.log 2>&1 &
 
@@ -48,7 +48,7 @@ setsid ssh -n \
   -o UserKnownHostsFile=/tmp/kh_lhr \
   -o ServerAliveInterval=30 \
   -o ProxyCommand="corkscrew 127.0.0.1 8791 %h %p" \
-  -R 80:127.0.0.1:8765 nokey@localhost.run \
+  -R 80:127.0.0.1:8765 nokey@ssh.localhost.run \
   > /workspace/preview-host/tunnel-lhr.log 2>&1 &
 ```
 
