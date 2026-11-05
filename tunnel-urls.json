@@ -1,15 +1,13 @@
 {
-  "primary": "https://7cd534edc8b51b56-101-71-52-38.serveousercontent.com",
-  "backup": "https://df93c3cd35e4fe.lhr.life",
-  "providerPrimary": "serveo",
-  "providerBackup": "localhost.run",
-  "serveo": "https://7cd534edc8b51b56-101-71-52-38.serveousercontent.com",
-  "serveo_status": "get_post_200",
-  "lhr": "https://df93c3cd35e4fe.lhr.life",
-  "lhr_status": "get_200_post_200_get_slow",
-  "pinggy": "https://hixps-101-71-37-102.free.pinggy.net",
-  "pinggy_alt": "https://eoxel-101-71-37-102.run.pinggy-free.link",
-  "pinggy_status": "get_200",
-  "updated_at": "2026-11-05T14:58+08:00",
-  "note": "keepalive 14:58 CST: tunnels dead; reopened serveo+lhr+pinggy; API_BASE rotated"
+  "primary": "https://d6770a4cc68a2d.lhr.life",
+  "backup": null,
+  "providerPrimary": "localhost.run",
+  "providerBackup": "serveo",
+  "serveo": null,
+  "serveo_status": "no_url",
+  "lhr": "https://d6770a4cc68a2d.lhr.life",
+  "lhr_status": "get_post_200",
+  "pinggy": null,
+  "updated_at": "2026-11-05T15:19+08:00",
+  "note": "keepalive 15:18 CST: serveo slow/no url; lhr get+post 200; API_BASE->localhost.run"
 }
