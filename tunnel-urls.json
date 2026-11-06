@@ -1,13 +1,13 @@
 {
-  "primary": "https://62afbe334ad41aab-101-71-52-6.serveousercontent.com",
+  "primary": "https://bbf0293e60d8f03d-101-71-52-6.serveousercontent.com",
   "backup": null,
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "serveo": "https://62afbe334ad41aab-101-71-52-6.serveousercontent.com",
+  "serveo": "https://bbf0293e60d8f03d-101-71-52-6.serveousercontent.com",
   "serveo_status": "alive_get_post_200",
   "lhr": null,
   "lhr_status": "reopen_failed_connection_closed",
   "pinggy": null,
-  "updated_at": "2026-11-06T13:01+08:00",
-  "note": "serveo rotated after drop; lhr reopen failed"
+  "updated_at": "2026-11-06T13:13+08:00",
+  "note": "serveo rotated after drop; lhr reopen failed (corkscrew binary missing / connection closed)"
 }
