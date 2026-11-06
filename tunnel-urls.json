@@ -1,14 +1,14 @@
 {
-  "primary": "https://3a0de49c7fe4e3fd-115-193-118-226.serveousercontent.com",
+  "primary": "https://177fa5eadd51026e-115-193-118-226.serveousercontent.com",
   "backup": null,
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "serveo": "https://3a0de49c7fe4e3fd-115-193-118-226.serveousercontent.com",
-  "serveo_status": "alive_get_post_200",
+  "serveo": "https://177fa5eadd51026e-115-193-118-226.serveousercontent.com",
+  "serveo_status": "alive_get_post_200_after_reopen2",
   "lhr": null,
   "lhr_status": "reopen_failed_connection_closed",
   "pinggy": "https://wvwfi-115-193-118-226.free.pinggy.net",
-  "pinggy_status": "alive_get_post_200",
-  "updated_at": "2026-11-06T16:06+08:00",
-  "note": "serveo rotated after expire/kick; lhr failed (corkscrew binary missing + connection closed); pinggy up as alt"
+  "pinggy_status": "rechecked",
+  "updated_at": "2026-11-06T16:21+08:00",
+  "note": "serveo expired mid-run; reopened to 177fa5eadd51026e; lhr failed; pinggy alt"
 }
