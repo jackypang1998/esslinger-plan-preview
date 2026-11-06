@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-11-06T10:07+08:00",
+  "checked_at": "2026-11-06T10:16+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "serveo",
-  "api_base": "https://b4f607a1242e9084-101-71-52-6.serveousercontent.com",
-  "api_base_alt": "https://d660dfef38b2c5.lhr.life",
+  "api_base": "https://98645c9541f82df9-101-71-52-6.serveousercontent.com",
+  "api_base_alt": "https://8ebeba7b5aa7b2.lhr.life",
   "api_base_pinggy": null,
   "feedback_get_ok": true,
   "feedback_post_ok": true,
@@ -19,16 +19,15 @@
     "serveo_get_post_200",
     "lhr_get_post_200",
     "updated_api_base_index_readme",
-    "pushed_f879840",
     "no_user_notify"
   ],
   "need_user_notify": false,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
-  "last_ok": "2026-11-06T10:07+08:00",
-  "push_commit": "f879840",
+  "last_ok": "2026-11-06T10:16+08:00",
+  "push_commit": null,
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive 2026-11-06T10:07+08:00: reopened serveo+lhr; API_BASE rotated; pushed f879840; quiet"
+  "note": "keepalive 2026-11-06T10:16+08:00: reopened serveo+lhr; API_BASE rotated; quiet"
 }
