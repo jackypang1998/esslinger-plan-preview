@@ -19,7 +19,7 @@
     "api_base_updated_a03ffd74",
     "lhr_reopen_failed_connection_closed",
     "pinggy_reopen_failed_connection_closed",
-    "pushed_pages_pending",
+    "pushed_pages_409955e",
     "no_user_notify"
   ],
   "need_user_notify": false,
@@ -27,8 +27,8 @@
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
   "last_ok": "2026-11-06T18:20+08:00",
-  "push_commit": null,
+  "push_commit": "409955e",
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive 2026-11-06T18:20+08:00: serveo reopened a03ffd74 GET/POST 200; quiet ok"
+  "note": "keepalive 2026-11-06T18:20+08:00: serveo reopened a03ffd74 GET/POST 200; pages 409955e; quiet ok"
 }
