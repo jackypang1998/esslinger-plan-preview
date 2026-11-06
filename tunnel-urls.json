@@ -1,13 +1,13 @@
 {
-  "primary": "https://0b00c4d021282d76-101-71-52-6.serveousercontent.com",
-  "backup": "https://e9b8a739568303.lhr.life",
+  "primary": "https://b4f607a1242e9084-101-71-52-6.serveousercontent.com",
+  "backup": "https://d660dfef38b2c5.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "serveo": "https://0b00c4d021282d76-101-71-52-6.serveousercontent.com",
+  "serveo": "https://b4f607a1242e9084-101-71-52-6.serveousercontent.com",
   "serveo_status": "reopened_get_post_200",
-  "lhr": "https://e9b8a739568303.lhr.life",
+  "lhr": "https://d660dfef38b2c5.lhr.life",
   "lhr_status": "reopened_get_post_200",
   "pinggy": null,
-  "updated_at": "2026-11-06T09:14+08:00",
+  "updated_at": "2026-11-06T10:07+08:00",
   "note": "keepalive reopen serveo+lhr via corkscrew_proxy; API_BASE rotated"
 }
