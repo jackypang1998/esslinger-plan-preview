@@ -1,14 +1,14 @@
 {
-  "primary": "https://eddd6aab7333fa6b-101-71-52-6.serveousercontent.com",
+  "primary": "https://7e95545471f58f9a-101-71-52-6.serveousercontent.com",
   "backup": null,
   "providerPrimary": "serveo",
-  "providerBackup": "localhost.run",
-  "serveo": "https://eddd6aab7333fa6b-101-71-52-6.serveousercontent.com",
-  "serveo_status": "alive_get_post_200_after_second_reopen",
+  "providerBackup": null,
+  "serveo": "https://7e95545471f58f9a-101-71-52-6.serveousercontent.com",
+  "serveo_status": "alive_get_post_200",
   "lhr": null,
   "lhr_status": "reopen_failed_connection_closed",
   "pinggy": null,
-  "pinggy_status": "not_attempted_this_run",
-  "updated_at": "2026-11-06T19:16+08:00",
-  "note": "first reopen ecb5e320 kicked; second reopen eddd6aab with -tt; GET/POST 200"
+  "pinggy_status": "reopen_failed_no_url",
+  "updated_at": "2026-11-06T20:01+08:00",
+  "note": "serveo primary 7e955454 GET/POST 200; lhr+pinggy reopen failed"
 }
