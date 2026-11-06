@@ -18,14 +18,15 @@
     "pinggy_reopen_in_progress",
     "api_base_updated_index_readme",
     "down_about_33m_then_midrun_expire_recovered",
-    "no_user_notify_lt_3h"
+    "no_user_notify_lt_3h",
+    "pushed_6bc801f"
   ],
   "need_user_notify": false,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
   "last_ok": "2026-11-06T16:22+08:00",
-  "push_commit": null,
+  "push_commit": "6bc801f",
   "tunnel_down_since": null,
   "notified_for_down_since": null,
   "note": "keepalive 2026-11-06T16:22+08:00: serveo reopened after mid-run expire to 177fa5eadd51026e; GET/POST 200; quiet"
