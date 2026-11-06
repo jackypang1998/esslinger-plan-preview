@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-11-06T18:12+08:00",
+  "checked_at": "2026-11-06T18:20+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "serveo",
-  "api_base": "https://49561d6c1bff243b-115-193-118-226.serveousercontent.com",
+  "api_base": "https://a03ffd7496d022de-115-193-118-226.serveousercontent.com",
   "api_base_alt": null,
   "api_base_pinggy": null,
   "feedback_get_ok": true,
@@ -12,21 +12,23 @@
   "actions_taken": [
     "local_server_ok_200",
     "serveo_was_dead_port_forward_expired",
-    "reopened_serveo_corkscrew_proxy_pid_526296",
+    "reopened_serveo_corkscrew_proxy_pid_530827",
+    "first_reopen_49561d6c_kicked_quickly",
     "serveo_get_200",
     "serveo_post_200",
-    "api_base_updated_49561d6c",
-    "lhr_reopen_failed_corkscrew_missing_then_connection_closed",
-    "pushed_pages_8ab0dc1",
+    "api_base_updated_a03ffd74",
+    "lhr_reopen_failed_connection_closed",
+    "pinggy_reopen_failed_connection_closed",
+    "pushed_pages_pending",
     "no_user_notify"
   ],
   "need_user_notify": false,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
-  "last_ok": "2026-11-06T18:12+08:00",
-  "push_commit": "8ab0dc1",
+  "last_ok": "2026-11-06T18:20+08:00",
+  "push_commit": null,
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive 2026-11-06T18:12+08:00: serveo reopened 49561d6c GET/POST 200; pages 8ab0dc1; quiet ok"
+  "note": "keepalive 2026-11-06T18:20+08:00: serveo reopened a03ffd74 GET/POST 200; quiet ok"
 }
