@@ -1,14 +1,14 @@
 {
-  "primary": "https://7e95545471f58f9a-101-71-52-6.serveousercontent.com",
+  "primary": "https://24a4c12299dad625-101-71-52-6.serveousercontent.com",
   "backup": null,
   "providerPrimary": "serveo",
   "providerBackup": null,
-  "serveo": "https://7e95545471f58f9a-101-71-52-6.serveousercontent.com",
+  "serveo": "https://24a4c12299dad625-101-71-52-6.serveousercontent.com",
   "serveo_status": "alive_get_post_200",
   "lhr": null,
   "lhr_status": "reopen_failed_connection_closed",
   "pinggy": null,
   "pinggy_status": "reopen_failed_no_url",
-  "updated_at": "2026-11-06T20:01+08:00",
-  "note": "serveo primary 7e955454 GET/POST 200; lhr+pinggy reopen failed"
+  "updated_at": "2026-11-06T20:06+08:00",
+  "note": "serveo primary 24a4c122; lhr+pinggy fail"
 }
