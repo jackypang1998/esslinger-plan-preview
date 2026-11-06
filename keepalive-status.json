@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-11-06T17:02+08:00",
+  "local_server_ok": true,
+  "server_ok": true,
+  "tunnel_ok": true,
+  "tunnel_provider": "serveo",
+  "api_base": "https://f861b65f0632817a-101-71-52-38.serveousercontent.com",
+  "api_base_alt": null,
+  "api_base_pinggy": null,
+  "feedback_get_ok": true,
+  "feedback_post_ok": true,
+  "actions_taken": [
+    "local_server_ok_200",
+    "serveo_pid_dead_external_502",
+    "serveo_reopen_attempts_4_success_f861b65f",
+    "serveo_get_post_200",
+    "lhr_reopen_failed_connection_closed",
+    "pinggy_reopen_failed_ssl_eof",
+    "api_base_updated_index_readme",
+    "down_about_38m_then_recovered",
+    "no_user_notify_lt_3h",
+    "pushed_fc88d1b"
+  ],
+  "need_user_notify": false,
+  "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
+  "local_server": "http://127.0.0.1:8765",
+  "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
+  "last_ok": "2026-11-06T17:02+08:00",
+  "push_commit": "fc88d1b",
+  "tunnel_down_since": null,
+  "notified_for_down_since": null,
+  "note": "keepalive 2026-11-06T17:02+08:00: serveo primary f861b65f GET/POST 200 after kick; lhr/pinggy failed; quiet lt3h"
+}
