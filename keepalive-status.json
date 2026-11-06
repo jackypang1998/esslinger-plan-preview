@@ -17,7 +17,7 @@
     "serveo_post_200",
     "api_base_updated_49561d6c",
     "lhr_reopen_failed_corkscrew_missing_then_connection_closed",
-    "pushed_pages_pending",
+    "pushed_pages_8ab0dc1",
     "no_user_notify"
   ],
   "need_user_notify": false,
@@ -25,8 +25,8 @@
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
   "last_ok": "2026-11-06T18:12+08:00",
-  "push_commit": null,
+  "push_commit": "8ab0dc1",
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive 2026-11-06T18:12+08:00: serveo reopened 49561d6c GET/POST 200; quiet ok"
+  "note": "keepalive 2026-11-06T18:12+08:00: serveo reopened 49561d6c GET/POST 200; pages 8ab0dc1; quiet ok"
 }
