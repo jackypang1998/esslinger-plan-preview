@@ -16,15 +16,16 @@
     "serveo_post_200",
     "api_base_updated_ecb5e320",
     "lhr_reopen_failed_connection_closed",
-    "no_user_notify"
+    "no_user_notify",
+    "pushed_pages_ff31a68"
   ],
   "need_user_notify": false,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
   "last_ok": "2026-11-06T19:10+08:00",
-  "push_commit": null,
+  "push_commit": "ff31a68",
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive 2026-11-06T19:10+08:00: local+serveo restarted; pages pending push; quiet ok"
+  "note": "keepalive 2026-11-06T19:10+08:00: local+serveo restarted ecb5e320 GET/POST 200; pages ff31a68; quiet ok"
 }
