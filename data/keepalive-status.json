@@ -20,14 +20,15 @@
     "ext_post_200_saved",
     "api_base_updated_index_readme",
     "down_about_33m_lt_3h",
-    "no_user_notify"
+    "no_user_notify",
+    "pushed_2c87458"
   ],
   "need_user_notify": false,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
   "last_ok": "2026-11-06T16:07+08:00",
-  "push_commit": null,
+  "push_commit": "2c87458",
   "tunnel_down_since": null,
   "notified_for_down_since": null,
   "note": "keepalive 2026-11-06T16:07+08:00: serveo rotated after expire; GET/POST 200; pinggy alt up; quiet"
