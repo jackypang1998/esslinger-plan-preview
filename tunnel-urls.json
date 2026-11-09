@@ -1,16 +1,16 @@
 {
-  "primary": "https://57b9336be695636e-101-71-52-38.serveousercontent.com",
-  "backup": "https://8ea1a8aa7f1eb3.lhr.life",
+  "primary": "https://b293d540d99ea924-115-193-117-215.serveousercontent.com",
+  "backup": "https://60f4f601655257.lhr.life",
   "providerPrimary": "serveo",
   "providerBackup": "localhost.run",
-  "serveo": "https://57b9336be695636e-101-71-52-38.serveousercontent.com",
+  "serveo": "https://b293d540d99ea924-115-193-117-215.serveousercontent.com",
   "serveo_status": "reopened_get_post_200",
-  "lhr": "https://8ea1a8aa7f1eb3.lhr.life",
+  "lhr": "https://60f4f601655257.lhr.life",
   "lhr_status": "reopened_get_post_200",
-  "lhr_previous": "https://0d0501f36e64b1.lhr.life",
-  "serveo_previous": "https://2e8b9f3988560557-101-71-52-38.serveousercontent.com",
+  "lhr_previous": "https://8ea1a8aa7f1eb3.lhr.life",
+  "serveo_previous": "https://57b9336be695636e-101-71-52-38.serveousercontent.com",
   "pinggy": null,
   "pinggy_status": "not_reopened_this_run",
-  "updated_at": "2026-11-09T13:11+08:00",
-  "note": "serveo primary rotated 2e8b9f3988560557→57b9336be695636e; lhr backup rotated 0d0501f36e64b1→8ea1a8aa7f1eb3; both GET/POST 200"
+  "updated_at": "2026-11-09T13:58+08:00",
+  "note": "serveo primary rotated 57b9336be695636e→b293d540d99ea924; lhr backup rotated 8ea1a8aa7f1eb3→60f4f601655257; both GET/POST 200"
 }
