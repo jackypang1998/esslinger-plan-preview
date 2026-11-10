@@ -1,25 +1,23 @@
 {
-  "checked_at": "2026-11-09T20:07+08:00",
+  "checked_at": "2026-11-10T09:14+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "serveo",
-  "api_base": "https://b527a96e0330dad1-101-71-52-38.serveousercontent.com",
-  "api_base_alt": "https://f8cfbcf7411ac4.lhr.life",
+  "api_base": "https://caa727b05ed5eb7b-101-71-52-38.serveousercontent.com",
+  "api_base_alt": "https://2e4d2fc25af74d.lhr.life",
   "api_base_pinggy": null,
   "feedback_get_ok": true,
   "feedback_post_ok": true,
   "actions_taken": [
     "local_server_ok_pid_8444",
-    "serveo_dead_reopened_pid_518096_then_502",
-    "serveo_reopened_again_pid_520636",
-    "lhr_dead_reopened_pid_518099",
+    "serveo_dead_reopened_pid_634447",
+    "lhr_dead_reopened_pid_634449",
     "serveo_get_200",
     "serveo_post_200",
-    "serveo_get2_200",
     "lhr_get_200",
     "lhr_post_200",
-    "api_base_rotated_to_b527a96e0330dad1",
+    "api_base_rotated_to_caa727b05ed5eb7b",
     "push_pending",
     "no_user_notify"
   ],
@@ -27,9 +25,9 @@
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
-  "last_ok": "2026-11-09T20:07+08:00",
+  "last_ok": "2026-11-10T09:14+08:00",
   "push_commit": null,
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive 2026-11-09T20:07+08:00: local ok pid 8444; serveo https://b527a96e0330dad1-101-71-52-38.serveousercontent.com GET/POST/GET 200 (pid 520636, replaced 502 url f1912e25dd7336f3); lhr https://f8cfbcf7411ac4.lhr.life GET/POST 200 (pid 518099); API_BASE rotated to b527a96e0330dad1, push pending; last_ok refreshed; quiet"
+  "note": "keepalive 2026-11-10T09:14+08:00: local ok pid 8444; serveo https://caa727b05ed5eb7b-101-71-52-38.serveousercontent.com GET/POST 200 (pid 634447, replaced 502 url b527a96e0330dad1); lhr https://2e4d2fc25af74d.lhr.life GET/POST 200 (pid 634449, replaced 502 url 56f4c087c020bb); API_BASE rotated to caa727b05ed5eb7b; last_ok refreshed; restored this run so no 3h notify; quiet"
 }
