@@ -1,23 +1,23 @@
 {
-  "checked_at": "2026-11-10T09:58+08:00",
+  "checked_at": "2026-11-10T15:16+08:00",
   "local_server_ok": true,
   "server_ok": true,
   "tunnel_ok": true,
   "tunnel_provider": "serveo",
-  "api_base": "https://aac0b4003d60ca7d-101-71-52-38.serveousercontent.com",
-  "api_base_alt": "https://b8c3997dacda74.lhr.life",
+  "api_base": "https://644e149108f67294-36-22-252-2.serveousercontent.com",
+  "api_base_alt": "https://0b7563af248506.lhr.life",
   "api_base_pinggy": null,
   "feedback_get_ok": true,
   "feedback_post_ok": true,
   "actions_taken": [
     "local_server_ok_pid_8444",
-    "serveo_dead_reopened_pid_656248",
-    "lhr_dead_reopened_pid_656249",
+    "serveo_reopened_pid_722061",
+    "lhr_reopened_pid_722063",
     "serveo_get_200",
     "serveo_post_200",
     "lhr_get_200",
     "lhr_post_200",
-    "api_base_rotated_to_aac0b4003d60ca7d",
+    "api_base_rotated_to_644e149108f67294",
     "push_pending",
     "no_user_notify"
   ],
@@ -25,9 +25,9 @@
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
   "local_server": "http://127.0.0.1:8765",
   "fallback": "Pages Markdown / Issue / chat paste when tunnel dead",
-  "last_ok": "2026-11-10T09:58+08:00",
+  "last_ok": "2026-11-10T15:16+08:00",
   "push_commit": null,
   "tunnel_down_since": null,
   "notified_for_down_since": null,
-  "note": "keepalive 2026-11-10T09:58+08:00: local ok pid 8444; serveo https://aac0b4003d60ca7d-101-71-52-38.serveousercontent.com GET/POST 200 (pid 656248, replaced 502 url caa727b05ed5eb7b); lhr https://b8c3997dacda74.lhr.life GET/POST 200 (pid 656249, replaced 502 url 2e4d2fc25af74d); API_BASE rotated to aac0b4003d60ca7d, push pending; last_ok refreshed; restored this run so no 3h notify; quiet"
+  "note": "keepalive 2026-11-10T15:16+08:00: local ok pid 8444; serveo https://644e149108f67294-36-22-252-2.serveousercontent.com GET/POST 200 (pid 722061); lhr https://0b7563af248506.lhr.life GET/POST 200 (pid 722063); API_BASE rotated to 644e149108f67294, push pending; last_ok refreshed; restored this run so no 3h notify; quiet"
 }
