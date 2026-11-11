@@ -6,8 +6,8 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
   「提交全部反馈」打到下方 API 隧道。
-- **反馈 API 隧道（主 / serveo）**: https://da7fccfa28fa1b97-101-71-52-6.serveousercontent.com      
-- **反馈 API 隧道（备 / localhost.run）**: https://3621b70fcdfbb0.lhr.life    
+- **反馈 API 隧道（主 / serveo）**: https://789f22447bfba76e-101-71-52-6.serveousercontent.com      
+- **反馈 API 隧道（备 / localhost.run）**: https://8a6dafd38fa5af.lhr.life    
 - **Pinggy**: https://oolvy-101-71-37-38.free.pinggy.net  
 - 本地：`python3 server.py` → `0.0.0.0:8765`
 
