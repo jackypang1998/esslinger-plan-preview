@@ -1,21 +1,8 @@
 {
-  "primary": "https://74eba0bec109e4ac-36-27-26-122.serveousercontent.com",
-  "backup": "https://c6edcb0038772a.app.lhr.life",
-  "providerPrimary": "serveo",
-  "providerBackup": "localhost.run",
-  "serveo": "https://74eba0bec109e4ac-36-27-26-122.serveousercontent.com",
-  "serveo_status": "alive_corkscrew_proxy_ssh_190688_proxy_190690_get_root_4of4_502_get_api_mostly_200_occasional_502_options_204_post_2of2_200_current_api_base",
-  "lhr": "https://c6edcb0038772a.app.lhr.life",
-  "lhr_status": "alive_corkscrew_proxy_ssh_190828_proxy_190830_rotated_from_9812e074ba5b6b_to_c6edcb0038772a_get_api_5of5_200_options_204_post_200_backup",
-  "pinggy": "https://nkiio-104-28-225-101.free.pinggy.net",
-  "pinggy_alt": "https://lfxjp-104-28-225-101.run.pinggy-free.link",
-  "pinggy_status": "dead_logger_exit_2026-11-17T09:20:16+08:00",
-  "updated_at": "2026-11-17T14:09:15+08:00",
-  "serveo_previous": "https://4d11da9b4d790239-101-71-52-38.serveousercontent.com",
-  "lhr_previous": "https://f2a3e35edb4176.app.lhr.life",
-  "lhr_previous_stable": "https://7338f92426d09a.app.lhr.life",
-  "lhr_previous_this_run": "https://9812e074ba5b6b.app.lhr.life",
-  "pinggy_previous": "https://nkiio-104-28-225-101.free.pinggy.net",
-  "pinggy_previous_alt": "https://lfxjp-104-28-225-101.run.pinggy-free.link",
-  "note": "keepalive 2026-11-17T14:09:15+08:00: local server ok (python3 server.py pid 5764, GET / and /api/feedback 200). Previous API_BASE localhost.run https://f2a3e35edb4176.app.lhr.life (ssh 184527 / proxy 184530) and backup Serveo https://4d11da9b4d790239-101-71-52-38.serveousercontent.com (ssh 183447 / proxy 183450) both died around 2026-11-17T13:28:50+08:00 (log mtime; last_ok 2026-11-17T13:22:47+08:00). Serveo: Port forwarding expired / Connection to serveo.net closed by remote host / Broken pipe. LHR: Connection to ssh.localhost.run closed by remote host / Broken pipe. Public GET of both old URLs returned 502 (LHR body: no tunnel). Corkscrew 127.0.0.1:8791 still listens and returns CONNECT 200 (corkscrew binary not installed; used corkscrew_proxy.py). Reopened Serveo 14:00:29 ssh 190688 / proxy 190690, https://74eba0bec109e4ac-36-27-26-122.serveousercontent.com. GET / 4/4 502 (empty); GET /api/feedback first wave 4/4 200; OPTIONS 2/2 204; POST 2/2 200; confirm GET 2/2 200; later confirm after restore 2/2 502 then burst 4/5 200 (1x 502) — flaky on GET / and occasional API 502, but API mostly up. Backup localhost.run started 14:01:35 ssh 190828 / proxy 190830, first URL https://9812e074ba5b6b.app.lhr.life; GET / 3 timeout-partial-200 + 1x 502 no tunnel; GET /api 1 timeout-partial + 1x 502 + 2/4 200; OPTIONS/POST initially 204/200; then URL rotated in-session to https://c6edcb0038772a.app.lhr.life (old URL 502 no tunnel). New LHR GET /api 5/5 200, OPTIONS 204, POST 200, confirm GET 200. API_BASE set to Serveo (preferred; same public URL stayed stable this run; LHR already rotated once). Probe submissions 20261117-140501, 20261117-140505, 20261117-140526, 20261117-140529, 20261117-140828 removed; latest.json restored (sha b1be3893…, remaining 184). No user notify: disconnect started ~2026-11-17T13:28:50+08:00 and was reopened (under 3h)."
+  "updated_at": "2026-11-19T11:02:00+08:00",
+  "provider": "pinggy",
+  "api_base": "https://sxfnz-2a09-bac1-19e0--5dd-2d.free.pinggy.net",
+  "alt": "https://zlosx-2a09-bac1-19e0--5dd-2d.run.pinggy-free.link",
+  "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
+  "local": "http://127.0.0.1:8765"
 }
