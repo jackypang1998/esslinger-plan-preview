@@ -1,1 +1,8 @@
-{"serveo": "https://03578902632c7fdd-36-27-118-216.serveousercontent.com", "lhr": "https://b72f084af26051.app.lhr.life", "updated": "2026-11-19T15:06:17+08:00"}
+{
+  "serveo": "https://03578902632c7fdd-36-27-118-216.serveousercontent.com",
+  "lhr": "https://b72f084af26051.app.lhr.life",
+  "updated": "2026-11-19T15:06:17+08:00",
+  "api_base": "https://84b07631604c1d3d-36-27-118-216.serveousercontent.com",
+  "provider": "serveo",
+  "updated_at": "2026-11-19T18:03:30+08:00"
+}
