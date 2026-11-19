@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19T18:14:31+08:00",
+  "checked_at": "2026-11-19T18:16:27+08:00",
   "ok": true,
   "local_ok": true,
   "tunnel_ok": true,
@@ -10,16 +10,16 @@
     "get_api": "200"
   },
   "provider": "serveo",
-  "api_base": "https://fb3e3c3c7dc1483f-36-27-118-216.serveousercontent.com",
+  "api_base": "https://6cb0b37551ef2e75-36-27-118-216.serveousercontent.com",
   "fallback": null,
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
-  "last_ok": "2026-11-19T18:14:31+08:00",
+  "last_ok": "2026-11-19T18:16:27+08:00",
   "tunnel_down_since": null,
   "notified_for_down_since": "2026-11-18T20:07:44+08:00",
   "need_user_notify": false,
-  "serveo_pid": "757956",
-  "serveo_ssh_pid": "757956",
-  "serveo_proxy_pid": "757958",
+  "serveo_pid": "759162",
+  "serveo_ssh_pid": "759162",
+  "serveo_proxy_pid": "759166",
   "serveo_pid_alive": true,
   "serveo_has_public_url": true,
   "lhr_pid": null,
@@ -38,17 +38,18 @@
   "public_post_api": "200",
   "public_options_api": "204",
   "public_fallback_get": null,
-  "push_commit": "e7ad754bc41fecc260b9bfb79d08da0d08b1524e",
-  "push_commit_api_base": "e7ad754bc41fecc260b9bfb79d08da0d08b1524e",
+  "push_commit": null,
+  "push_commit_api_base": null,
   "events": [
     "local_server_ok_pid_5764",
     "serveo_was_dead_old_url_502",
-    "serveo_reopened_ssh_757956_proxy_757958",
-    "new_api_base_https://fb3e3c3c7dc1483f-36-27-118-216.serveousercontent.com",
+    "serveo_first_reopen_died_quickly_fb3e3c",
+    "serveo_reopened_ssh_759162_proxy_759166",
+    "new_api_base_https://6cb0b37551ef2e75-36-27-118-216.serveousercontent.com",
+    "lhr_backup_failed_connection_closed",
     "public_GET_200_OPTIONS_204_POST_200",
     "latest.json_restored_pre_probe",
-    "need_user_notify_false_recovered_under_3h",
-    "pages_pushed_e7ad754"
+    "need_user_notify_false_recovered_under_3h"
   ],
-  "note": "keepalive 2026-11-19T18:14:31+08:00: recovered. Local server pid 5764; Serveo https://fb3e3c3c7dc1483f-36-27-118-216.serveousercontent.com (ssh 757956); public GET 200 OPTIONS 204 POST 200; down since prior last_ok 2026-11-19T18:04:24+08:00 (<3h); pushed e7ad754; need_user_notify false."
+  "note": "keepalive 2026-11-19T18:16:27+08:00: recovered. Local server pid 5764; Serveo https://6cb0b37551ef2e75-36-27-118-216.serveousercontent.com (ssh 759162); public GET 200 OPTIONS 204 POST 200; LHR backup failed; down since prior last_ok 2026-11-19T18:04:24+08:00 (<3h); need_user_notify false."
 }
