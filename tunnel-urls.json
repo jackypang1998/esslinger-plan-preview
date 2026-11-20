@@ -1,6 +1,6 @@
 {
-  "api_base": "https://gwmof-2a09-bac5-264e-166e--23c-11.run.pinggy-free.link",
-  "fallback": "https://hghfs-2a09-bac5-264e-166e--23c-11.free.pinggy.net",
   "provider": "pinggy",
-  "updated_at": "2026-11-20T16:03:00+08:00"
+  "api_base": "https://mrkgu-104-28-193-105.run.pinggy-free.link",
+  "fallback": "https://slope-104-28-193-105.free.pinggy.net",
+  "updated_at": "2026-11-20T16:14:30+08:00"
 }
