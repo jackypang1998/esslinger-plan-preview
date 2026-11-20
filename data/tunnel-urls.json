@@ -1,7 +1,6 @@
 {
-  "serveo": null,
-  "lhr": null,
-  "pinggy": "https://kwmea-2a09-bac5-2649-1791--259-7f.run.pinggy-free.link",
-  "pinggy_fallback": "https://vrnql-2a09-bac5-2649-1791--259-7f.free.pinggy.net",
-  "updated": "2026-11-20T11:18:44+08:00"
+  "api_base": "https://gwmof-2a09-bac5-264e-166e--23c-11.run.pinggy-free.link",
+  "fallback": "https://hghfs-2a09-bac5-264e-166e--23c-11.free.pinggy.net",
+  "provider": "pinggy",
+  "updated_at": "2026-11-20T16:03:00+08:00"
 }
