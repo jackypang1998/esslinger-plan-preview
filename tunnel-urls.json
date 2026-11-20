@@ -1,7 +1,6 @@
 {
-  "updated_at": "2026-11-20T12:59:36+08:00",
   "provider": "pinggy",
-  "pinggy": "https://tyepk-104-28-193-105.run.pinggy-free.link",
-  "pinggy_fallback": "https://ucgbx-104-28-193-105.free.pinggy.net",
-  "pages": "https://jackypang1998.github.io/esslinger-plan-preview/"
+  "api_base": "https://zswno-2a09-bac1-19e0-fba8--23c-11.run.pinggy-free.link",
+  "fallback": "https://xwkte-2a09-bac1-19e0-fba8--23c-11.free.pinggy.net",
+  "updated_at": "2026-11-20T13:12:17+08:00"
 }
