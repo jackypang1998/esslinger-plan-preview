@@ -1,12 +1,6 @@
 {
+  "api_base": "https://rqcap-2a09-bac5-264b-1032--19d-5.run.pinggy-free.link",
+  "fallback": "https://zbicv-2a09-bac5-264b-1032--19d-5.free.pinggy.net",
   "provider": "pinggy",
-  "api_base": "https://uwwnx-2a09-bac1-1980-fba8--401-39.run.pinggy-free.link",
-  "fallback": "https://lcowi-2a09-bac1-1980-fba8--401-39.free.pinggy.net",
-  "urls": [
-    "https://uwwnx-2a09-bac1-1980-fba8--401-39.run.pinggy-free.link",
-    "https://lcowi-2a09-bac1-1980-fba8--401-39.free.pinggy.net"
-  ],
-  "updated_at": "2026-11-20T16:56:40+08:00",
-  "ssh_pid": 940812,
-  "proxy_pid": 940814
+  "updated_at": "2026-11-20T17:07:23+08:00"
 }
