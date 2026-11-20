@@ -39,7 +39,7 @@
   "public_options_api": "204",
   "public_fallback_get": "200",
   "push_commit": null,
-  "push_commit_api_base": null,
+  "push_commit_api_base": "9a244c884ae376ca7853b15291c4dc5dbd030c99",
   "events": [
     "local_server_ok_pid_5764",
     "prior_pinggy_dead",
@@ -51,7 +51,8 @@
     "latest.json_restored_pre_probe",
     "prior_last_ok_2026-11-20T11:18:44+08:00",
     "outage_under_3h_no_notify",
-    "need_user_notify_false"
+    "need_user_notify_false",
+    "pages_pushed_9a244c8"
   ],
-  "note": "keepalive 2026-11-20T12:02:19+08:00: prior Pinggy dead; Serveo closed immediate; LHR fail (corkscrew missing / closed); recovered via Pinggy. Local server pid 5764; Pinggy https://wmtml-2a09-bac1-19a0-fba8--5de-26.run.pinggy-free.link (ssh 892896 proxy 892897); public GET 200 OPTIONS 204 POST 200; prior last_ok 2026-11-20T11:18:44+08:00; need_user_notify false."
+  "note": "keepalive 2026-11-20T12:02:19+08:00: prior Pinggy dead; Serveo closed immediate; LHR fail (corkscrew missing / closed); recovered via Pinggy. Local server pid 5764; Pinggy https://wmtml-2a09-bac1-19a0-fba8--5de-26.run.pinggy-free.link (ssh 892896 proxy 892897); public GET 200 OPTIONS 204 POST 200; prior last_ok 2026-11-20T11:18:44+08:00; need_user_notify false; pushed 9a244c8."
 }
