@@ -1,7 +1,7 @@
 {
-  "provider": "pinggy",
-  "api_base": "https://togea-36-27-118-216.run.pinggy-free.link",
-  "fallback": "https://vvdfq-36-27-118-216.free.pinggy.net",
-  "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
-  "updated_at": "2026-11-20T11:05:34+08:00"
+  "serveo": null,
+  "lhr": null,
+  "pinggy": "https://pdcdw-36-27-118-216.run.pinggy-free.link",
+  "pinggy_fallback": "https://kacef-36-27-118-216.free.pinggy.net",
+  "updated": "2026-11-20T11:16:05+08:00"
 }
