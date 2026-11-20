@@ -38,7 +38,7 @@
   "public_post_api": "200",
   "public_options_api": "204",
   "public_fallback_get": "200",
-  "push_commit": "cc856c68d2f8c527901fcb525854e61d5e1fd1e4",
+  "push_commit": "790d850a6a2264b55790da8b4520ad3ee6d495e5",
   "push_commit_api_base": "6063dfce082f63ead223e03a0d361ea8a07c695d",
   "events": [
     "local_server_ok_pid_5764",
@@ -53,7 +53,8 @@
     "outage_under_3h_no_notify",
     "need_user_notify_false",
     "pages_pushed_6063dfc",
-    "pages_status_synced_cc856c6"
+    "pages_status_synced_cc856c6",
+    "pages_status_synced_790d850"
   ],
-  "note": "keepalive 2026-11-20T11:16:46+08:00: prior Pinggy dead; Serveo briefly forwarded then 502; LHR 502; recovered via Pinggy. Local server pid 5764; Pinggy https://pdcdw-36-27-118-216.run.pinggy-free.link (ssh 888036); public GET 200 OPTIONS 204 POST 200; prior last_ok 2026-11-20T11:05:34+08:00; need_user_notify false; pushed 6063dfc; status synced cc856c6."
+  "note": "keepalive 2026-11-20T11:16:46+08:00: prior Pinggy dead; Serveo briefly forwarded then 502; LHR 502; recovered via Pinggy. Local server pid 5764; Pinggy https://pdcdw-36-27-118-216.run.pinggy-free.link (ssh 888036 proxy 888036); public GET 200 OPTIONS 204 POST 200; prior last_ok 2026-11-20T11:05:34+08:00; need_user_notify false; pushed 6063dfc; status synced 790d850."
 }
