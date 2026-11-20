@@ -38,8 +38,8 @@
   "public_post_api": "200",
   "public_options_api": "204",
   "public_fallback_get": "200",
-  "push_commit": null,
-  "push_commit_api_base": null,
+  "push_commit": "e098b4e5a0df0f2eeaac1f145a3a546dfe1a0bc0",
+  "push_commit_api_base": "e098b4e5a0df0f2eeaac1f145a3a546dfe1a0bc0",
   "events": [
     "local_server_ok_pid_5764",
     "prior_pinggy_public_tls_dead_ssh_zombie_killed",
@@ -48,11 +48,11 @@
     "pinggy_reopened_ssh_955235",
     "public_GET_200_OPTIONS_204_POST_200",
     "fallback_GET_200",
-    "api_base_pending_push",
     "probe_submission_removed_latest_restored",
     "prior_last_ok_2026-11-20T18:06:23+08:00",
-    "need_user_notify_false"
+    "need_user_notify_false",
+    "api_base_updated_and_pushed_e098b4e"
   ],
-  "note": "keepalive 2026-11-20T18:13:54+08:00: restored. Local server pid 5764; Pinggy https://rzcjk-2a09-bac5-264c-3ae6--5de-51.run.pinggy-free.link (ssh 955235); public GET 200 OPTIONS 204 POST 200; fallback GET 200; API_BASE push pending; serveo/lhr unavailable; need_user_notify false.",
+  "note": "keepalive 2026-11-20T18:13:54+08:00: restored. Local server pid 5764; Pinggy https://rzcjk-2a09-bac5-264c-3ae6--5de-51.run.pinggy-free.link (ssh 955235); public GET 200 OPTIONS 204 POST 200; fallback GET 200; API_BASE pushed e098b4e; serveo/lhr unavailable; need_user_notify false.",
   "latest_sha256": "46ed747bfa15688eaa84ef83309f341f0f48682b9952c5805966762e1c1f6cf5"
 }
