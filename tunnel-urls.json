@@ -1,7 +1,7 @@
 {
-  "serveo": null,
-  "lhr": null,
-  "pinggy": "https://kwmea-2a09-bac5-2649-1791--259-7f.run.pinggy-free.link",
-  "pinggy_fallback": "https://vrnql-2a09-bac5-2649-1791--259-7f.free.pinggy.net",
-  "updated": "2026-11-20T11:18:44+08:00"
+  "updated_at": "2026-11-20T12:02:19+08:00",
+  "provider": "pinggy",
+  "pinggy": "https://wmtml-2a09-bac1-19a0-fba8--5de-26.run.pinggy-free.link",
+  "pinggy_fallback": "https://hxgui-2a09-bac1-19a0-fba8--5de-26.free.pinggy.net",
+  "pages": "https://jackypang1998.github.io/esslinger-plan-preview/"
 }
