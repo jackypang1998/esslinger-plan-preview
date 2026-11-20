@@ -38,8 +38,8 @@
   "public_post_api": "200",
   "public_options_api": "204",
   "public_fallback_get": "200",
-  "push_commit": null,
-  "push_commit_api_base": null,
+  "push_commit": "3c04a505f020fed03279bd7b08eb9ca15dc31d9a",
+  "push_commit_api_base": "3c04a505f020fed03279bd7b08eb9ca15dc31d9a",
   "events": [
     "local_server_ok_pid_5764",
     "prior_pinggy_dead_remote_closed",
@@ -51,7 +51,8 @@
     "latest.json_restored_pre_probe",
     "prior_last_ok_2026-11-20T10:09:53+08:00",
     "outage_under_3h_no_notify",
-    "need_user_notify_false"
+    "need_user_notify_false",
+    "pages_pushed_3c04a50"
   ],
-  "note": "keepalive 2026-11-20T11:05:34+08:00: prior Pinggy closed by remote; Serveo/LHR briefly up then closed; recovered via Pinggy. Local server pid 5764; Pinggy https://togea-36-27-118-216.run.pinggy-free.link (ssh 884674); public GET 200 OPTIONS 204 POST 200; prior last_ok 2026-11-20T10:09:53+08:00; need_user_notify false."
+  "note": "keepalive 2026-11-20T11:05:34+08:00: prior Pinggy closed by remote; Serveo/LHR briefly up then closed; recovered via Pinggy. Local server pid 5764; Pinggy https://togea-36-27-118-216.run.pinggy-free.link (ssh 884674); public GET 200 OPTIONS 204 POST 200; prior last_ok 2026-11-20T10:09:53+08:00; need_user_notify false. pushed 3c04a50."
 }
