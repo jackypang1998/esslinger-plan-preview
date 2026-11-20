@@ -1,6 +1,12 @@
 {
   "provider": "pinggy",
-  "api_base": "https://mrkgu-104-28-193-105.run.pinggy-free.link",
-  "fallback": "https://slope-104-28-193-105.free.pinggy.net",
-  "updated_at": "2026-11-20T16:14:30+08:00"
+  "api_base": "https://uwwnx-2a09-bac1-1980-fba8--401-39.run.pinggy-free.link",
+  "fallback": "https://lcowi-2a09-bac1-1980-fba8--401-39.free.pinggy.net",
+  "urls": [
+    "https://uwwnx-2a09-bac1-1980-fba8--401-39.run.pinggy-free.link",
+    "https://lcowi-2a09-bac1-1980-fba8--401-39.free.pinggy.net"
+  ],
+  "updated_at": "2026-11-20T16:56:40+08:00",
+  "ssh_pid": 940812,
+  "proxy_pid": 940814
 }
