@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T14:10:49+08:00",
+  "checked_at": "2026-11-23T15:04:42+08:00",
   "ok": true,
   "tunnel_ok": true,
   "local_server": {
@@ -9,10 +9,10 @@
     "get_api": "200"
   },
   "provider": "pinggy",
-  "api_base": "https://wgfjs-2a09-bac1-1980--402-41.run.pinggy-free.link",
-  "fallback": "https://zsxfk-2a09-bac1-1980--402-41.free.pinggy.net",
+  "api_base": "https://ewbam-2a09-bac1-19a0--50a-d.run.pinggy-free.link",
+  "fallback": "https://dbwhq-2a09-bac1-19a0--50a-d.free.pinggy.net",
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
-  "last_ok": "2026-11-23T14:10:49+08:00",
+  "last_ok": "2026-11-23T15:04:42+08:00",
   "tunnel_down_since": null,
   "notified_for_down_since": "2026-11-18T20:07:44+08:00",
   "need_user_notify": false,
@@ -27,9 +27,9 @@
   "lhr_proxy_wrap_pid": null,
   "lhr_pid_alive": false,
   "lhr_has_public_url": false,
-  "pinggy_pid": "1294890",
-  "pinggy_ssh_pid": "1294890",
-  "pinggy_proxy_pid": "1294890",
+  "pinggy_pid": "1306355",
+  "pinggy_ssh_pid": "1306355",
+  "pinggy_proxy_pid": "1306355",
   "pinggy_logger_pid": null,
   "pinggy_pid_alive": true,
   "pinggy_has_public_url": true,
@@ -38,20 +38,19 @@
   "public_post_api": "200",
   "public_options_api": "204",
   "public_fallback_get": "200",
-  "push_commit": "9be4a6965aae45a4eb572cc053a900c64400a9a9",
-  "push_commit_api_base": "9be4a6965aae45a4eb572cc053a900c64400a9a9",
+  "push_commit": null,
+  "push_commit_api_base": null,
   "events": [
     "local_server_ok_pid_5764",
     "serveo_reopen_failed_connection_closed",
-    "lhr_reopen_failed_corkscrew_not_found",
+    "lhr_reopen_failed_connection_closed",
     "pinggy_supervisor_rotated_url",
     "pinggy_primary_GET_200_POST_200_OPTIONS_204",
     "fallback_GET_200",
     "api_base_updated_to_pinggy",
     "latest_restored_probe_cleaned",
-    "need_user_notify_false",
-    "api_base_updated_and_pushed"
+    "need_user_notify_false"
   ],
-  "note": "keepalive 2026-11-23T14:10:49+08:00: ok via Pinggy (serveo/lhr reopen failed). Local pid 5764; api https://wgfjs-2a09-bac1-1980--402-41.run.pinggy-free.link (ssh 1294890); GET/POST/OPTIONS/fallback 200/200/204/200; need_user_notify false; API_BASE pushed 9be4a69.",
+  "note": "keepalive 2026-11-23T15:04:42+08:00: ok via Pinggy (serveo/lhr reopen failed). Local pid 5764; api https://ewbam-2a09-bac1-19a0--50a-d.run.pinggy-free.link (ssh 1306355); GET/POST/OPTIONS/fallback 200/200/204/200; need_user_notify false.",
   "latest_sha256": "46ed747bfa15688eaa84ef83309f341f0f48682b9952c5805966762e1c1f6cf5"
 }
