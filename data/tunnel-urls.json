@@ -1,6 +1,6 @@
 {
-  "api_base": "https://20f1def4fc3bf290-122-231-197-94.serveousercontent.com",
-  "fallback": null,
-  "provider": "serveo",
-  "updated_at": "2026-11-23T09:16:01+08:00"
+  "api_base": "https://reutj-2a09-bac5-1ee9-166e--23c-bd.run.pinggy-free.link",
+  "fallback": "https://gibqe-2a09-bac5-1ee9-166e--23c-bd.free.pinggy.net",
+  "provider": "pinggy",
+  "updated_at": "2026-11-23T09:17:50+08:00"
 }
