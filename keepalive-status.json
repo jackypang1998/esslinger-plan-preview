@@ -38,8 +38,8 @@
   "public_post_api": "200",
   "public_options_api": "204",
   "public_fallback_get": null,
-  "push_commit": null,
-  "push_commit_api_base": null,
+  "push_commit": "8693fdee24a1cd3aa37858f45627a68d2e6f957b",
+  "push_commit_api_base": "8693fdee24a1cd3aa37858f45627a68d2e6f957b",
   "events": [
     "local_server_ok_pid_5764",
     "serveo_reopen_failed_connection_closed",
@@ -47,8 +47,9 @@
     "pinggy_primary_GET_200_POST_200_OPTIONS_204",
     "api_base_updated_to_pinggy",
     "latest_restored_probe_cleaned",
-    "need_user_notify_false"
+    "need_user_notify_false",
+    "api_base_updated_and_pushed"
   ],
-  "note": "keepalive 2026-11-23T13:59:30+08:00: ok via Pinggy (serveo/lhr reopen failed). Local pid 5764; api https://zkuai-122-231-197-94.run.pinggy-free.link (ssh 1291291); GET/POST/OPTIONS 200/200/204; need_user_notify false.",
+  "note": "keepalive 2026-11-23T13:59:30+08:00: ok via Pinggy (serveo/lhr reopen failed). Local pid 5764; api https://zkuai-122-231-197-94.run.pinggy-free.link (ssh 1291291); GET/POST/OPTIONS 200/200/204; need_user_notify false; API_BASE pushed 8693fde.",
   "latest_sha256": "46ed747bfa15688eaa84ef83309f341f0f48682b9952c5805966762e1c1f6cf5"
 }
