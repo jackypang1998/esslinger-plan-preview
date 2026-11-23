@@ -1,8 +1,6 @@
 {
-  "provider": "pinggy",
-  "api_base": "https://zkuai-122-231-197-94.run.pinggy-free.link",
-  "fallback": "https://dtwki-122-231-197-94.free.pinggy.net",
-  "serveo": null,
-  "lhr": null,
-  "updated_at": "2026-11-23T13:58:30+08:00"
+  "provider": "localhost.run",
+  "api_base": "https://4d7e414c8fef79.app.lhr.life",
+  "serveo": "https://f1159e7b35f03ca1-115-197-124-54.serveousercontent.com",
+  "updated_at": "2026-11-23T16:05:22+08:00"
 }
