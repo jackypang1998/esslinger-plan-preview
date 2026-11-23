@@ -1,6 +1,8 @@
 {
-  "api_base": "https://xphmm-122-231-197-94.run.pinggy-free.link",
-  "fallback": "https://ouoqq-122-231-197-94.free.pinggy.net",
   "provider": "pinggy",
-  "updated_at": "2026-11-23T09:19:39+08:00"
+  "api_base": "https://zkuai-122-231-197-94.run.pinggy-free.link",
+  "fallback": "https://dtwki-122-231-197-94.free.pinggy.net",
+  "serveo": null,
+  "lhr": null,
+  "updated_at": "2026-11-23T13:58:30+08:00"
 }
