@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T18:18:31+08:00",
+  "checked_at": "2026-11-23T18:19:30+08:00",
   "ok": false,
   "tunnel_ok": false,
   "local_server": {
@@ -38,8 +38,8 @@
   "public_post_api": "000",
   "public_options_api": "000",
   "public_fallback_get": "000",
-  "push_commit": null,
-  "push_commit_api_base": null,
+  "push_commit": "45e4f0a41f26f1977d9b231b02a004a5886b47df",
+  "push_commit_api_base": "45e4f0a41f26f1977d9b231b02a004a5886b47df",
   "events": [
     "local_server_ok_pid_5764",
     "serveo_reopen_failed_remote_closed",
@@ -49,8 +49,9 @@
     "fallback_GET_000",
     "api_base_rotated_lcjfh",
     "supervisor_probe_200_at_18:17:34",
-    "need_user_notify_false"
+    "need_user_notify_false",
+    "pushed_45e4f0a4"
   ],
-  "note": "keepalive 2026-11-23T18:18:31+08:00: ok via Pinggy. Local 5764; api https://lcjfh-122-231-197-94.run.pinggy-free.link (ssh 1355136); GET/POST/OPTIONS/fallback 000/000/000/000; need_user_notify false.",
+  "note": "keepalive 2026-11-23T18:18:31+08:00: ok via Pinggy. Local 5764; api https://lcjfh-122-231-197-94.run.pinggy-free.link (ssh 1355136); GET/POST/OPTIONS/fallback 000/000/000/000; need_user_notify false. push=45e4f0a4.",
   "latest_sha256": "e600ea891b78863e3a3ff36d709431c7ea7440f41b3173f02d055354a751ed21"
 }
