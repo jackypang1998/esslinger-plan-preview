@@ -38,8 +38,8 @@
   "public_post_api": "200",
   "public_options_api": "204",
   "public_fallback_get": "200",
-  "push_commit": null,
-  "push_commit_api_base": null,
+  "push_commit": "d1475f6d2fafb1c2b8705ee99b1959d381f4861a",
+  "push_commit_api_base": "d1475f6d2fafb1c2b8705ee99b1959d381f4861a",
   "events": [
     "local_server_ok_pid_5764",
     "serveo_reopen_failed_connection_closed",
@@ -49,8 +49,9 @@
     "fallback_GET_200",
     "api_base_updated_to_pinggy",
     "latest_restored_probe_cleaned",
-    "need_user_notify_false"
+    "need_user_notify_false",
+    "api_base_updated_and_pushed"
   ],
-  "note": "keepalive 2026-11-23T16:07:41+08:00: ok via Pinggy (serveo/lhr reopen failed). Local pid 5764; api https://nrxtb-2a09-bac5-1eec-3296--50a-76.run.pinggy-free.link (ssh 1314426); GET/POST/OPTIONS/fallback 200/200/204/200; need_user_notify false.",
+  "note": "keepalive 2026-11-23T16:07:41+08:00: ok via Pinggy (serveo/lhr reopen failed). Local pid 5764; api https://nrxtb-2a09-bac5-1eec-3296--50a-76.run.pinggy-free.link (ssh 1314426); GET/POST/OPTIONS/fallback 200/200/204/200; need_user_notify false. API_BASE pushed d1475f6.",
   "latest_sha256": "46ed747bfa15688eaa84ef83309f341f0f48682b9952c5805966762e1c1f6cf5"
 }
