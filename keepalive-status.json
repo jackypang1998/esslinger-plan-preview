@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T18:14:49+08:00",
+  "checked_at": "2026-11-23T18:17:19+08:00",
   "ok": false,
   "tunnel_ok": false,
   "local_server": {
@@ -38,8 +38,8 @@
   "public_post_api": "000",
   "public_options_api": "000",
   "public_fallback_get": "000",
-  "push_commit": "331908184e60a7c45d77d8616e7e2b5751ad2426",
-  "push_commit_api_base": "e9c19772eedbbda22f10f9a41a7fa87dc5150c9a",
+  "push_commit": "c023b8c2630e3d4ef1010ebf987a8e78a9696e51",
+  "push_commit_api_base": "c023b8c2630e3d4ef1010ebf987a8e78a9696e51",
   "events": [
     "local_server_ok_pid_5764",
     "serveo_reopen_failed_remote_closed",
@@ -49,8 +49,9 @@
     "fallback_GET_000",
     "api_base_pushed_iupla_e9c1977",
     "probe_via_corkscrew_8791_CONNECT",
-    "need_user_notify_false"
+    "need_user_notify_false",
+    "pushed_c023b8c2"
   ],
-  "note": "keepalive 2026-11-23T18:14:49+08:00: degraded via Pinggy. Local pid 5764; api https://iupla-115-197-124-54.run.pinggy-free.link (ssh 1353867); GET/POST/OPTIONS/fallback 000/000/000/000; push e9c1977; need_user_notify false.",
+  "note": "keepalive 2026-11-23T18:14:49+08:00: degraded via Pinggy. Local pid 5764; api https://iupla-115-197-124-54.run.pinggy-free.link (ssh 1353867); GET/POST/OPTIONS/fallback 000/000/000/000; push e9c1977; need_user_notify false. push=c023b8c2.",
   "latest_sha256": "e600ea891b78863e3a3ff36d709431c7ea7440f41b3173f02d055354a751ed21"
 }
