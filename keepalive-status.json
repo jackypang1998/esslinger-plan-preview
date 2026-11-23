@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T18:04:10+08:00",
+  "checked_at": "2026-11-23T18:08:47+08:00",
   "ok": true,
   "tunnel_ok": true,
   "local_server": {
@@ -38,8 +38,8 @@
   "public_post_api": "200",
   "public_options_api": "204",
   "public_fallback_get": "200",
-  "push_commit": "71c6c1f952ad9658563f24beee0f8ac576dd24d5",
-  "push_commit_api_base": "71c6c1f952ad9658563f24beee0f8ac576dd24d5",
+  "push_commit": "15bdeb3ea095f5345aba01135477367451ec3cd8",
+  "push_commit_api_base": "15bdeb3ea095f5345aba01135477367451ec3cd8",
   "events": [
     "local_server_ok_pid_5764",
     "pinggy_alive_ssh_1344916_supervisor_1217677",
@@ -57,8 +57,9 @@
     "probe_via_corkscrew_8791_CONNECT",
     "dedup_supervisor_kept_1217677",
     "pushed_28c0e9bd",
-    "pushed_ok_71c6c1f9"
+    "pushed_ok_71c6c1f9",
+    "pushed_15bdeb3e"
   ],
-  "note": "keepalive 2026-11-23T18:04:10+08:00: ok via Pinggy. Local pid 5764; api https://lywfh-122-231-197-94.run.pinggy-free.link; GET/POST/OPTIONS/fallback 200/200/204/200; API_BASE pushed 71c6c1f9; need_user_notify false.",
+  "note": "keepalive 2026-11-23T18:04:10+08:00: ok via Pinggy. Local pid 5764; api https://lywfh-122-231-197-94.run.pinggy-free.link; GET/POST/OPTIONS/fallback 200/200/204/200; API_BASE pushed 71c6c1f9; need_user_notify false. push=15bdeb3e.",
   "latest_sha256": "46ed747bfa15688eaa84ef83309f341f0f48682b9952c5805966762e1c1f6cf5"
 }
