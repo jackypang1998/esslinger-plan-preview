@@ -41,7 +41,7 @@
   "public_fallback_get": "200",
   "public_lhr_get": "200",
   "public_serveo_get": "200",
-  "push_commit": null,
+  "push_commit": "2888386",
   "push_commit_api_base": "a8d1358cec9339fe-125-121-162-108",
   "events": [
     "local_server_ok",
@@ -56,5 +56,5 @@
     "serveo_transient_502_then_200"
   ],
   "note": "keepalive 2026-11-24T20:02:52+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo+LHR SSH dead (502); reopened via corkscrew 8791. API_BASE Serveo GET/POST/OPTIONS 200/200/204; LHR 200; Pinggy 200; need_user_notify false (recovered <<3h).",
-  "status_commit": null
+  "status_commit": "2888386"
 }
