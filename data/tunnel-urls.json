@@ -1,6 +1,10 @@
 {
-  "api_base": "https://xphmm-122-231-197-94.run.pinggy-free.link",
-  "fallback": "https://ouoqq-122-231-197-94.free.pinggy.net",
-  "provider": "pinggy",
-  "updated_at": "2026-11-23T09:19:39+08:00"
+  "primary": "https://edf6b8e3f70671.app.lhr.life",
+  "fallback": "https://aqxoh-122-231-197-94.run.pinggy-free.link",
+  "fallback_free": "https://zvoxv-122-231-197-94.free.pinggy.net",
+  "lhr": "https://edf6b8e3f70671.app.lhr.life",
+  "serveo": "https://093102bc59ce6600-122-231-197-94.serveousercontent.com",
+  "provider": "lhr",
+  "updated_at": "2026-11-24T14:59:58+08:00",
+  "note": "serveo GET 502 POST/OPTIONS ok; API_BASE=lhr edf6b8e3f70671 200/200/204; pinggy supervisor fallback 200"
 }

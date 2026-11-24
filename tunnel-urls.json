@@ -1,10 +1,10 @@
 {
-  "primary": "https://e5c613dc9b892c.app.lhr.life",
-  "fallback": "https://kmvqt-122-231-197-94.run.pinggy-free.link",
-  "fallback_free": "https://vanfc-122-231-197-94.free.pinggy.net",
-  "lhr": "https://e5c613dc9b892c.app.lhr.life",
-  "serveo": "https://6218d53b1d57c198-122-231-197-94.serveousercontent.com",
+  "primary": "https://edf6b8e3f70671.app.lhr.life",
+  "fallback": "https://aqxoh-122-231-197-94.run.pinggy-free.link",
+  "fallback_free": "https://zvoxv-122-231-197-94.free.pinggy.net",
+  "lhr": "https://edf6b8e3f70671.app.lhr.life",
+  "serveo": "https://093102bc59ce6600-122-231-197-94.serveousercontent.com",
   "provider": "lhr",
-  "updated_at": "2026-11-24T14:20:43+08:00",
-  "note": "serveo GET 502; API_BASE=lhr e5c613dc9b892c full 200/204/200; pinggy supervisor alive"
+  "updated_at": "2026-11-24T14:59:58+08:00",
+  "note": "serveo GET 502 POST/OPTIONS ok; API_BASE=lhr edf6b8e3f70671 200/200/204; pinggy supervisor fallback 200"
 }
