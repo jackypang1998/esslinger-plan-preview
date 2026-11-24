@@ -51,5 +51,6 @@
     "api_base_unchanged_pinggy_qqhnj",
     "need_user_notify_false_public_api_ok"
   ],
-  "note": "keepalive 2026-11-24T16:08:55+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo/LHR corkscrew reopen failed (Connection closed UNKNOWN 65535). Pinggy supervisor alive API_BASE https://qqhnj-2a09-bac5-1eea-db9--15e-e9.run.pinggy-free.link GET/POST/OPTIONS 200/200/204; free https://hvqip-2a09-bac5-1eea-db9--15e-e9.free.pinggy.net GET 200; need_user_notify false (public feedback path up via Pinggy)."
+  "note": "keepalive 2026-11-24T16:08:55+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo/LHR corkscrew reopen failed (Connection closed UNKNOWN 65535). Pinggy supervisor alive API_BASE https://qqhnj-2a09-bac5-1eea-db9--15e-e9.run.pinggy-free.link GET/POST/OPTIONS 200/200/204; free https://hvqip-2a09-bac5-1eea-db9--15e-e9.free.pinggy.net GET 200; need_user_notify false (public feedback path up via Pinggy).",
+  "status_commit": "9eb3a45"
 }
