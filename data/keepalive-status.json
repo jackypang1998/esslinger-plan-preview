@@ -1,19 +1,19 @@
 {
-  "checked_at": "2026-11-24T18:01:24+08:00",
+  "checked_at": "2026-11-24T18:02:53+08:00",
   "tz": "Asia/Shanghai",
   "local_server": {
     "pid": 5764,
     "root": "200",
     "feedback": "200"
   },
-  "api_base": "https://lilys-122-231-197-94.run.pinggy-free.link",
+  "api_base": "https://dlcih-2a09-bac5-1ee8-dcd--160-117.run.pinggy-free.link",
   "api_base_provider": "pinggy",
   "serveo": null,
   "lhr": null,
-  "pinggy": "https://lilys-122-231-197-94.run.pinggy-free.link",
-  "pinggy_free": "https://gktaf-122-231-197-94.free.pinggy.net",
+  "pinggy": "https://dlcih-2a09-bac5-1ee8-dcd--160-117.run.pinggy-free.link",
+  "pinggy_free": "https://apafq-2a09-bac5-1ee8-dcd--160-117.free.pinggy.net",
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
-  "last_ok": "2026-11-24T18:01:24+08:00",
+  "last_ok": "2026-11-24T18:02:53+08:00",
   "tunnel_down_since": null,
   "notified_for_down_since": "2026-11-18T20:07:44+08:00",
   "need_user_notify": false,
@@ -29,9 +29,9 @@
   "lhr_pid_alive": false,
   "lhr_has_public_url": false,
   "lhr_reopen_error": "corkscrew CONNECT HTTP/1.1 400 Bad Request (Pingora)",
-  "pinggy_pid": "1589845",
-  "pinggy_ssh_pid": "1589845",
-  "pinggy_proxy_pid": "1589845",
+  "pinggy_pid": "1591342",
+  "pinggy_ssh_pid": "1591342",
+  "pinggy_proxy_pid": "1591342",
   "pinggy_logger_pid": null,
   "pinggy_pid_alive": true,
   "pinggy_has_public_url": true,
@@ -42,15 +42,15 @@
   "public_fallback_get": "200",
   "public_lhr_get": "000",
   "public_serveo_get": "502",
-  "push_commit": "fa30bfd6f8f6a660068095fc2d8d12c03f83b85b",
-  "push_commit_api_base": "lilys-122-231-197-94",
+  "push_commit": "eafe2cd917d6e18e70eb05963041f08088589d53",
+  "push_commit_api_base": "dlcih-2a09-bac5-1ee8-dcd--160-117",
   "events": [
-    "local_server_ok_pid_5764",
+    "local_server_ok",
     "serveo_corkscrew_pingora_400",
     "lhr_corkscrew_pingora_400",
-    "pinggy_supervisor_api_base",
-    "api_base_rotated_to_pinggy",
-    "need_user_notify_false_public_api_ok"
+    "pinggy_api_base",
+    "need_user_notify_false"
   ],
-  "note": "keepalive 2026-11-24T18:01:24+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo/LHR corkscrew CONNECT → Pingora HTTP 400. Pinggy API_BASE https://lilys-122-231-197-94.run.pinggy-free.link GET/POST/OPTIONS 200/200/204; need_user_notify false."
+  "note": "keepalive 2026-11-24T18:02:53+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo/LHR corkscrew Pingora 400. Pinggy API_BASE https://dlcih-2a09-bac5-1ee8-dcd--160-117.run.pinggy-free.link GET/POST/OPTIONS 200/200/204; need_user_notify false.",
+  "status_commit": "eafe2cd"
 }
