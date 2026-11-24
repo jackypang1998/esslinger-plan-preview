@@ -1,9 +1,10 @@
 {
-  "primary": "https://9b298e3e94345b4b-122-231-197-94.serveousercontent.com",
-  "fallback": "https://kvtgt-122-231-197-94.run.pinggy-free.link",
-  "fallback_free": "https://fmioa-122-231-197-94.free.pinggy.net",
-  "lhr": null,
-  "provider": "serveo",
-  "updated_at": "2026-11-24T14:05:58+08:00",
-  "note": "serveo preferred reopen ok (serveousercontent); pinggy kept as fallback; lhr corkscrew binary missing"
+  "primary": "https://fcc16de2b471b9.app.lhr.life",
+  "fallback": "https://kmvqt-122-231-197-94.run.pinggy-free.link",
+  "fallback_free": "https://vanfc-122-231-197-94.free.pinggy.net",
+  "lhr": "https://fcc16de2b471b9.app.lhr.life",
+  "serveo": "https://765bd5b4afcf0750-122-231-197-94.serveousercontent.com",
+  "provider": "lhr",
+  "updated_at": "2026-11-24T14:18:01+08:00",
+  "note": "serveo preferred reopen alive but GET 502; API_BASE switched to localhost.run backup; pinggy fallback ok"
 }
