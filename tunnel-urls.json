@@ -1,6 +1,9 @@
 {
+  "primary": "https://jcywm-122-231-197-94.run.pinggy-free.link",
+  "fallback": "https://jcywm-122-231-197-94.run.pinggy-free.link",
+  "fallback_free": "https://hmkqj-122-231-197-94.free.pinggy.net",
+  "lhr": null,
   "provider": "pinggy",
-  "api_base": "https://nrxtb-2a09-bac5-1eec-3296--50a-76.run.pinggy-free.link",
-  "fallback": "https://bjhup-2a09-bac5-1eec-3296--50a-76.free.pinggy.net",
-  "updated_at": "2026-11-23T16:07:41+08:00"
+  "updated_at": "2026-11-24T13:06:04+08:00",
+  "note": "serveo reopen unstable (502/closed); pinggy SSH-over-TLS ok after rotate"
 }
