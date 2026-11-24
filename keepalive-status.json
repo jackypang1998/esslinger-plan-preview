@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-24T16:05:59+08:00",
+  "checked_at": "2026-11-24T16:08:55+08:00",
   "tz": "Asia/Shanghai",
   "local_server": {
     "pid": 5764,
@@ -13,7 +13,7 @@
   "pinggy": "https://qqhnj-2a09-bac5-1eea-db9--15e-e9.run.pinggy-free.link",
   "pinggy_free": "https://hvqip-2a09-bac5-1eea-db9--15e-e9.free.pinggy.net",
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
-  "last_ok": "2026-11-24T16:05:59+08:00",
+  "last_ok": "2026-11-24T16:08:55+08:00",
   "tunnel_down_since": null,
   "notified_for_down_since": "2026-11-18T20:07:44+08:00",
   "need_user_notify": false,
@@ -22,13 +22,13 @@
   "serveo_proxy_pid": null,
   "serveo_pid_alive": false,
   "serveo_has_public_url": false,
-  "serveo_reopen_error": "corkscrew CONNECT 200 but SSH banner timeout / Connection closed UNKNOWN 65535",
+  "serveo_reopen_error": "Connection closed by UNKNOWN port 65535 (corkscrew CONNECT path)",
   "lhr_pid": null,
   "lhr_ssh_pid": null,
   "lhr_proxy_pid": null,
   "lhr_pid_alive": false,
   "lhr_has_public_url": false,
-  "lhr_reopen_error": "corkscrew CONNECT 200 but SSH banner timeout / Connection closed UNKNOWN 65535",
+  "lhr_reopen_error": "Connection closed by UNKNOWN port 65535 (corkscrew CONNECT path)",
   "pinggy_pid": "1568924",
   "pinggy_ssh_pid": "1568924",
   "pinggy_proxy_pid": "1568924",
@@ -48,9 +48,8 @@
     "local_server_ok_pid_5764",
     "serveo_lhr_corkscrew_reopen_failed",
     "pinggy_supervisor_alive_api_base",
-    "api_base_switch_lhr_to_pinggy",
+    "api_base_unchanged_pinggy_qqhnj",
     "need_user_notify_false_public_api_ok"
   ],
-  "note": "keepalive 2026-11-24T16:05:59+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo/LHR corkscrew reopen failed (CONNECT 200, no SSH banner). Pinggy supervisor alive API_BASE https://qqhnj-2a09-bac5-1eea-db9--15e-e9.run.pinggy-free.link GET/POST/OPTIONS 200/200/204; free https://hvqip-2a09-bac5-1eea-db9--15e-e9.free.pinggy.net GET 200; need_user_notify false (public feedback path up via Pinggy).",
-  "status_commit": "63c731fca1f4cd7d93c21ba91f2d1b8c1724a03c"
+  "note": "keepalive 2026-11-24T16:08:55+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo/LHR corkscrew reopen failed (Connection closed UNKNOWN 65535). Pinggy supervisor alive API_BASE https://qqhnj-2a09-bac5-1eea-db9--15e-e9.run.pinggy-free.link GET/POST/OPTIONS 200/200/204; free https://hvqip-2a09-bac5-1eea-db9--15e-e9.free.pinggy.net GET 200; need_user_notify false (public feedback path up via Pinggy)."
 }
