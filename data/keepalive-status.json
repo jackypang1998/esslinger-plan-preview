@@ -44,7 +44,7 @@
   "public_serveo_get": "502",
   "public_pinggy_get": "200",
   "public_pinggy_free_get": "200",
-  "push_commit": null,
+  "push_commit": "4ec46fb",
   "push_commit_api_base": "cc64926fe6b9dcd6-122-231-197-94",
   "events": [
     "local_server_ok",
@@ -53,10 +53,11 @@
     "pinggy_supervisor_alive_rotated",
     "public_get_post_options_ok",
     "api_base_rotated_to_serveo",
-    "need_user_notify_false"
+    "need_user_notify_false",
+    "pushed_4ec46fb"
   ],
-  "note": "keepalive 2026-11-25T13:13:28+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo reopened pid 1773137 API_BASE=https://cc64926fe6b9dcd6-122-231-197-94.serveousercontent.com; GET/POST/OPTIONS 502/200/204. LHR https://6b1dc55ce85366.app.lhr.life GET 200. Pinggy supervisor alive (1517539) ssh 1772990 https://gqmmv-122-231-197-94.run.pinggy-free.link GET 200. need_user_notify false.",
+  "note": "keepalive 2026-11-25T13:13:28+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo reopened pid 1773137 API_BASE=https://cc64926fe6b9dcd6-122-231-197-94.serveousercontent.com; GET/POST/OPTIONS 502/200/204. LHR https://6b1dc55ce85366.app.lhr.life GET 200. Pinggy supervisor alive (1517539) ssh 1772990 https://gqmmv-122-231-197-94.run.pinggy-free.link GET 200. need_user_notify false. push 4ec46fb.",
   "ok": true,
   "tunnel_ok": true,
-  "status_commit": null
+  "status_commit": "4ec46fb"
 }
