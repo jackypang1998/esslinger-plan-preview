@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-25T14:14:18+08:00",
+  "checked_at": "2026-11-25T14:15:52+08:00",
   "local_server": {
     "pid": "5764",
     "root": "200",
@@ -11,7 +11,7 @@
   "pinggy": "https://zgylu-2a09-bac5-1eec-2446--39d-34.run.pinggy-free.link",
   "pinggy_free": "https://weqqa-2a09-bac5-1eec-2446--39d-34.free.pinggy.net",
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
-  "last_ok": "2026-11-25T14:14:18+08:00",
+  "last_ok": "2026-11-25T14:15:52+08:00",
   "tunnel_down_since": null,
   "notified_for_down_since": "2026-11-18T20:07:44+08:00",
   "need_user_notify": false,
@@ -52,10 +52,11 @@
     "public_get_post_options_ok",
     "api_base_rotated_to_serveo",
     "need_user_notify_false",
-    "pushed_3995fa1"
+    "pushed_3995fa1",
+    "pushed_42b5051"
   ],
-  "note": "keepalive 2026-11-25T14:14:18+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo reopened pid 1785012 API_BASE=https://0a04e79d0a87d551-122-231-197-94.serveousercontent.com; GET/POST/OPTIONS 200/200/204. LHR https://9d6165cf964fb0.app.lhr.life GET 200. Pinggy supervisor 1517539 ssh 1785895 https://zgylu-2a09-bac5-1eec-2446--39d-34.run.pinggy-free.link GET 000. need_user_notify false. push 3995fa1.",
+  "note": "keepalive 2026-11-25T14:15:52+08:00 Asia/Shanghai: local server ok (5764 200/200). Serveo reopened pid 1785012 API_BASE=https://0a04e79d0a87d551-122-231-197-94.serveousercontent.com; GET/POST/OPTIONS 200/200/204. LHR https://9d6165cf964fb0.app.lhr.life GET 200. Pinggy supervisor 1517539 ssh 1785895 https://zgylu-2a09-bac5-1eec-2446--39d-34.run.pinggy-free.link GET 000. need_user_notify false. push 3995fa1.",
   "ok": true,
   "tunnel_ok": true,
-  "status_commit": null
+  "status_commit": "42b5051"
 }
