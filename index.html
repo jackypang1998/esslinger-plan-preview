@@ -504,7 +504,7 @@ function showToast(msg, isErr){
   clearTimeout(showToast._t); showToast._t=setTimeout(()=>el.classList.remove('show'),3500);
 }
 const API_BASE = (location.hostname.endsWith('github.io') || location.protocol==='file:')
-  ? 'https://jgrnv-2a09-bac5-1eec-3adc--5dd-c.run.pinggy-free.link' : '';
+  ? 'https://mdnwx-2a09-bac5-1ee8-a0--10-2ba.run.pinggy-free.link' : '';
 async function copyFeedbackMd(){
   const md=exportMd();
   try{ await navigator.clipboard.writeText(md); return true; }
