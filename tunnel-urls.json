@@ -1,8 +1,9 @@
 {
-  "api_base": "https://305b5133a80f67e2-125-121-162-108.serveousercontent.com",
-  "serveo": "https://305b5133a80f67e2-125-121-162-108.serveousercontent.com",
-  "lhr": "https://409f433cef08fd.app.lhr.life",
-  "pinggy": "https://yvbog-125-121-162-108.run.pinggy-free.link",
-  "pinggy_free": "https://rimrq-125-121-162-108.free.pinggy.net",
-  "updated_at": "2026-11-25T10:04:50+08:00"
+  "api_base": "https://ppxvm-2a09-bac5-1eee-2832--401-44.free.pinggy.net",
+  "pinggy_free": "https://ppxvm-2a09-bac5-1eee-2832--401-44.free.pinggy.net",
+  "pinggy": "https://ttywk-2a09-bac5-1eee-2832--401-44.run.pinggy-free.link",
+  "serveo": null,
+  "lhr": null,
+  "provider": "pinggy",
+  "updated_at": "2026-11-25T11:13:40+08:00"
 }
