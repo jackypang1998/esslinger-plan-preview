@@ -1,8 +1,9 @@
 {
-  "api_base": "https://fb10cb7c3f75972a-122-231-197-94.serveousercontent.com",
-  "serveo": "https://fb10cb7c3f75972a-122-231-197-94.serveousercontent.com",
-  "lhr": "https://c873d66af564d4.app.lhr.life",
-  "pinggy": "https://ghial-122-231-197-94.run.pinggy-free.link",
-  "pinggy_free": "https://cadjm-122-231-197-94.free.pinggy.net",
-  "updated_at": "2026-11-26T09:14:58+08:00"
+  "api_base": "https://khqxr-104-28-193-104.run.pinggy-free.link",
+  "serveo": null,
+  "lhr": null,
+  "pinggy": "https://khqxr-104-28-193-104.run.pinggy-free.link",
+  "pinggy_free": "https://zgijv-104-28-193-104.free.pinggy.net",
+  "updated_at": "2026-11-26T10:03:28+08:00",
+  "note": "serveo/lhr reopen failed (CONNECT:22 -> Pingora 400); pinggy via supervisor ok"
 }

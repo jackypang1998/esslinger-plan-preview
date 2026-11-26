@@ -1,8 +1,9 @@
 {
-  "api_base": "https://mdnwx-2a09-bac5-1ee8-a0--10-2ba.run.pinggy-free.link",
-  "pinggy": "https://mdnwx-2a09-bac5-1ee8-a0--10-2ba.run.pinggy-free.link",
-  "pinggy_free": "https://tnusl-2a09-bac5-1ee8-a0--10-2ba.free.pinggy.net",
+  "api_base": "https://khqxr-104-28-193-104.run.pinggy-free.link",
   "serveo": null,
   "lhr": null,
-  "updated_at": "2026-11-25T15:14:17+08:00"
+  "pinggy": "https://khqxr-104-28-193-104.run.pinggy-free.link",
+  "pinggy_free": "https://zgijv-104-28-193-104.free.pinggy.net",
+  "updated_at": "2026-11-26T10:03:28+08:00",
+  "note": "serveo/lhr reopen failed (CONNECT:22 -> Pingora 400); pinggy via supervisor ok"
 }
