@@ -6,9 +6,9 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
   「提交全部反馈」打到下方 API 隧道。
-- **反馈 API 隧道（当前 API_BASE / Serveo）**: https://12fdcc82efc93830-101-71-52-6.serveousercontent.com
-- 备用 Serveo: https://12fdcc82efc93830-101-71-52-6.serveousercontent.com
-- 备用 localhost.run: https://35f022a6250526.app.lhr.life
+- **反馈 API 隧道（当前 API_BASE / Serveo）**: https://6e5849e1ecb6a385-101-71-52-38.serveousercontent.com
+- 备用 Serveo: https://6e5849e1ecb6a385-101-71-52-38.serveousercontent.com
+- 备用 localhost.run: https://2d90eb22f120f8.app.lhr.life
 - 备用 Pinggy: （本轮不作为 API_BASE）
 - 本地：`python3 server.py` → `0.0.0.0:8765`
 
@@ -39,7 +39,7 @@ setsid ssh -n \
   -o StrictHostKeyChecking=accept-new \
   -o UserKnownHostsFile=/tmp/kh_serveo \
   -o ServerAliveInterval=30 \
-  -o ProxyCommand="python3 -u /workspace/preview-host/corkscrew_proxy.py 127.0.0.1 8791 %h %p" \
+  -o ProxyCommand="python3 -u /workspace/preview-host/corkscrew_proxy.py 127.0.0.1 8791 %h 443" \
   -R 80:127.0.0.1:8765 serveo.net \
   > /workspace/preview-host/tunnel.log 2>&1 &
 
