@@ -6,11 +6,10 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
   「提交全部反馈」打到下方 API 隧道。
-- **反馈 API 隧道（当前 API_BASE / Pinggy）**: https://bwger-2a09-bac1-19e0--19d-39.run.pinggy-free.link
+- **反馈 API 隧道（当前 API_BASE / localhost.run）**: https://a8505723bc7aeb.app.lhr.life
 - 备用 Serveo: （本轮 corkscrew CONNECT 后对端返回 HTTP 400，暂不可用）
-- 备用 localhost.run: （本轮同样不可用）
-- 备用 Pinggy: https://bwger-2a09-bac1-19e0--19d-39.run.pinggy-free.link
-- 备用 Pinggy free: https://evyym-2a09-bac1-19e0--19d-39.free.pinggy.net
+- 备用 localhost.run: https://a8505723bc7aeb.app.lhr.life
+- 备用 Pinggy: （本轮 TLS/进程不稳定，暂不以之为 API_BASE）
 - 本地：`python3 server.py` → `0.0.0.0:8765`
 
 ## 启动
