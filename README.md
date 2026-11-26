@@ -5,12 +5,12 @@
 ## 公网地址（当前）
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
-  「提交全部反馈」打到下方 API 隧道。
-- **反馈 API 隧道（当前 API_BASE / Serveo）**: https://80bd15fb59a17da5-125-121-162-108.serveousercontent.com
-- 备用 Serveo: https://06b15cffe6cf0110-125-121-162-108.serveousercontent.com
-- 备用 localhost.run: https://0388b7ac440572.app.lhr.life
-- 备用 Pinggy: https://nnwcl-125-121-162-108.run.pinggy-free.link（本轮不作为 API_BASE） API_BASE）
-- 本地：`python3 server.py` → `0.0.0.0:8765`
+- 用户只打开上面这个地址即可批注；隧道地址会轮换，对用户透明。
+- **反馈 API 隧道（当前 API_BASE / localhost.run）**: https://0388b7ac440572.app.lhr.life
+- 备用 Serveo: https://06b15cffe6cf0110-125-121-162-108.serveousercontent.com（GET 连续 502，POST/OPTIONS 可用）
+- 备用 localhost.run: （当前主隧道）https://0388b7ac440572.app.lhr.life
+- 备用 Pinggy: https://nnwcl-125-121-162-108.run.pinggy-free.link（本轮不作为 API_BASE）
+
 
 
 ## 启动
