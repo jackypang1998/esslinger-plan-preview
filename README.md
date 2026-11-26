@@ -6,10 +6,11 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
 - 用户只打开上面这个地址即可批注；隧道地址会轮换，对用户透明。
-- **反馈 API 隧道（当前 API_BASE / localhost.run）**: https://0388b7ac440572.app.lhr.life
-- 备用 Serveo: https://06b15cffe6cf0110-125-121-162-108.serveousercontent.com（GET 连续 502，POST/OPTIONS 可用）
-- 备用 localhost.run: （当前主隧道）https://0388b7ac440572.app.lhr.life
-- 备用 Pinggy: https://nnwcl-125-121-162-108.run.pinggy-free.link（本轮不作为 API_BASE）
+- **反馈 API 隧道（当前 API_BASE / Pinggy）**: https://skvit-125-121-162-108.run.pinggy-free.link
+- 备用 Serveo: (down)（本轮不可用/无稳定 URL）
+- 备用 localhost.run: https://1a149c30ad5c66.app.lhr.life（偶发 200，不作为 API_BASE）
+- 备用 Pinggy: （当前主隧道）https://skvit-125-121-162-108.run.pinggy-free.link
+
 
 
 

@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-26T16:05:27+08:00",
-  "api_base": "https://0388b7ac440572.app.lhr.life",
-  "serveo": "https://06b15cffe6cf0110-125-121-162-108.serveousercontent.com",
-  "lhr": "https://0388b7ac440572.app.lhr.life",
-  "pinggy": "https://nnwcl-125-121-162-108.run.pinggy-free.link",
+  "updated_at": "2026-11-26T16:13:30+08:00",
+  "api_base": "https://skvit-125-121-162-108.run.pinggy-free.link",
+  "serveo": "(down)",
+  "lhr": "https://1a149c30ad5c66.app.lhr.life",
+  "pinggy": "https://skvit-125-121-162-108.run.pinggy-free.link",
   "pages": "https://jackypang1998.github.io/esslinger-plan-preview/",
-  "api_base_reason": "serveo_get_sticky_502_use_lhr"
+  "api_base_reason": "pinggy_fallback_serveo_lhr_unstable"
 }
