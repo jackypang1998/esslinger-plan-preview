@@ -42,7 +42,7 @@
   "public_serveo_get": "502",
   "public_pinggy_get": "200",
   "public_pinggy_free_get": "200",
-  "push_commit": null,
+  "push_commit": "567e67e",
   "push_commit_api_base": "khqxr-104-28-193-104",
   "events": [
     "local_server_ok",
@@ -52,9 +52,10 @@
     "pinggy_url_rotated",
     "pinggy_chosen_as_api_base",
     "public_get_post_options_ok",
-    "need_user_notify_false"
+    "need_user_notify_false",
+    "pushed_567e67e"
   ],
-  "note": "keepalive 2026-11-26T10:03:28+08:00 Asia/Shanghai: local ok (5764 200/200). Serveo/LHR reopen failed (egress SSH:22 Pingora 400). Pinggy up API_BASE=https://khqxr-104-28-193-104.run.pinggy-free.link GET/POST/OPTIONS 200/200/204. need_user_notify false.",
+  "note": "keepalive 2026-11-26T10:03:28+08:00 Asia/Shanghai: local ok (5764 200/200). Serveo/LHR reopen failed (egress SSH:22 Pingora 400). Pinggy up API_BASE=https://khqxr-104-28-193-104.run.pinggy-free.link GET/POST/OPTIONS 200/200/204. need_user_notify false. push 567e67e.",
   "ok": true,
   "tunnel_ok": true
 }
