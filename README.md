@@ -6,10 +6,10 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
   「提交全部反馈」打到下方 API 隧道。
-- **反馈 API 隧道（当前 API_BASE / Pinggy）**: https://khqxr-104-28-193-104.run.pinggy-free.link
-- 备用 localhost.run: https://c873d66af564d4.app.lhr.life  （本轮重开失败，egress SSH:22 Pingora 400）
-- 备用 Pinggy: https://khqxr-104-28-193-104.run.pinggy-free.link
-- 备用 Pinggy free: https://zgijv-104-28-193-104.free.pinggy.net
+- **反馈 API 隧道（当前 API_BASE / Pinggy）**: https://nfyow-2a09-bac1-19c0--162-23d.run.pinggy-free.link
+- 备用 localhost.run: （本轮重开失败，Connection closed by UNKNOWN）
+- 备用 Pinggy: https://nfyow-2a09-bac1-19c0--162-23d.run.pinggy-free.link
+- 备用 Pinggy free: https://ctzqa-2a09-bac1-19c0--162-23d.free.pinggy.net
 - 本地：`python3 server.py` → `0.0.0.0:8765`
 
 ## 启动
