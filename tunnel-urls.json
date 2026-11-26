@@ -1,9 +1,9 @@
 {
-  "api_base": "https://khqxr-104-28-193-104.run.pinggy-free.link",
+  "checked_at": "2026-11-26T10:10:47+08:00",
+  "api_base": "https://nfyow-2a09-bac1-19c0--162-23d.run.pinggy-free.link",
+  "pinggy": "https://nfyow-2a09-bac1-19c0--162-23d.run.pinggy-free.link",
+  "pinggy_free": "https://ctzqa-2a09-bac1-19c0--162-23d.free.pinggy.net",
   "serveo": null,
   "lhr": null,
-  "pinggy": "https://khqxr-104-28-193-104.run.pinggy-free.link",
-  "pinggy_free": "https://zgijv-104-28-193-104.free.pinggy.net",
-  "updated_at": "2026-11-26T10:03:28+08:00",
-  "note": "serveo/lhr reopen failed (CONNECT:22 -> Pingora 400); pinggy via supervisor ok"
+  "pages": "https://jackypang1998.github.io/esslinger-plan-preview/"
 }
