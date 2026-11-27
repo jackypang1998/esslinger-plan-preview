@@ -36,7 +36,7 @@
   "public_pinggy_get": "200",
   "public_pinggy_run_get": "200",
   "public_get_recheck": "200",
-  "push_commit": null,
+  "push_commit": "80cb015",
   "push_commit_api_base": "qalii-2a09-bac5-1ee9-26be--3dc-59",
   "events": [
     "local_server_ok",
@@ -45,10 +45,10 @@
     "lhr_reopen_failed_connection_closed",
     "pinggy_supervisor_reopened",
     "pinggy_get_post_options_ok",
-    "api_base_rotated_pending_push",
+    "api_base_rotated_and_pushed",
     "need_user_notify_false"
   ],
-  "note": "keepalive 2026-11-27T17:58:45+08:00 Asia/Shanghai: local 200. Serveo/LHR Connection closed. Pinggy https://qalii-2a09-bac5-1ee9-26be--3dc-59.free.pinggy.net GET/POST/OPTIONS 200/200/204 (run 200). need_user_notify false.",
+  "note": "keepalive 2026-11-27T17:58:45+08:00 Asia/Shanghai: local 200. Serveo/LHR Connection closed. Pinggy https://qalii-2a09-bac5-1ee9-26be--3dc-59.free.pinggy.net GET/POST/OPTIONS 200/200/204 (run 200). need_user_notify false. pushed 80cb015.",
   "ok": true,
   "tunnel_ok": true
 }
