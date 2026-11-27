@@ -6,8 +6,8 @@
 
 - **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
 - 用户只打开上面这个地址即可批注；隧道地址会轮换，对用户透明。
-- **反馈 API 隧道（当前 API_BASE / Pinggy）**: https://onzan-2a09-bac5-1eef-26be--3dc-32.free.pinggy.net
-- 备用 Pinggy: https://newqb-2a09-bac5-1eef-26be--3dc-32.run.pinggy-free.link
+- **反馈 API 隧道（当前 API_BASE / Pinggy）**: https://yksfq-104-28-193-105.free.pinggy.net
+- 备用 Pinggy: https://gkcoz-104-28-193-105.run.pinggy-free.link
 - 备用 Serveo: （本轮 corkscrew :22/:443 无 SSH banner，未拉起）
 - 备用 localhost.run: （本轮 corkscrew 无 SSH banner，未拉起）
 
