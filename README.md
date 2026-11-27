@@ -2,64 +2,32 @@
 
 静态预览页 + 反馈 API（仅 Python 3 标准库）。
 
-- **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
+## 公网地址（当前）
+
+- **主入口（GitHub Pages，可读可批）**: https://jackypang1998.github.io/esslinger-plan-preview/  
 - 用户只打开上面这个地址即可批注；隧道地址会轮换，对用户透明。
-- **反馈 API 隧道（当前 API_BASE / Pinggy；Serveo 失败，LHR 不稳定）**: https://dkhdt-125-121-162-108.run.pinggy-free.link
+- **反馈 API 隧道（当前 API_BASE / Pinggy；Serveo/LHR 本轮失败或不稳）**: https://codsq-2a09-bac5-1ee8-4aa--77-93.run.pinggy-free.link
 - 备用 Serveo: （本轮 Connection closed / 无公网 URL）
 - 备用 localhost.run: （本轮早退或 502）
-- 备用 Pinggy: https://dkhdt-125-121-162-108.run.pinggy-free.link
-
-```bash
-# 1) API + 静态
-cd /workspace/preview-host
-python3 server.py   # 0.0.0.0:8765
+- 备用 Pinggy: https://codsq-2a09-bac5-1ee8-4aa--77-93.run.pinggy-free.link
+
+## 启动
 
 
-# 2b) 公网隧道（Pinggy，当前可用：SSH-over-TLS via corkscrew）
-export DISPLAY=:99 SSH_ASKPASS=/workspace/preview-host/empty_askpass.sh SSH_ASKPASS_REQUIRE=force
-setsid ssh -n \
-  -o StrictHostKeyChecking=accept-new \
-  -o UserKnownHostsFile=/tmp/kh_pinggy \
-  -o ServerAliveInterval=15 \
-  -o ProxyCommand="python3 -u /workspace/preview-host/pinggy_proxy.py" \
-  -R 0:127.0.0.1:8765 \
-  -o ExitOnForwardFailure=yes \
-  a.pinggy.io \
-  > /workspace/preview-host/tunnel-pinggy.log 2>&1 &
-
-# 2) 公网隧道（serveo，本窗口 :22 常不通）
-export DISPLAY=:99 SSH_ASKPASS=/workspace/preview-host/empty_askpass.sh SSH_ASKPASS_REQUIRE=force
-setsid ssh -n \
-  -o StrictHostKeyChecking=accept-new \
-  -o UserKnownHostsFile=/tmp/kh_serveo \
-  -o ServerAliveInterval=30 \
-  -o ProxyCommand="python3 -u /workspace/preview-host/corkscrew_proxy.py 127.0.0.1 8791 %h 443" \
-  -R 80:127.0.0.1:8765 serveo.net \
-  > /workspace/preview-host/tunnel.log 2>&1 &
-
-# 备选：localhost.run
-setsid ssh -n \
-  -o StrictHostKeyChecking=accept-new \
-  -o UserKnownHostsFile=/tmp/kh_lhr \
-  -o ServerAliveInterval=30 \
-  -o ProxyCommand="python3 -u /workspace/preview-host/corkscrew_proxy.py 127.0.0.1 8791 %h %p" \
-  -R 80:127.0.0.1:8765 nokey@ssh.localhost.run \
-  > /workspace/preview-host/tunnel-lhr.log 2>&1 &
-```
 
 其他备选（本沙箱常失败）：Pinggy（Connection closed）、cloudflared（edge 7844/530）、localtunnel（502）。
 
 ## API
 
-- `GET /api/feedback` → 全部已存反馈 JSON
-- `POST /api/feedback` body: `{ "sections": { "<id>": { "status", "note" } }, "meta": {} }`
-  - 覆盖写入 `data/latest.json`
-  - 追加 `data/submissions/YYYYMMDD-HHMMSS.json`
-  - CORS `*`
+-  → 全部已存反馈 JSON
+-  body: 
+  - 覆盖写入 
+  - 追加 
+  - CORS 
 
 ## 整盘操盘如何读反馈
 
-- 最新：`/workspace/preview-host/data/latest.json`
-- 历史：`/workspace/preview-host/data/submissions/*.json`
-- 或 `GET http://127.0.0.1:8765/api/feedback`
+- 最新：
+- 历史：
+- 或 
 - 隧道挂时：用户从 Pages 复制 Markdown / Issue / 聊天粘贴
